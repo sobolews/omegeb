@@ -11,23 +11,22 @@ KayaWann:
     icon: equipment
     hide-icon-on-map: true
     notes: Drop 5 Branches, and get 5 Bomb Arrows and Falcon Bow while waiting for cutscene
-- Royal Claymore:
+- _Equipment::Weapon<Royal Claymore>:
     coord: [-377.44, 168.59, -870.37]
-- Sneakstrike Moblin, get his weapon, get Naydra's Fang:
-    coord: [-356.28, 172.41, -810.58]
+    notes: Sneakstrike Moblin, get his weapon, get Naydra's Fang
 - _Korok::X19:
     comment: Get 3 Ancient Arrow Chest
-- Kill Lizalfos for parts:
-    comment: Lizalfos Tail, Lizalfos Talon, Lizalfos Horn
-- Cook food:
+- Kill .enemy(Lizalfos) for parts:
+    notes: Lizalfos Tail, Lizalfos Talon, Lizalfos Horn
+- _Cook<Cook food>:
     coord: [-330.55, 192.35, -834.53]
-    comment: 5 Lotus Seeds in one dish, 5 Durians in another, 1 Endura Carrot on its own
-- 3 Ancient Arrows:
+    notes: 5 Lotus Seeds in one dish, 5 Durians in another, 1 Endura Carrot on its own
+- _Chest<3 Ancient Arrows>:
     coord: [-359.22, 205.98, -921.20]
-    comment: Eat speed food and hearty food
-- Dinraal's Fang:
+    notes: Eat speed food and hearty food
+- _Chest<Dinraal's Fang>:
     coord: [-326.46, 151.16, -1002.40]
-    comment: Run out the top and windbomb
+    notes: Run out the top and windbomb
 - _Korok::X08:
     comment: Activate updraft to get here
 - _Korok::X13:
