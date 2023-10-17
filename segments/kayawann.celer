@@ -37,7 +37,8 @@ KayaWann:
 - _Equipment::Shield<Hylian Shield>:
     coord: [-501.57, 126.08, -1011.58]
     comment: Get the shield and warp out
-- _Warp::TravelMedallion<-351.61,-830.25>
+- _Warp::TravelMedallion<-253.85, -600.23>:
+    text: Warp Out
 - .dir(S)
 - Kill 1-3 .enemy(Stalkers):
     icon: calamity
