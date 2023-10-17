@@ -30,13 +30,14 @@ KayaWann:
 - _Korok::X08:
     comment: Activate updraft to get here
 - _Korok::X13:
-    comment: Grab egg behind guardian to use
+    notes: There's an egg behind the decayed guardian to use
 - _Boss::Hinox::Stal:
     coord: [-491.34, 126.08, -1009.82]
-    comment: Missing Lizalfos parts? Can kill one here
+    notes: Missing Lizalfos parts? Can kill one here
 - _Equipment::Shield<Hylian Shield>:
     coord: [-501.57, 126.08, -1011.58]
     comment: Get the shield and warp out
+- _Warp::TravelMedallion<-351.61,-830.25>
 - .dir(S)
 - Kill 1-3 .enemy(Stalkers):
     icon: calamity
