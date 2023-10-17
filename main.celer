@@ -1,0 +1,13 @@
+_config: {}
+_project:
+  authors:
+  - PancakeTurtle
+  - 辉文gege
+  description: 100% Route using Great Eagle Bow with WMC
+  name: 100% OmeGEB
+  url: 'http://127.0.0.2'
+  version: 0.1.0
+_route:
+- (==) Welcome to celer!
+- Hello World:
+  - My first line
