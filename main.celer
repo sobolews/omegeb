@@ -8,6 +8,12 @@ _project:
   url: 'https://github.com/MrPancakeTurtle/100'
   version: 0.1.0
 _route:
-- (==) Welcome to celer!
-- Hello World:
-  - My first line
+- (==) Work in progress
+- Before Starting:
+  - Set system clock
+- Great Plateau:
+  - Eh
+- Material Gathering:
+  - __use__ MoggLatan
+  - __use__ KayaWann
+

@@ -1,0 +1,12 @@
+Mogg Latan:
+- BLSS .dir(NW) to Satori Mountain:
+    coord: [-2555.04, 306.13, 666.38]
+- _Material<Fleet Lotus Seed, 8>
+    comment: Speedfood
+- .dir(E):
+    coord: [-2349.25, 355.64, 672.69]
+- _Material<Rushroom, 1>
+- .dir(N):
+    coord: [ -2317.73, 416.74, 532.89]
+- _Material<Endura Carrot, 4>
+- _Shrine::MoggLatan

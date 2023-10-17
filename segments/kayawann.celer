@@ -1,0 +1,49 @@
+KayaWann:
+- _Material<Raw Bird Drumstick, 3>
+    comment: Slam birds with axe
+- .dir(E):
+    coord: [-2197.71, 410.77, 446.91]
+- _Material<Durian, 8>
+    comment: Get 10 if worried about food
+- BLSS .dir(NE) to .loc(Hyrule Castle):
+    coord: [-390.25, 166.00, -837.10]
+- Head through unloaded gate:
+    icon: equipment
+    hide-icon-on-map: true
+    notes: Drop 5 Branches, and get 5 Bomb Arrows and Falcon Bow while waiting for cutscene
+- Royal Claymore:
+    coord: [-377.44, 168.59, -870.37]
+- Sneakstrike Moblin, get his weapon, get Naydra's Fang:
+    coord: [-356.28, 172.41, -810.58]
+- _Korok::X19
+    comment: Get 3 Ancient Arrow Chest
+- Kill Lizalfos for parts:
+    comment: Lizalfos Tail, Lizalfos Talon, Lizalfos Horn
+- Cook food:
+    coord: [-330.55, 192.35, -834.53]
+    comment: 5 Lotus Seeds in one dish, 5 Durians in another, 1 Endura Carrot on its own
+- 3 Ancient Arrows:
+    coord: [-359.22, 205.98, -921.20]
+    comment: Eat speed food and hearty food
+- Dinraal's Fang:
+    coord: [-326.46, 151.16, -1002.40]
+    comment: Run out the top and windbomb
+- _Korok::X08
+    comment: Activate updraft to get here
+- _Korok::X13
+    comment: Grab egg behind guardian to use
+- _Boss::Hinox::Stal
+    coords: [-491.34, 126.08, -1009.82]
+    comment: Missing Lizalfos parts? Can kill one here
+- _Equipment::Shield<Hylian Shield>
+    coords: [-501.57, 126.08, -1011.58]
+    comment: Get the shield and warp out
+- .dir(S)
+- Kill 1-3 .enemy(Stalkers):
+    icon: calamity
+    coord: [-254.50, 130.00, -334.40]
+    notes: Looking for 0-3 Screws, 2 Spring and 1 Shaft. Pick up a Core if you get one. Do not pick up extra.
+- .dir(<S) → BLSS .dir(SE)
+- _Shrine::KayaWan:
+    comment: Ancient Core in chest
+    notes: Skip Ancient Core if you already have one
