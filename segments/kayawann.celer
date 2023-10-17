@@ -7,7 +7,7 @@ KayaWann:
     comment: Get 10 if worried about food
 - BLSS .dir(NE) to .loc(Hyrule Castle):
     coord: [-390.25, 166.00, -837.10]
-- Head through unloaded gate:
+- Through unloaded gate:
     icon: equipment
     hide-icon-on-map: true
     notes: Drop 5 Branches, and get 5 Bomb Arrows and Falcon Bow while waiting for cutscene
