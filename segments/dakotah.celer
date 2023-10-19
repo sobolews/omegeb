@@ -1,0 +1,33 @@
+DakoTah:
+- _Npc<Bozai>:
+    coord: [-3750,2874]
+- Equip snow boots
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+- Examine .!!(Thunder Helm):
+    icon: tots
+    hide-icon-on-map: true
+    comment: Select "I want it!"
+- _Npc::Gerudo<Liana>:
+    coord: [-3912.83, 149.68, 2930.99]
+    notes: Search for Barta quest
+- _Npc::Gerudo<Laine>:
+    coord: [-3916.17, 149.18, 2877.34]
+    notes: Silent Swordswomen quest
+- _Npc::Gerudo<Rotana>:
+    coord: [-3877.78, 151.99, 2881.72]
+    notes: Seven Heroines quest
+- _Npc::Gerudo<Furosa>:
+    coord: [-3856.93, 152.43, 2856.37]
+    notes: Perfect Drink quest
+- _Npc::Gerudo<Dalia>:
+    coord: [-3833,2852.75]
+    notes: Mystery Polluter quest
+- _Npc::Gerudo<Ice House>:
+    coord: [-3743.75, 146.81, 2304.44]
+    notes: Bring ice up stairs, then melt. Stand over it and shoot the top face with a fire arrow to get a consistent size.
+- BLSS with .item(ice cube)
+- _Npc::Gerudo<Furosa>:
+    coord: [-3764.49, 141.00, 2699.75]
+- _Shrine::DakoTah:
+    comment: Radiant Shield in chest

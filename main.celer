@@ -10,7 +10,7 @@ _project:
 _route:
 - (==) Work in progress
 - Before Starting:
-  - Set system clock
+  - Set system clock (5m before DST)
 - Great Plateau:
   - __use__ GreatPlateau
 - Material Gathering:
@@ -34,4 +34,12 @@ _route:
 - Vah Naboris:
     - __use__ DaqoChisay
     - __use__ VahNaboris
-    
+- East Desert:
+    - __use__ DakoTah
+    - __use__ WastelandTower
+    - __use__ DilaMaag
+    - __use__ SumaSahma
+    - __use__ MisaeSuma
+- Naydra:
+    - __use__ JitanSami
+    - __use__ DowNaeh

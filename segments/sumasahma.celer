@@ -1,0 +1,17 @@
+SumaSahma:
+- _Korok::W54
+- _Korok::W59
+- _Korok::W64
+- _Korok::W60:
+    comment: " "
+    notes: There is an RNG lizalfos that may have a Moblin Club. Take it to skip getting it later.
+- Read .!!(Mountain Peak Log):
+    icon: tots
+    coord: [-1387.83, 540.50, 3494.08]
+    comment: Cancel after "Day 7"
+- Activate .!!(Pedestal):
+    icon: tots
+    hide-icon-on-map: true
+    notes: 4:00-5:30pm. After 4:40pm, you can use a cryo block in the puddle.
+    comment: Carry snowball
+- _Shrine::SumaSahma

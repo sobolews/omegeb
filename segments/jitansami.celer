@@ -1,0 +1,48 @@
+JitanSami:
+- _Korok::W62
+- _Korok::W67
+- _Material<2 Voltfruits>:
+    notes: For transmutation
+- _Warp::TechLab::Hateno:
+    comment: WARP
+    line-color: yellow
+- _Korok::N44
+- Shoot an eye:
+    icon: bow
+    coord: [3965,1353]
+- _Korok::N18
+- _Korok::N24
+- .gale():
+    gale: 1
+- Shoot an eye:
+    icon: bow
+    hide-icon-on-map: true
+- _Korok::N31
+- Shoot an eye:
+    icon: bow
+    hide-icon-on-map: true
+- _Korok::N39
+- _Korok::N21
+- _Korok::N29
+- .dir(<E):
+    coord: [3241.75,1472.75]
+- _Korok::N30:
+    movements:
+        - to: [3229.03, 302.83, 1545.25]
+          away: true
+    comment: .rune(Stasis) and bomb arrow
+    notes: Aim with bow to get apples to spawn
+- _Korok::N22
+- _Korok::N23
+- Shoot final eye:
+    icon: bow
+    coord: [3502.5,1433]
+- Shoot Naydra for scale:
+    icon: bow
+    movements:
+        - to: [3965,1353]
+          warp: true
+- Offer .item(Naydra Scale):
+    icon: tots
+    hide-icon-on-map: true
+- _Shrine::JitanSami

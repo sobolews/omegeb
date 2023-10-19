@@ -1,0 +1,30 @@
+DilaMaag:
+- _Korok::W12
+- _Material<Electric Darner>:
+    coord: [-2220.85, 356.03, 2204.36]
+    comment: Under rock
+- _Korok::W16:
+    comment: .rune(Stasis), 1 hit w/ two-hander
+- _Korok::W11
+- _Equipment::Weapon<Fire Rod>:
+    coord: [-2161.96, 333.51, 2140.63]
+    hide-icon-on-map: true
+    comment: Kill fire wizzrobe
+    notes: Keep for Weapon Connoisseur
+- _Tod::Noon:
+    hide-icon-on-map: true
+    notes: Timing to reach Suma Sahma between 4:00pm and 5:30pm. Make noon later in this segment if you're getting there too late.
+- _Korok::W23
+- _Korok::W24:
+    comment: Do during W23
+- _Korok::W34
+- _Korok::W39
+- _Korok::W38
+- _Boss::Talus::Luminous:
+    coord: [-2096.46, 318.46, 3037.91]
+    comment: .fury() Collect drops
+    fury: 3
+    notes: Intentionally "wasting" a fury. Look for 10 amber, 11 flint, and 10 luminous stones.
+- _Korok::W50
+- _Korok::W58
+- _Shrine::DilaMaag
