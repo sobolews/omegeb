@@ -17,15 +17,15 @@ _route:
   - __use__ MoggLatan
   - __use__ KayaWann
   - __use__ IST
-- Faron 1
+- Faron 1:
   - __use__ Hateno
   - __use__ Faron1
-- Hestu 1
+- Hestu 1:
   - __use__ Hestu1
-- Hestu 2
+- Hestu 2:
   - __use__ Hestu2
-- Vah Medoh + OmeGEB
+- Vah Medoh + OmeGEB:
   - __use__ VahMedoh
   - __use__ ShaWarvo
   - __use__ ShadaNaw
-  
+
