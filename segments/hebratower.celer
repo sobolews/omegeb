@@ -1,0 +1,16 @@
+HebraTower:
+- _Korok::H64
+- _Korok::H61
+- _Tower::Hebra
+- _Discover<Pondo's Lodge>:
+    coord: [-2076.70, 389.70, -2080.90]
+- _Korok::H67
+- _Korok::H70
+- _Korok::H69
+- _Korok::H72
+- _Korok::T18
+- _Boss::Talus::Rare:
+    coord: [-2864.50, 408.98, -1825.91]
+- _Korok::H65
+- _Korok::H66
+- _Korok::T19

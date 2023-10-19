@@ -1,0 +1,32 @@
+DaqoChisay:
+- _Warp::Shrine::MoggLatan:
+    comment: WARP
+- _Korok::G19
+- _Korok::G13
+- _Korok::G10
+- _Korok::G12
+- Melt ice with Fire Arrows:
+    icon: tots
+    hide-icon-on-map: true
+- Kill .enemy(Ice Wizzrobe):
+    icon: calamity
+    hide-icon-on-map: true
+- _Equipment::Weapon<Ice Rod>:
+    coord: [-3076.70, 591.10, 1226.90]
+    comment: Freezing Rod quest
+    hide-icon-on-map: true
+- _Material<Luminous Stones>:
+    comment: Luminous Stone Gathering
+    notes: 10 needed, can get more later. Take any flint you get too.
+    hide-icon-on-map: true
+- _Shrine::KuhTakkar
+- _Boss::Talus::Frost:
+    coord: [-3558.72, 558.36, 1560.07]
+- _Tower::Gerudo
+- _Npc::Rito<Kass>:
+    coord: [-3655.84, 471.90, 1837.15]
+    comment: Text option 2-1-1
+- _Korok::W29
+- _Npc::SheikaMale<Benja>:
+    coord: [-3804.64, 149.50, 2818.36]
+- _Shrine::DaqoChisay

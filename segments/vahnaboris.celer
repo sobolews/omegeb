@@ -1,0 +1,64 @@
+VahNaboris:
+- _Npc<Vilia>:
+    coord: [-3259.27, 163.93, 2611.54]
+    comment: Buy clothes
+- _Tod::Morning:
+    notes: Timing for ice house quest and Beedle at stable
+    coord: [-3858.52, 149.24, 2914.98]
+- Buy Ice + Shock arrows:
+    icon: shop
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+- _Korok::W47
+- _Korok::W36
+- _Korok::W28
+
+- _Warp::Shrine::KuhTakkar
+- .loc(Yiga Hideout):
+    icon: house-plus
+    hide-icon-on-map: true
+    coord: [-3510.46, 442.51, 1297.31]
+    comment: Clip in
+- _Equipment::Bow<Duplex Bow>:
+    coord: [-3510.46, 442.51, 1297.31]
+- .boss(Kohga):
+    icon: calamity
+    coord: [-3451.00, 440.69, 1321.50]
+    comment: https://clips.twitch.tv/MiniatureBloodyCroquetteKreygasm-fs9rxZosPXJ-z3V9
+    notes: Clear ragdoll and skew during Kohga
+- _Chest::Special<Thunder Helm>:
+    coord: [-3451.00, 440.69, 1341.50]
+    split-type: UserDefined
+
+- _Warp::Shrine::DaqoChisay:
+    comment: WARP
+- _Npc::Gerudo<Riju>:
+    coord: [-3868.85, 166.67, 2948.96]
+    comment: Text options 1-2
+- _Npc::Gerudo<Riju>:
+    coord: [-3420.68, 189.82, 3118.97]
+- _Npc::Gerudo<Pokki>:
+    coord: [-2968.22, 137.69, 3775.00]
+- Shoot 4 feet:
+    comment: GEB + bomb arrows
+    notes: Wait until Riju's question, then choose "Keep up the fight!" Use minimap to find Naboris.
+    icon: tots
+    hide-icon-on-map: true
+- Vah Naboris:
+    icon: naboris-enter
+    coord: [-2754.62, 112.53, 3749.44]
+    comment: .gale()
+    gale: 2
+    hide-icon-on-map: true
+- .boss(Thunderblight):
+    icon: ganon
+    comment: AA, .rune(Stasis) → FIND 1 CYCLE STRAT
+    hide-icon-on-map: true
+- .!!(Urbosa's Fury):
+    icon: naboris-done
+    line-color: orange
+    split-type: UserDefined
+    movements:
+        - to: [-3772,2851]
+          warp: true

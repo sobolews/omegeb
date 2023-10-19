@@ -27,5 +27,11 @@ _route:
 - Vah Medoh + OmeGEB:
   - __use__ VahMedoh
   - __use__ ShaWarvo
+- Hebra 1:
   - __use__ ShadaNaw
-
+  - __use__ LannoKooh
+  - __use__ HebraTower
+- Vah Naboris:
+    - __use__ DaqoChisay
+    - __use__ VahNaboris
+    

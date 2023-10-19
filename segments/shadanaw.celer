@@ -1,22 +1,17 @@
 ShadaNaw:
-- _Discover<Hebra Trailhead Lodge>:
-    coord: [-3572.02, 247.83, -2258.14]
-- _Korok::T05
+- _Boss::Talus::Frost:
+    coord: [-3709.50, 331.28, -2347.00]
+- _Korok::H54
+- _Korok::H55
 - _Korok::T03
 - _Material<Voltfin Trout>:
     coord: [ -3012.75, 217.66, -2157.02]
 - Save - Close - Reload:
     movements:
-      - to: [-3418.51, 286.38, -2066.81]
+      - to: [-3331.95, 508.74, -2297.17]
         warp: true
     notes: Required to get Revali active
     hide-icon-on-map: true
-- _Boss::Talus::Frost:
-    coord: [-3709.50, 331.28, -2347.00]
-- _Korok::H54
-- _Korok::H55
 - _Korok::H43
 - _Korok::H27
 - _Shrine::ShadaNaw
-- _Korok::H21
-- _Korok::H12
