@@ -29,7 +29,6 @@ MoggLatan:
 - _Material<Acorn, 1>:
     coord: [-2338.68, 348.73, 678.83]
     notes: Do not eat. Do not pick up extra acorns.
-- _Shrine::MoggLatan
 - _Material<Hearty Durians, 10>:
     coord: [-2196.75, 410.21, 443.15]
     notes: Need 8, 5 for dish 3 for IST
