@@ -1,0 +1,9 @@
+IST:
+- _Discover<Goponga Village Ruins>:
+    coord: [1580.16, 109.80, 312.15]
+- _Shrine::DakaTuss
+- _Shrine::TalohNaeg:
+    comment: Opal in chest
+- IST:
+    icon: equipment
+    coord: [1811.23, 221.34, 1050.06]

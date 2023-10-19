@@ -1,0 +1,26 @@
+Hestu1:
+- _Warp::Shrine::TalohNaeg:
+    comment: (Kakariko Village) WARP
+    line-color: lime
+- _Npc::SheikaMale<Olkin>:
+    coord: [1870.87, 227.97, 965.85]
+    comment: Fortified Pumpkin
+    notes: At pumpkin patch before 5pm; goes to shelter near northern campfire at 5pm; starts running around the village at 8pm
+- _Npc::SheikaFemale<Impa>:
+    coord: [1772.71, 229.43, 984.31]
+    comment: Unlock memories
+- Kill .enemy(Blue Bokoblins):
+    icon: calamity
+    coord: [2163,1380.125]
+- _Chest::Special<Hestu's Maracas>:
+    coord: [2172.24, 218.76, 1369.20]
+- _Korok::D21
+- _Npc<Hestu>:
+    coord: [2069.45, 188.17, 1422.25]
+    comment: 2 weapon slots
+    split-type: UserDefined
+- _Korok::D20:
+    comment: On bridge
+- _Korok::D19:
+    comment: On island
+- _Korok::D18

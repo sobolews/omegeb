@@ -1,0 +1,18 @@
+Faron1:
+- _Korok::D53
+- _Korok::D58
+- _Korok::D57
+- _Korok::F06
+- _Korok::F09
+- _Korok::F08
+- _Korok::F12
+- _Korok::F11
+- _Korok::F17
+- _Material<Farosh Scale, 1>:
+    coord: [1737.76, 340.06, 2944.73]
+- _Material<Farosh Claw, 1>
+- _Material<Farosh Horn, 1>
+- _Korok::F27
+- _Material<Mighty Bananas, 5>:
+    coord: [1871.79, 203.92, 3234.32]
+- _Korok::F46

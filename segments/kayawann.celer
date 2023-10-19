@@ -1,11 +1,6 @@
 KayaWann:
-- _Material<Raw Bird Drumstick, 3>:
-    comment: Slam birds with axe
-- .dir(E):
-    coord: [-2197.71, 410.77, 446.91]
-- _Material<Durian, 8>:
-    comment: Get 10 if worried about food
-- BLSS .dir(NE) to .loc(Hyrule Castle):
+- _Korok::R56
+- BLSS to .loc(Hyrule Castle):
     coord: [-390.25, 166.00, -837.10]
 - Through unloaded gate:
     icon: equipment
@@ -17,10 +12,10 @@ KayaWann:
 - _Korok::X19:
     comment: Get 3 Ancient Arrow Chest
 - Kill .enemy(Lizalfos) for parts:
-    notes: Lizalfos Tail, Lizalfos Talon, Lizalfos Horn
+    notes: Lizalfos Tail, 2 Lizalfos Talon, Lizalfos Horn
 - _Cook<Cook food>:
     coord: [-330.55, 192.35, -834.53]
-    notes: 5 Lotus Seeds in one dish, 5 Durians in another, 1 Endura Carrot on its own
+    notes: 5 Lotus Seeds in one dish, 5 Durians in another, 1 Endura Shroom on its own
 - _Chest<3 Ancient Arrows>:
     coord: [-359.22, 205.98, -921.20]
     notes: Eat speed food and hearty food
@@ -29,11 +24,10 @@ KayaWann:
     notes: Run out the top and windbomb
 - _Korok::X08:
     comment: Activate updraft to get here
-- _Korok::X13:
-    notes: There's an egg behind the decayed guardian to use
+- _Korok::X13
 - _Boss::Hinox::Stal:
     coord: [-491.34, 126.08, -1009.82]
-    notes: Missing Lizalfos parts? Can kill one here
+    notes: Use and throw away RGC
 - _Equipment::Shield<Hylian Shield>:
     coord: [-501.57, 126.08, -1011.58]
     comment: Get the shield and warp out
@@ -44,7 +38,12 @@ KayaWann:
     icon: calamity
     coord: [-254.50, 130.00, -334.40]
     notes: Looking for 0-3 Screws, 2 Spring and 1 Shaft. Pick up a Core if you get one. Do not pick up extra.
-- .dir(<S) → BLSS .dir(SE)
+- _Chest<Knight's Broadsword>:
+    coord: [826.64, 112.80, 123.61]
+    comment: .rune(Magnesis) out of water, .rune(Bomb) get 4 Hyrule Bass
+- _Npc<Izra>:
+    hide-icon-on-map: true
+    notes: Text option 2
 - _Shrine::KayaWan:
     comment: Ancient Core in chest
     notes: Skip Ancient Core if you already have one

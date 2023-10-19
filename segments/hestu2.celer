@@ -1,0 +1,15 @@
+Hestu2:
+- _Warp::Shrine::KayaWan:
+    comment: WARP
+- _Discover<Wetland Stable>:
+    coord: [888.06, 131.29, 173.67]
+- _Npc<Hestu>:
+    coord: [870.83, 131.54, 203.47]
+    comment: 3 weapon, 2 bow slots
+- _Korok::Z37:
+    comment: Among thorns
+- _Korok::Z38
+- _Korok::Z39
+- _Discover<Moor Garrison Ruins>:
+    coord: [1534.40, 120.58, -155.90]
+- _Korok::Z12

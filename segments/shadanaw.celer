@@ -1,0 +1,17 @@
+ShadaNaw:
+- _Discover<Hebra Trailhead Lodge>:
+    coord: [-3572.02, 247.83, -2258.14]
+- _Korok::T05
+- _Korok::T03
+- _Material<Voltfin Trout>:
+    coord: [ -3012.75, 217.66, -2157.02]
+- Save - Close - Reload
+- _Boss::Talus::Frost:
+    coord: [-3709.50, 331.28, -2347.00]
+- _Korok::H54
+- _Korok::H55
+- _Korok::H43
+- _Korok::H27
+- _Shrine::ShadaNaw
+- _Korok::H21
+- _Korok::H12
