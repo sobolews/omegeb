@@ -5,7 +5,12 @@ ShadaNaw:
 - _Korok::T03
 - _Material<Voltfin Trout>:
     coord: [ -3012.75, 217.66, -2157.02]
-- Save - Close - Reload
+- Save - Close - Reload:
+    movements:
+      - to: [-3418.51, 286.38, -2066.81]
+        warp: true
+    notes: Required to get Revali active
+    hide-icon-on-map: true
 - _Boss::Talus::Frost:
     coord: [-3709.50, 331.28, -2347.00]
 - _Korok::H54
