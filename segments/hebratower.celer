@@ -11,6 +11,7 @@ HebraTower:
 - _Korok::T18
 - _Boss::Talus::Rare:
     coord: [-2864.50, 408.98, -1825.91]
+    notes: Look for 10 amber and 11 flint.
 - _Korok::H65
 - _Korok::H66
 - _Korok::T19
