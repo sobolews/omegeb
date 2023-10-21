@@ -4,7 +4,7 @@ GreatPlateau:
     line-color: white
     notes: After cutscene, hold ZL and hop left to exit
     comment: Front entrance
-- _Equipment::Weapon<4 Tree Branch>:
+- _Equipment::Weapon<5 Tree Branch>:
     hide-icon-on-map: true
     movements:
         - to: [-1059.15, 249.33, 1805.13]

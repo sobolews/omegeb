@@ -1,13 +1,11 @@
 Hateno:
+- _Npc<Bolson>:
+    coord: [3302.77, 239.88, 2302.60]
 - _Npc<Horned Statue>:
     coord: [3285.60, 217.60, 2197.58]
     comment: Ask for heart
-- _Npc<Bolson>:
-    coord: [3331.22, 235.28, 2284.61]
-    comment: House Upgrades
-- _Npc<Lady on dock>:
+- _Npc<Clavia>:
     coord: [3434.98, 226.90, 2149.15]
-    comment: Clavia
     notes: Secret of the Cedars shrine quest
 - _Korok::N42:
     comment: Past blue flame
@@ -25,10 +23,13 @@ Hateno:
     notes: If less than 3 screws, upgrade sensor when you come back later
 - _Korok::N48
 - _Korok::N43
-- _Npc<Sheep Rustler lady>:
+- _Npc<Koyin>:
     coord: [3621.69, 283.36, 2098.13]
     comment: Koyin
     notes: Choose option 2
+- _Npc<Bolson>:
+    coord: [3331.22, 235.28, 2284.61]
+    comment: House Upgrades
 - _Korok::N59
 - _Korok::N58
 - _Material<Hearty Bass, 5>:
