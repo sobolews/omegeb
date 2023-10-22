@@ -46,7 +46,6 @@ VahNaboris:
     icon: tots
     hide-icon-on-map: true
 - Vah Naboris:
-    time-override: 360
     icon: naboris-enter
     coord: [-2754.62, 112.53, 3749.44]
     comment: .gale()

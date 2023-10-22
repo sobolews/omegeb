@@ -26,6 +26,7 @@ LannoKooh:
 - _Korok::H51
 - _Shrine::GeeHarah
 - .gale():
+    time-override: 360
     gale: 1
 - _Korok::H57
 - _Shrine::LannoKooh
