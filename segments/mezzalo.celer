@@ -1,0 +1,21 @@
+MezzaLo:
+- _Korok::N20
+- _Boss::Hinox::Red:
+    coord: [2414.72, 304.69, 1177.84]
+- _Korok::N11
+- _Korok::N13:
+    comment: .rune(Stasis) & hit, .rune(Stasis) & hit
+- _Boss::Hinox::Blue:
+    coord: [2990.90, 251.39, 787.92]
+- _Korok::N06
+- _Korok::N05
+- Tame mountain buck:
+    icon: tots
+    coord: [2601.50, 222.01, 552.50]
+- _Npc::Rito<Kass>:
+    coord: [2589.68, 232.40, 444.25]
+    comment: The Crowned Beast
+- _Korok::N04
+- _Korok::N02
+- _Korok::N03
+- _Shrine::MezzaLo

@@ -12,9 +12,9 @@ GreatPlateau:
         - to: [-1024.63, 251.40, 1812.55]
         - to: [-1034.19, 249.09, 1847.06]
         - to: [-1012.43, 247.58, 1892.02]
-- _Material<HylianShroom, 1>:
+- _Material<1 HylianShroom>:
     notes: Cook it
-- _Material<Toasty Hylian Shroom, 1>:
+- _Material<1 Toasty Hylian Shroom>:
     notes: Eat it
 - _Equipment::Weapon<Torch and Axe>:
     notes: Sidehop down the hill while grabbing torch to avoid dialogue

@@ -1,0 +1,64 @@
+BoshKala:
+- _Boss::Talus::Luminous:
+    coord: [-971.13, 355.71, 3236.14]
+- _Korok::L41
+- _Korok::L37
+- _Korok::L23
+- _Korok::P17
+- _Korok::P16
+- .gale():
+    gale: 1
+- _Korok::P15
+- _Korok::P14
+- _Korok::P07
+- _Korok::P08
+- _Korok::P03
+- _Korok::C80
+- _Korok::C79
+- _Korok::C74
+- _Korok::C73
+- _Discover<Aquame Bridge>:
+    coord: [-1128.81, 142.45, 1017.05]
+- _Korok::C67
+- _Korok::C68
+- _Korok::C66
+- _Korok::C52
+- _Korok::C53
+- _Tower::Central
+- _Korok::C48
+- _Discover<Hyrule Garrison Ruins>:
+    coord: [-596.50, 132.50, 571.50]
+- _Korok::C54
+- _Korok::C49
+- _Korok::C55
+- _Korok::C64
+- _Korok::C70
+- _Korok::C71
+- _Korok::C65
+- _Shrine::WahgoKatta
+- _Npc<Parcy>:
+    coord: [345.00, 121.73, 1091.50]
+    notes: Talk twice for Royal Guard's Gear quest
+- _Npc<Gotter>:
+    coord: [325.82, 115.40, 1092.50]
+    notes: Talk twice. In stable if raining.
+- _Korok::C77
+- _Korok::D14
+- _Discover<Owlan Bridge>:
+    coord: [325.48, 102.49, 1273.41]
+- _Korok::D22
+- Kill .enemy(Red Moblin):
+    icon: calamity
+    coord: [132.65, 116.42, 1397.90]
+    hide-icon-on-map: true
+    notes: Don't use Ancient Arrow
+- _Equipment::Weapon<Moblin Club>:
+    comment: Weapon Connoisseur
+- _Korok::C84
+- _Discover<East Post Ruins>:
+    notes: Glide below the height of the pole to trigger the location.
+- _Korok::D26
+- _Korok::D27
+- _Korok::D34
+- _Korok::D33
+- _Shrine::BoshKala

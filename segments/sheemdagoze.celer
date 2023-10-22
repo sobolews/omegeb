@@ -1,0 +1,72 @@
+SheemDagoze:
+- _Korok::X01
+- _Korok::X04
+- _Discover<Zelda's Study>:
+    coord: [-383.72, 273.58, -995.87]
+    comment: .gale()
+    gale: 1
+- _Memory::HyruleCastle:
+    comment: Memory
+- _Snap::Quest<Guardian Skywatcher>:
+    comment: SNAP
+- _Korok::X09
+- _Discover<Zelda's Room>:
+    notes: Run into the room to get location
+- _Korok::X14
+- _Korok::X17
+- _Discover<First Gatehouse>
+- _Korok::X18
+- _Discover<Observation Room>:
+    coord: [-255.47, 211.39, -764.95]
+    notes: Walk into the malice
+- _Korok::X21
+- _Korok::X22
+- _Korok::X23:
+    comment: .gale()
+    gale: 1
+- _Korok::X16
+- _Discover<Second Gatehouse>
+- _Korok::X12
+- _Discover<Dining Hall>
+- _Korok::X15
+- _Material<Raw Meat>:
+    coord: [-108.37, 210.59, -848.95]
+    comment: Koko Cuisine
+- _Material<Raw Gourmet Meat>:
+    coord: [-152.50, 210.39, -821.58]
+    comment: Rare Find
+- _Korok::X20
+- _Korok::X24
+- _Korok::C16
+- _Korok::X25
+- _Korok::C33
+- _Korok::C35
+- _Memory::SacredGrounds:
+    comment: Memory
+- _Korok::C42
+- _Korok::C43
+- _Korok::C40
+- _Korok::C41
+- _Korok::C39
+- _Korok::C38
+- _Korok::C36
+- _Korok::R49
+- _Korok::R48
+- _Discover<Jeddo Bridge>:
+    coord: [-1689.86, 205.00, 130.84]
+- _Korok::R39
+- _Boss::Hinox::Blue:
+    movements:
+        - to: [-1590.04, 210.73, -229.13]
+        - to: [-1534.88, 214.82, -171.59]
+          away: true
+    notes: Shoot midair on the way to R40
+- _Korok::R40
+- _Korok::R41
+- _Npc::Rito<Kass>:
+    coord: [-1681.68, 214.50, 51.38]
+- Shoot through 2 rings:
+    icon: tots
+    coord: [-1855.25,76.25]
+    notes: Must use single-shot bow
+- _Shrine::SheemDagoze

@@ -1,7 +1,4 @@
 Faron1:
-- _Korok::D53
-- _Korok::D58
-- _Korok::D57
 - _Korok::F06
 - _Korok::F09
 - _Korok::F08
@@ -15,4 +12,7 @@ Faron1:
 - _Korok::F27
 - _Material<Mighty Bananas, 5>:
     coord: [1871.79, 203.92, 3234.32]
+- _Korok::F26
+- _Korok::F25
+- _Korok::F34
 - _Korok::F46

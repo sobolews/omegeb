@@ -1,0 +1,45 @@
+PumaagNitae:
+- _Tod::Night:
+    comment: if raining
+- _Npc::ZoraFemale<Mei>:
+    coord: [-226.89, 90.03, 2577.47]
+    comment: Wife Washed Away
+- _Korok::L26
+- _Korok::L15
+- _Korok::L14
+- .gale():
+    gale: 1
+- _Korok::D54
+- _Tod::Night:
+    comment: if you didn't before
+- _Korok::L09
+- _Korok::L27
+- Look .dir(SE) in the sky:
+    icon: tots
+    hide-icon-on-map: true
+    notes: For Salvager chest. Watch it land.
+- _Korok::L30
+- _Korok::L31
+- _Korok::L32
+- _Korok::L33
+- _Chest::Special<Salvager Headwear>:
+    coord: [126.03, 92.65, 2710.94]
+- _Korok::L39
+- _Korok::L40
+- _Korok::L44
+- _Korok::L42
+- _Korok::L43
+- _Korok::L51:
+    comment: 2.5 .rune(Stasis) hits
+    notes: 2 hits with 2-handed weapon + 1 hit with 1-handed
+- .gale():
+    gale: 1
+- _Tower::Lake
+- _Korok::L48
+- _Korok::L49
+- _Korok::L50
+- _Korok::L59
+- _Korok::L60
+- _Korok::L52
+- _Korok::L53
+- _Shrine::PumaagNitae

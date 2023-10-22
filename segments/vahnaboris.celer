@@ -25,7 +25,7 @@ VahNaboris:
 - .boss(Kohga):
     icon: calamity
     coord: [-3451.00, 440.69, 1321.50]
-    comment: https://clips.twitch.tv/MiniatureBloodyCroquetteKreygasm-fs9rxZosPXJ-z3V9
+    comment: .link([Fast Kohga strat]https://clips.twitch.tv/MiniatureBloodyCroquetteKreygasm-fs9rxZosPXJ-z3V9)
     notes: Clear ragdoll and skew during Kohga
 - _Chest::Special<Thunder Helm>:
     coord: [-3451.00, 440.69, 1341.50]

@@ -1,0 +1,22 @@
+ShaeKatha:
+- _Korok::D49
+- _Korok::D40
+- _Korok::D41
+- _Korok::D30
+- _Boss::Talus::Stone:
+    coord: [1465.91, 203.77, 1328.91]
+- _Korok::D17
+- _Boss::Talus::Stone:
+    comment: Shoot while flying to tower
+    coord: [705.34, 137.62, 1471.88]
+- _Tower::DuelingPeaks
+- _Korok::D48
+- _Korok::D50
+- _Korok::L07:
+    comment: .rune(Stasis) 5 hits, aim at hole
+- _Korok::L19
+- _Korok::L20
+- Offer .item(Farosh Scale):
+    icon: tots
+    hide-icon-on-map: true
+- _Shrine::ShaeKatha

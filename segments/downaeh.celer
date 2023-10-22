@@ -13,9 +13,6 @@ DowNaeh:
 - Shoot Naydra (Claw):
     icon: calamity
     hide-icon-on-map: true
-- _Material<2 Chillshrooms>:
-    comment: Near N19 pebble
-    notes: For transmutation (Subject to change)
 - _Korok::N19
 - Pick up parts:
     icon: material

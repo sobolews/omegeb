@@ -44,3 +44,135 @@ _route:
 - Naydra:
     - __use__ JitanSami
     - __use__ DowNaeh
+- Vah Ruta:
+    - __use__ MezzaLo
+    - __use__ VahRuta
+- South Akkala:
+    - __use__ AkkalaTower
+    - __use__ EldinTower
+- Eldin:
+    - __use__ ShoraHah
+    - __use__ GoraeTorr
+- North Akkala:
+    - __use__ TuKaloh
+    - __use__ TutsuwaNima
+- Vah Rudania:
+    - __use__ VahRudania
+    - __use__ WoodlandTower
+- Korok Forest:
+    - __use__ KuhnSidajj
+- Blood Moon:
+    - __use__ SaasKosah
+    - __use__ SheemDagoze
+    - __use__ MijahRokee
+- Gerudo Canyon:
+    - __use__ RotaOoh
+    - __use__ SasaKai
+- Gerudo Highlands:
+    - __use__ KemaZoos
+- Gerudo Desert:
+    - __use__ RaqaZunzo
+    - __use__ KayNoh
+- Lake/Horse Minigames:
+    - __use__ YaNaga
+    - __use__ PumaagNitae
+    - __use__ KaoMakagh
+    - __use__ IshtoSoh
+- Central:
+    - __use__ BoshKala
+    - __use__ SheeVaneer
+    - __use__ ShaeKatha
+- Faron:
+    - __use__ ShaiUtoh
+    - __use__ QukahNata
+    - __use__ YahRin
+
+  # - Letter Quest:
+  #   - __use__ Hila Rao
+  #   - __use__ Mirro Shaz
+
+  # - Castle Town:
+  #   - __use__ Namika Ozz
+  #   - __use__ Katah Chuki
+  #   - __use__ Noya Neha
+
+  # - Ridgeland:
+  #   - __use__ Monya Toma
+  #   - __use__ Maag Norah
+  #   - __use__ Ridgeland Tower
+  #   - __use__ Toh Yahsa
+  #   - __use__ Zalta Wa
+  #   - __use__ Kah Okeo
+
+  # - Tabantha:
+  #   - __use__ Tabantha Tower
+  #   - __use__ Tena Kosah
+  #   - __use__ Bareeda Naag
+  #   - __use__ Akh Vaquot
+  #   - __use__ Voo Lota
+
+  # - Hebra North:
+  #   - __use__ Shada Naw
+  #   - __use__ Two Hebra Koroks
+  #   - __use__ Hia Miu
+  #   - __use__ To Quomo
+
+  # - Hebra South:
+  #   - __use__ Gee Harah
+  #   - __use__ Lanno Kooh
+  #   - __use__ Hebra Tower
+  #   - __use__ Shae Loya
+  #   - __use__ Dunba Taag
+  #   - __use__ After Dunba Taag
+
+  # - Hebra West:
+  #   - __use__ Mozo Shenno
+  #   - __use__ Maka Rah
+  #   - __use__ Tarrey Town 5
+
+  # - Eldin/Akkala Cleanup:
+  #   - __use__ Lanayru Tower
+  #   - __use__ Soh Kofi
+  #   - __use__ Tah Muhl
+  #   - __use__ Moa Keet
+  #   - __use__ After Moa Keet
+  #   - __use__ Ze Kasho
+  #   - __use__ Ritaag Zumo
+  #   - __use__ After Ritaag Zumo
+
+  # - Eventide:
+  #   - __use__ Tawa Jinn
+  #   - __use__ Muwo Jeem
+  #   - __use__ Chaas Qeta
+  #   - __use__ Korgu Chideh
+
+  # - Kakariko/Hateno Cleanup:
+  #   - __use__ Lakna Rokee
+  #   - __use__ Kam Urog
+  #   - __use__ Toto Sah
+  #   - __use__ Ha Dahamar
+  #   - __use__ Tahno Oah
+
+  # - Lanayru Cleanup:
+  #   - __use__ Rucco Maag
+  #   - __use__ Shai Yota
+  #   - __use__ Kenai Shakah
+  #   - __use__ Kah Mael
+
+  # - Hebra East:
+  #   - __use__ Goma Asaagh
+  #   - __use__ Rok Uwog
+  #   - __use__ Sha Gehma
+  #   - __use__ Rin Oyaa
+
+  # - Forgotten Temple:
+  #   - __use__ Rona Kachta
+
+  # - 100% Cleanup:
+  #   - __use__ After Rona Kachta
+  #   - __use__ 100% Cleanup
+
+  #   - "100%":
+  #       notes: For verification please show (1) map counter, (2) quest logs, (3) upgraded armor, (4) key items tab.
+  #       split-type: UserDefined
+  #       icon: memory-final

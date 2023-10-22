@@ -1,0 +1,77 @@
+GoraeTorr:
+- Ride minecart:
+    icon: tots
+    coord: [1593.5,-3090.5]
+- _Boss::Talus::Igneo:
+    coord: [1336.10, 507.31, -3043.21]
+    notes: Collect flint if needed
+- _Korok::K08
+- _Korok::K07
+- _Korok::K06
+- _Korok::K05
+- _Korok::H16
+- _Shrine::QazaTokki
+- _Korok::H15
+- _Korok::H22
+- _Korok::K11
+- _Boss::Hinox::Blue:
+    coord: [341.82, 278.73, -3116.14]
+- Activate .!!(Pedestal):
+    hide-icon-on-map: true
+    icon: tots
+    comment: Deposit orb
+- _Shrine::KetohWawai
+- _Tod::Morning:
+    hide-icon-on-map: true
+- _Korok::K04
+- _Korok::K01
+- Shoot Dinraal (Scale):
+    icon: calamity
+    hide-icon-on-map: true
+- _Tod::Morning:
+    hide-icon-on-map: true
+    notes: Look west when sitting at campfire. Facing east can stop Dinraal from spawning.
+- _Korok::K02
+- _Material<Collect Scale>:
+    hide-icon-on-map: true
+- Shoot Dinraal (Horn):
+    icon: calamity
+    hide-icon-on-map: true
+    comment: and collect it
+- _Tod::Morning:
+    hide-icon-on-map: true
+    comment: Look west
+- Kill .enemy(White-Maned Lynel):
+    icon: calamity
+    coord: [1257.69, 207.16, -3753.55]
+    comment: 2 OB headshots
+    notes: Don't use ancient arrow
+- _Material<Lynel Hoof>:
+    hide-icon-on-map: true
+    notes: 94% chance to get one, but if you don't, kill lynel near A07.
+- _Korok::K03
+- Shoot Dinraal (Claw):
+    icon: calamity
+    hide-icon-on-map: true
+    comment: and collect it
+- _Korok::E01:
+    comment: In eye of skeleton
+- _Korok::E02
+- _Snap::Quest<Eldin Great Skeleton>:
+    movements:
+        - to: [1517.38, 209.04, -3703.94]
+          away: true
+    notes: Look back and zoom in
+    comment: SNAP
+- _Korok::E03
+- .gale():
+    gale: 1
+- _Korok::E04
+- _Korok::E05
+- Gut Check Challenge:
+    icon: tots
+    hide-icon-on-map: true
+    comment: .gale()
+    notes: Collect 5 red rupees
+    gale: 1
+- _Shrine::GoraeTorr

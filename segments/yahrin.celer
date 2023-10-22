@@ -1,0 +1,72 @@
+YahRin:
+- _Npc<Wabbin>:
+    coord: [2584.90, 290.11, 3547.64]
+    comment: Gift of Nightshade
+- _Korok::F47
+- _Korok::F57
+- _Chest<Any of 4 Chests>:
+    coord: [3019.81, 100.82, 3897.96]
+    comment: Sunken Treasure 
+    notes: Center of rock triangle. Use cryo blocks to get there.
+- _Korok::F49
+- _Korok::F50
+- _Korok::F58
+- _Korok::F51
+- _Snap::Quest<Monument Shard>:
+    coord: [3390.50, 105.66, 3481.83]
+    comment: SNAP
+- _Korok::F52
+- _Snap::Quest<Monument Shard>:
+    coord: [3800.81, 105.59, 3614.03]
+    comment: SNAP
+- _Snap::Quest<Monument Shard>:
+    coord: [3532.50, 112.28, 3365.50]
+    comment: SNAP
+- _Npc<Broken Monument Guy>:
+    coord: [3439.86, 114.87, 3344.20]
+- Activate pedestal:
+    icon: tots
+    hide-icon-on-map: true
+    comment: Crouch
+- _Shrine::KahYah
+- .gale():
+    gale: 1
+- _Korok::F37
+- _Boss::Talus::Stone:
+    comment: .fury() from above
+    fury: 1
+    coord: [3272.52, 133.05, 3409.85]
+- _Korok::F45
+- _Material<Hearty Blueshell Snail>:
+    comment: What's for Dinner?
+    coord: [2948.86, 106.06, 3462.70]
+- _Shop<Buy Octo Balloon>:
+    coord: [2952.58, 107.66, 3493.43]
+    notes: From shop on pier
+    comment: (Optional) If needed
+- _Npc::SheikaMale<Sebasto>:
+    coord: [2886.5,3442.5]
+    notes: Take Back the Sea quest. In house if raining.
+- _Material<Palm Fruit>:
+    coord: [2873.80, 106.90, 3432.06]
+    notes: For korok later
+- _Npc::SheikaFemale<Kiana>:
+    coord: [2884.25, 112.44, 3413.51]
+    notes: What's for Dinner? quest
+    comment: Before 6pm
+- _Korok::F44
+- _Npc<Rozel>:
+    notes: Select "About the ocean...". Talk twice. In house when raining.
+    coord: [2887.5,3495.5]
+- _Korok::F36
+- _Shrine::YahRin
+- _Korok::F31
+- _Warp::Shrine::DahHesho:
+    comment: WARP Tarrey Town
+    line-color: gray
+- _Npc<Hudson>:
+    coord: [3981.65, 233.41, -1599.11]
+    comment: 30 wood
+    notes: Talk twice
+- _Korok::A34
+- _Korok::A38

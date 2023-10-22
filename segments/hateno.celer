@@ -32,9 +32,12 @@ Hateno:
     comment: House Upgrades
 - _Korok::N59
 - _Korok::N58
-- _Material<Hearty Bass, 5>:
+- _Material<1 Hearty Bass>:
     coord: [3011.06, 229.73, 2538.95]
     comment: Blow up with Bomb Arrows
 - _Korok::N50
+- _Material<3 Apple>:
+    hide-icon-on-map: true
+    comment: Blow up with Bomb Arrows
 - _Korok::N49
 - _Tower::Hateno

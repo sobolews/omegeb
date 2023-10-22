@@ -1,0 +1,17 @@
+MijahRokee:
+- _Korok::R38
+- _Korok::R47
+- _Korok::R37
+- _Npc::Rito<Kass>:
+    coord: [-2778.84, 348.24, 206.35]
+- _Tod::Night:
+    coord: [-2758.84, 348.24, 206.35]
+- Activate .!!(Pedestal):
+    comment: Remove armor
+    icon: tots
+    hide-icon-on-map: true
+- _Shrine::MijahRokee:
+    notes: Keep armor removed until later
+- _Korok::R72
+- _Korok::R71
+- _Korok::R59

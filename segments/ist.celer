@@ -4,18 +4,18 @@ IST:
 - _Shrine::DakaTuss
 - _Shrine::TalohNaeg:
     comment: Opal in chest
-- _Material<Nightshade, 2>:
+- _Material<2 Nightshade>:
     notes: Need both
     movements:
         - to: [1961.27, 267.94, 856.07] 
         - to: [1963.82, 267.76, 854.37] 
-- _Material<Fairy, 2>:
+- _Material<2 Fairy>:
     notes: Need both
     movements:
         - to: [1965.43, 269.69, 854.73] 
         - to: [1963.57, 269.72, 860.48] 
-- _Material<Nightshade, 2>:
-    notes: Need all three
+- _Material<2 Silent Princess>:
+    notes: Need two
     movements:
         - to: [1995.48, 267.93, 841.33] 
         - to: [1995.75, 267.90, 842.24] 

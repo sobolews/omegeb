@@ -1,0 +1,45 @@
+SaasKosah:
+- _Korok::X05
+- _Korok::X06
+- _Korok::X10
+- _Korok::X07
+- .dir(NE):
+    coord: [-253.5,-1115.5]
+- .!!(Hard Save):
+    notes: For convenient location to reload.
+    icon: tots
+- .boss(Calamity):
+    icon: ganon
+    movements:
+        - to: [-254.00, 191.01, -1061.37]
+          away: true
+- .boss(Dark Beast Ganon):
+    icon: ganon
+    hide-icon-on-map: true
+    split-type: UserDefined
+    notes: Can skip Bow of Light.
+- Continue:
+    icon: tots
+    hide-icon-on-map: true
+- _Korok::X03
+- _Chest<Naydra's Scale>:
+    coord: [-182.29, 235.23, -1169.52]
+    comment: Under slab
+- _Korok::X02
+- _Chest<Dinraal's Scale>:
+    coord: [-196.46, 153.20, -1218.59]
+    comment: Behind rubble
+- _Korok::K30
+- _Korok::X11
+- _Boss::Talus::Rare:
+    time-override: 720
+    coord: [-136.65, 127.21, -956.26]
+    comment: .fury()
+    fury: 3
+- _Chest<Shard of Farosh's Fang>:
+    coord: [-133.07, 170.48, -950.46]
+- _Discover<King's Study>:
+    coord: [-172.98, 170.46, -1119.39]
+- _Equipment::Shield<Royal Guard's Shield>:
+    notes: Royal Guard's Gear quest
+- _Shrine::SaasKosah

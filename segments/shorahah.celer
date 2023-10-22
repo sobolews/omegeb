@@ -1,0 +1,67 @@
+ShoraHah:
+- Equip Metal Bow:
+    notes: optional
+    icon: bow
+    hide-icon-on-map: true
+- _Korok::E27
+- _Boss::Talus::Igneo:
+    coord: [1795.54, 394.18, -1746.73]
+    comment: .fury() from ledge above
+    fury: 3
+- _Korok::E26
+- _Korok::E31
+- _Memory::EldinCanyon:
+    comment: Memory
+- _Korok::E24
+- _Korok::E25
+- _Material<10 Fireproof Lizard>:
+    movements:
+        - to: [1605.70, 441.12, -1981.67]
+        - to: [1630.89, 439.24, -1974.67]
+        - to: [1633.87, 433.62, -1951.08]
+        - to: [1652.15, 430.77, -1931.88]
+        - to: [1670.67, 428.92, -1918.46]
+        - to: [1701.79, 430.53, -1932.14]
+        - to: [1683.16, 430.31, -1948.15]
+- _Npc<Kima>:
+    coord: [1657.35, 430.17, -1960.60]
+- _Equipment::Shield<Flamebreaker Armor>:
+    hide-icon-on-map: true
+    comment: Equip
+- _Tod::Night:
+    comment: if needed
+    notes: To talk to Greyson. Must have Flamebreaker Armor equipped to sleep.
+    hide-icon-on-map: true
+- _Npc::Goron<Greyson>:
+    coord: [1656.63, 430.15, -1968.53]
+    comment: From the Ground Up
+- _Korok::E19
+- _Korok::E18
+- _Discover<Stolock Bridge>:
+    coord: [1648.20, 565.86, -2437.53]
+    notes: Can discover by gliding over.
+- _Korok::E14
+- _Korok::E13
+- _Korok::E15
+- _Shop<Buy Goron Spice>:
+    coord: [1689.61, 491.59, -2468.49]
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+- _Shrine::ShaeMosah
+- _Npc::Goron<Yunobo>:
+    coord: [1630.68, 560.52, -2941.37]
+    notes: You can get into the cave before the rocks load in. If you don't, ESC through the back.
+- .gale():
+    gale: 1
+- _Korok::E08
+- _Korok::E09
+- _Korok::E06
+- .gale():
+    gale: 1
+- _Boss::Talus::Igneo:
+    coord: [2146.50, 535.83, -3011.50]
+    notes: Igneo taluses have the best chance to drop flint. Collect drops here and from the remaining three igneo taluses until you have 11 flint.
+- _Korok::E11
+- _Korok::E10
+- _Korok::E07
+- _Shrine::ShoraHah

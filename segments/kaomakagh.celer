@@ -1,0 +1,45 @@
+KaoMakagh:
+- _Korok::L55
+- _Korok::L61
+- Kill the .enemy(Octorok):
+    icon: calamity
+    hide-icon-on-map: true
+- _Material<Octorok Balloon>:
+    coord: [720.28, 134.40, 3276.11]
+    comment: Balloon Flight quest
+    notes: If you don't get one, you can buy one from the shop in Lurelin
+- _Korok::L66
+- _Korok::L72
+- _Korok::F38
+- _Boss::Hinox::Blue:
+    coord: [1031.43, 127.22, 3496.26]
+- _Korok::L79
+- _Korok::L92
+- _Korok::L78
+- Open Horse God Fountain:
+    icon: tots
+    coord: [802.00, 186.73, 3719.93]
+- _Korok::L77
+- _Discover<Horse God Bridge>:
+    coord: [596.95, 172.65, 3722.39]
+- _Korok::L75
+- Kill 5 .enemy(Blue Bokoblins):
+    icon: calamity
+    coord: [485,3342]
+    comment: Ancient Arrows
+    notes: Horseback Hoodlums quest
+- _Material<Swift Carrot>:
+    coord: [523.34, 152.89, 3463.33]
+    comment: behind horses
+    notes: Koko's Kitchen quest
+- _Npc<Perosa>:
+    coord: [516.76, 152.98, 3453.71]
+    comment: Perosa
+- Take out horse:
+    icon: tots
+    hide-icon-on-map: true
+- _Npc<Blynne>:
+    coord: [514.26, 152.72, 3449.75]
+    comment: Blynne
+    notes: Need to finish twice, one under 1:30 and one under 1:15, to get horse saddle and bridle. Can dismount horse to restart if needed.
+- _Shrine::KaoMakagh

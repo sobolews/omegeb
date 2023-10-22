@@ -1,0 +1,62 @@
+YaNaga:
+- _Warp::Shrine::KuhTakkar:
+    line-color: dodgerblue
+    comment: WARP
+- _Korok::G22
+- _Korok::G17
+- _Boss::Talus::Frost:
+    coord: [-2919.99, 656.12, 1294.27]
+    comment: .fury()
+    fury: 3
+- _Korok::G18
+- _Korok::G23
+- _Korok::G27
+- _Korok::G28
+- _Korok::G24
+- _Boss::Talus::Luminous:
+    coord: [-1896.00, 200.68, 2044.68]
+- _Korok::W14
+- _Korok::W26
+- _Shrine::JeeNoh
+- _Korok::G36
+- _Korok::W20
+- _Korok::W21
+- _Korok::W27
+- _Korok::W22
+- _Korok::L21
+- _Korok::L22
+- Tame Giant Horse:
+    icon: tots
+    coord: [-1196.01, 170.87, 2633.46]
+    comment: Hunt for the Giant Horse
+- _Korok::L36
+- _Korok::L62:
+    movements:
+        - to: [-920,3114]
+        - to: [-836,3240]
+        - to: [-866,3350]
+        - to: [-923.50, 214.58, 3436.38]
+    comment: On right side of canyon
+- Ride to .loc(Mounted Archery Camp):
+    movements:
+        - to: [-716,3700]
+        - to: [-474,3738]
+        - to: [-266,3658]
+- _Npc<Straia>:
+    coord: [-212.39, 128.70, 3487.13]
+    notes: Show him the big horse
+- _Cook<Cook Fruitcake>:
+    comment: Apple, melon, wheat, sugar
+    notes: Royal Recipe quest
+- _Korok::L64
+- Start L47 race:
+    icon: tots
+    coord: [-276.76, 153.65, 3316.47]
+- _Korok::L63
+- _Korok::L47:
+    coord: [-387.59, 152.98, 3151.55]
+- _Korok::L38
+- _Korok::L24
+- _Korok::L08
+- _Korok::L25
+- _Shrine::YaNaga

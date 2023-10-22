@@ -1,0 +1,49 @@
+AkkalaTower:
+- _Npc::ZoraMale<King Dorephan>:
+    coord: [3338.31, 268.90, -551.60]
+- _Chest::Special<Lightscale Trident>:
+    coord: [3328.99, 269.46, -547.36]
+    comment: Equip
+- _Npc::ZoraFemale<Laruta>:
+    coord: [3299.29, 255.66, -522.49]
+    notes: Will be running toward west stairs
+- _Npc::ZoraMale<Gruve>:
+    coord: [3292.20, 255.43, -520.38]
+    notes: Diving is Beauty! Quest reward is 5 Fleet-Lotus Seed, will use for transmutation.
+- _Npc::ZoraMale<Fronk>:
+    coord: [3342,-501.5]
+    comment: Wife Washed Away
+    notes: 7:00am to 8:00pm, Fronk is at the pillar. Otherwise he is at the pools.
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3207.40, 344.67, -736.45]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+- Activate .!!(Pedestal):
+    icon: calamity
+    comment: Slam attack with Trident
+    coord: [3081,-459]
+- _Shrine::DagahKeek
+- _Boss::Hinox::Blue:
+    coord: [2930.51, 312.54, -298.40]
+- _Korok::Z24
+- _Korok::Z34
+- _Boss::Talus::Luminous:
+    coord: [3992.27, 353.03, -158.82]
+    notes: Wake with bomb arrow, then use AA. Collect 10 amber, 11 flint, and 10 luminous stones. If you don't have 10 amber by now, break ores in Eldin and Rudania entry until you have 10.
+- _Korok::Z27
+- _Korok::Z19
+- _Korok::Z20
+- _Korok::Z08
+- _Npc::ZoraMale<ZoraMonument>:
+    coord: [3720.59, 461.92, -532.05]
+    comment: .v(Monument)/10
+    var-change:
+        Monument: 1
+- _Korok::Z17
+- _Chest::Special<Zora Helm>:
+    coord: [3466.36, 499.22, -889.05]
+    comment: .rune(Magnesis) chest in water
+- _Korok::Z05
+- _Korok::Z04
+- _Tower::Akkala
