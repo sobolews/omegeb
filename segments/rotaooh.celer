@@ -1,5 +1,8 @@
 RotaOoh:
 - Shrine of Resurrection:
+    movements:
+      - to: [-1099.10, 242.00, 1876.31]
+        warp: true
     split-type: Warp
     icon: warp
     comment: WARP
