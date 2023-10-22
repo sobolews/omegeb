@@ -1,0 +1,91 @@
+KorguChideh:
+- _Warp::Tower::Hateno:
+    comment: WARP
+    notes: .link([Tawa Jinn vod]https://youtu.be/FgwSVGe8-o8?t=7511)
+- _Korok::D53
+- _Korok::D58
+- _Korok::D57
+- _Korok::F07
+- _Korok::F13
+- _Boss::Hinox::Black:
+    coord: [2420.75, 327.47, 2782.60]
+- Deliver orb:
+    icon: tots
+    coord: [2616.91, 323.39, 2823.60]
+- _Korok::F14
+- _Boss::Hinox::Red:
+    coord: [2768.06, 258.13, 2711.58]
+- Deliver orb:
+    icon: tots
+    coord: [2648.43, 324.55, 2822.85]
+- .!!(Read shrine stone):
+    icon: tots
+    hide-icon-on-map: true
+- _Boss::Hinox::Blue:
+    coord: [2693.70, 273.89, 2967.57]
+- Deliver orb:
+    icon: tots
+    coord: [2632.47, 321.84, 2848.53]
+- _Shrine::TawaJinn
+- _Korok::F22
+- _Korok::F18
+- _Korok::N64:
+    comment: Stasis + bomb from a distance
+- _Boss::Hinox::Red:
+    coord: [3210.17, 172.01, 2996.33]
+    notes: Shoot from above, aim just below upper rim of hole
+- _Korok::F32
+- _Shrine::MuwoJeem
+- _Korok::F33
+- _Korok::N65
+- _Korok::N61
+- _Npc<Kass>:
+    coord: [3746.19, 125.42, 2629.38]
+    comment: The Hero's Cache
+- _Chest::Special<Gold Rupee>:
+    coord: [3773.34, 100.52, 2647.44]
+    comment: .rune(Magnesis) chest in water
+- _Korok::N60
+- _Korok::N62
+- .fury() .!!(Enemy Camp):
+    icon: calamity
+    fury: 1
+    notes: Sheep Rustlers
+    coord: [4121.98, 113.17, 2369.62]
+    comment: Ancient arrow 2 survivors
+- _Korok::N54
+- _Korok::N56
+- _Boss::Talus::Luminous:
+    coord: [4558.50, 105.41, 2465.00]
+- _Korok::N63
+- _Korok::N57
+- _Korok::N55
+- _Shrine::ChaasQeta
+- Check speedfood:
+    icon: cook
+- _Korok::N66
+- _Boss::Hinox::Blue:
+    comment: Kill without landing
+    coord: [4537.11, 110.76, 3701.95]
+- Shoot arrow at ground:
+    icon: bow
+    hide-icon-on-map: true
+    comment: Use single shot bow
+- Eventide:
+    icon: calamity
+- Pick up club, bow, arrow:
+    icon: tots
+    hide-icon-on-map: true
+- Return 3 orbs:
+    icon: tots
+    hide-icon-on-map: true
+    movements:
+        - to: [4483.25, 142.10, 3746.42]
+        - to: [4640,3626]
+        - to: [4500.46, 109.56, 3392.43]
+        - to: [4500.46, 109.56, 3392.43]
+        - to: [4674.92, 168.30, 3742.44]
+- .gale() to shrine:
+    gale: 1
+    suppress: [GaleRecharge]
+- _Shrine::KorguChideh

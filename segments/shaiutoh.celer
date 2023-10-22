@@ -8,6 +8,7 @@ ShaiUtoh:
 - _Korok::L12
 - .gale():
     gale: 1
+    suppress: [GaleRecharge]
 - _Korok::L28
 - _Korok::L29
 - _Korok::L34:

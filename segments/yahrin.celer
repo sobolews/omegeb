@@ -31,11 +31,13 @@ YahRin:
 - _Shrine::KahYah
 - .gale():
     gale: 1
+    suppress: [GaleRecharge]
 - _Korok::F37
 - _Boss::Talus::Stone:
     comment: .fury() from above
     fury: 1
     coord: [3272.52, 133.05, 3409.85]
+    suppress: [FuryRecharge]
 - _Korok::F45
 - _Material<Hearty Blueshell Snail>:
     comment: What's for Dinner?

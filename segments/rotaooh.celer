@@ -12,6 +12,7 @@ RotaOoh:
     coord: [-1087.75, 179.14, 1663.18]
     comment: .fury()
     fury: 1
+    suppress: [FuryRecharge]
 - _Korok::P04
 - _Korok::P06
 - _Korok::P05

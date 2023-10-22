@@ -86,6 +86,8 @@ _route:
     - __use__ ShaiUtoh
     - __use__ QukahNata
     - __use__ YahRin
+- Eventide:
+    - __use__ KorguChideh
 - Letter Quest:
     - __use__ MirroShaz
 
@@ -138,11 +140,7 @@ _route:
   #   - __use__ Ritaag Zumo
   #   - __use__ After Ritaag Zumo
 
-  # - Eventide:
-  #   - __use__ Tawa Jinn
-  #   - __use__ Muwo Jeem
-  #   - __use__ Chaas Qeta
-  #   - __use__ Korgu Chideh
+
 
   # - Kakariko/Hateno Cleanup:
   #   - __use__ Lakna Rokee

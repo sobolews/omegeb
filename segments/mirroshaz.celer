@@ -14,7 +14,7 @@ MirroShaz:
 - _Korok::D24
 - _Boss::Talus::Stone:
     comment: .fury()
-    fury: 2
+    fury: 1
     coord: [705.34, 137.62, 1471.88]
 - _Korok::D15
 - _Korok::D13

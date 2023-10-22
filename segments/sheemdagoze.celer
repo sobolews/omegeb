@@ -5,6 +5,7 @@ SheemDagoze:
     coord: [-383.72, 273.58, -995.87]
     comment: .gale()
     gale: 1
+    suppress: [GaleRecharge]
 - _Memory::HyruleCastle:
     comment: Memory
 - _Snap::Quest<Guardian Skywatcher>:
