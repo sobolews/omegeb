@@ -3,6 +3,7 @@ RotaOoh:
     split-type: Warp
     icon: warp
     comment: WARP
+    line-color: Purple
 - _Korok::P09:
     comment: In Link's bed
 - _Korok::P11:

@@ -1,6 +1,6 @@
 VahRudania:
 - _Warp::Shrine::ShaeMosah:
-    line-color: violet
+    line-color: yellow
     comment: WARP
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]

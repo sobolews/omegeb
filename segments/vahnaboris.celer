@@ -13,7 +13,6 @@ VahNaboris:
 - _Korok::W47
 - _Korok::W36
 - _Korok::W28
-
 - _Warp::Shrine::KuhTakkar
 - .loc(Yiga Hideout):
     icon: house-plus
