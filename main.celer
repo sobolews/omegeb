@@ -86,10 +86,8 @@ _route:
     - __use__ ShaiUtoh
     - __use__ QukahNata
     - __use__ YahRin
-
-  # - Letter Quest:
-  #   - __use__ Hila Rao
-  #   - __use__ Mirro Shaz
+- Letter Quest:
+    - __use__ MirroShaz
 
   # - Castle Town:
   #   - __use__ Namika Ozz

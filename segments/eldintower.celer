@@ -48,4 +48,5 @@ EldinTower:
 - _Korok::E33
 - .gale():
     gale: 1
+    suppress: [GaleRecharge]
 - _Tower::Eldin

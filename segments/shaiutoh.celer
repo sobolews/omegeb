@@ -33,6 +33,7 @@ ShaiUtoh:
     comment: .fury()
     fury: 1
     coord: [1257.12, 355.80, 2176.52]
+    suppress: [FuryRecharge]
 - _Korok::F05
 - _Korok::F01:
     movements:

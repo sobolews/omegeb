@@ -5,6 +5,7 @@ KayNoh:
     notes: Talk 3 times
     time-override: 360
 - .gale():
+    suppress: [GaleRecharge]
     gale: 1
 - _Korok::W42
 - _Npc::Gerudo<Calyban>:

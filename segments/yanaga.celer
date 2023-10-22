@@ -8,6 +8,7 @@ YaNaga:
     coord: [-2919.99, 656.12, 1294.27]
     comment: .fury()
     fury: 3
+    suppress: [FuryRecharge]
 - _Korok::G18
 - _Korok::G23
 - _Korok::G27

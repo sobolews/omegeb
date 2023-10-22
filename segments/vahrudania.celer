@@ -28,6 +28,7 @@ VahRudania:
     hide-icon-on-map: true
     comment: .gale()
     gale: 1
+    suppress: [GaleRecharge]
 - .boss(Fireblight):
     icon: calamity
     hide-icon-on-map: true

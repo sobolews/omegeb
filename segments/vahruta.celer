@@ -48,6 +48,7 @@ VahRuta:
     comment: Mipha Memory
 - _Shrine::NeezYohma
 - .gale():
+    suppress: [GaleRecharge]
     gale: 1
 - _Korok::Z18
 - _Korok::Z26

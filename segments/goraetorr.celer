@@ -65,6 +65,7 @@ GoraeTorr:
     comment: SNAP
 - _Korok::E03
 - .gale():
+    suppress: [GaleRecharge]
     gale: 1
 - _Korok::E04
 - _Korok::E05

@@ -27,6 +27,7 @@ WoodlandTower:
 - _Shrine::KayraMah
 - _Korok::E20
 - _Boss::Talus::Igneo:
+    suppress: [FuryRecharge]
     coord: [2141.56, 559.13, -2178.47]
     comment: .fury()
     fury: 3

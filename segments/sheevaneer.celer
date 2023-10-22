@@ -10,10 +10,12 @@ SheeVaneer:
     comment: .fury()
     fury: 2
     coord: [-176.93, 132.59, 1771.62]
+    suppress: [FuryRecharge]
 - _Korok::D43
 - _Korok::L03:
     comment: .gale() to cryo block
     gale: 1
+    suppress: [GaleRecharge]
 - _Korok::L10
 - _Korok::L11
 - _Korok::L16

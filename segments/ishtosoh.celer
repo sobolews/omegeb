@@ -17,6 +17,7 @@ IshtoSoh:
 - _Korok::L71
 - .gale():
     gale: 1
+    suppress: [GaleRecharge]
 - _Korok::L73
 - _Korok::L74
 - _Korok::L76
@@ -43,6 +44,7 @@ IshtoSoh:
     fury: 3
     coord: [100.50, 111.28, 3371.00]
     notes: Kill stalnox while the horse is approaching you.
+    suppress: [FuryRecharge]
 - Ride to .loc(Mounted Archery Camp):
     movements:
         - to: [25,3350]

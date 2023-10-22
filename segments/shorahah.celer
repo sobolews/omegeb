@@ -8,6 +8,7 @@ ShoraHah:
     coord: [1795.54, 394.18, -1746.73]
     comment: .fury() from ledge above
     fury: 3
+    suppress: [FuryRecharge]
 - _Korok::E26
 - _Korok::E31
 - _Memory::EldinCanyon:

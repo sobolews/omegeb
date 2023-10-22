@@ -32,10 +32,10 @@ SaasKosah:
 - _Korok::K30
 - _Korok::X11
 - _Boss::Talus::Rare:
-    time-override: 720
     coord: [-136.65, 127.21, -956.26]
     comment: .fury()
     fury: 3
+    suppress: [FuryRecharge]
 - _Chest<Shard of Farosh's Fang>:
     coord: [-133.07, 170.48, -950.46]
 - _Discover<King's Study>:

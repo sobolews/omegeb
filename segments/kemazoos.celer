@@ -9,6 +9,7 @@ KemaZoos:
     coord: [-4312.07, 418.11, 1446.89]
     comment: .fury()
     fury: 2
+    suppress: [FuryRecharge]
 - _Korok::G21
 - _Korok::G16
 - _Korok::G20
@@ -18,8 +19,6 @@ KemaZoos:
 - _Shrine::KemaKosassa
 - _Korok::G08
 - _Korok::G04
-- .gale():
-    gale: 1
 - _Korok::G05
 - _Korok::G01
 - _Discover<Statue of the 8th Heroine>:
