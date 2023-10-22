@@ -1,7 +1,7 @@
 KorguChideh:
 - _Warp::Tower::Hateno:
     comment: WARP
-    notes: .link([Tawa Jinn vod]https://youtu.be/FgwSVGe8-o8?t=7511)
+    line-color: lime
 - _Korok::D53
 - _Korok::D58
 - _Korok::D57
