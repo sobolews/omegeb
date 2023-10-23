@@ -7,6 +7,9 @@ Hateno:
 - _Npc<Clavia>:
     coord: [3434.98, 226.90, 2149.15]
     notes: Secret of the Cedars shrine quest
+- _Npc::SheikaMale<Medda>:
+    coord: [3381.11, 226.15, 2105.53]
+    notes: Spring of Wisdom
 - _Korok::N42:
     comment: Past blue flame
 - Smuggle Blue Flame:
@@ -25,7 +28,6 @@ Hateno:
 - _Korok::N43
 - _Npc<Koyin>:
     coord: [3621.69, 283.36, 2098.13]
-    comment: Koyin
     notes: Choose option 2
 - _Npc<Bolson>:
     coord: [3331.22, 235.28, 2284.61]

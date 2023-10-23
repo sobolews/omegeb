@@ -2,6 +2,10 @@ VahMedoh:
 - _Warp::Shrine::MoggLatan:
     comment: WARP
 - BLSS to Rito Village
+- _Material<1 Cold Darner>:
+    coord: [-3492.42, 260.81, -1843.52]
+- _Material<1 Hearty Salmon>:
+    coord: [-3490.37, 258.53, -1853.66]
 - _Npc::Rito<Kaneli>:
     comment: Owl Elder
     coord: [-3627.20, 323.57, -1830.81]
@@ -37,6 +41,7 @@ VahMedoh:
     movements:
         - to: [-3565.625,-1817.375]
           warp: true 
+- _Material<1 Cold Darner>
 - _Npc::Rito<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
     hide-icon-on-map: true

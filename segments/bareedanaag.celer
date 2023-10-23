@@ -1,0 +1,35 @@
+BareedaNaag:
+- _Korok::T36
+- _Korok::T32
+- _Korok::T27
+- _Korok::T26
+- _Korok::T23
+- _Discover<Gisa Crater>
+- _Boss::Talus::Rare:
+    coord: [-3929.30, 197.19, -1083.48]
+- _Korok::T28
+- _Korok::T29
+- _Korok::T30
+- _Korok::T24
+- _Tower::Tabantha
+- _Shrine::TenaKosah
+- _Memory::AncientColumns:
+    comment: Memory
+- _Korok::T35
+- _Korok::T37
+- _Korok::T33
+- Activate .loc(Fairy Fountain):
+    icon: tots
+    coord: [-3541.00, 294.88, -745.00]
+- _Korok::T31
+- _Tod::Noon:
+    coord: [-3426,-729.75]
+    notes: For Bareeda Naag
+- _Boss::Talus::Rare:
+    coord: [-3248.40, 291.68, -1078.12]
+- _Korok::T20
+- Activate .!!(Pedestal):
+    icon: tots
+    hide-icon-on-map: true
+    comment: Fire arrow before 1:15pm
+- _Shrine::BareedaNaag

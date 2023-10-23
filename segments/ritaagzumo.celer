@@ -1,0 +1,34 @@
+RitaagZumo:
+- _Warp::Tower::Akkala:
+    comment: WARP
+- _Korok::A42
+- _Korok::A43
+- _Korok::A46
+- _Discover<Akkala Bridge Ruins>:
+    coord: [3170,-1357]
+    notes: Glide through location trigger on the way to pebble
+- _Korok::A45:
+    movements:
+      - to: [3089.92, 407.44, -1337.38]
+      - to: [3112.55, 426.00, -1295.33]
+- _Shrine::ZeKasho
+- _Npc::SheikaFemale<Jana>:
+    coord: [3133.57, 306.78, -1693.04]
+    notes: Awake 8am-8pm. Select "I'm a traveler". 
+- _Npc::SheikaFemale<Talk to sisters>:
+    hide-icon-on-map: true
+    comment: Give armoranth, darners
+    notes: Jana, Gleema, Jana, Gleema, Jana
+- _Npc<Hudson>:
+    coord: [3970.74, 233.60, -1623.47]
+- _Korok::A44
+- _Korok::A35
+- .!!(Read shrine stone):
+    icon: tots
+    coord: [4626.25, 131.11, -1829.19]
+- _Korok::A36:
+    movements:
+        - to: [4691.71, 136.71, -1777.33]
+          away: true
+- _Shrine::RitaagZumo
+- _Korok::A33

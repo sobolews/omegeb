@@ -1,0 +1,169 @@
+TahnoOah:
+- _Warp::Shrine::TalohNaeg:
+    line-color: violet
+    comment: WARP
+- _Tod::Noon:
+    notes: Keep making noon until it's not raining.
+    comment: Unless it's 12pm-3pm
+    hide-icon-on-map: true
+- _Snap::Quest<Great Fairy Fountain>:
+    coord: [1976.00, 267.50, 846.00]
+    comment: SNAP after opening
+- Return 2 cuccos:
+    icon: tots
+    hide-icon-on-map: true
+    notes: Near shrine and on top of clothes shop
+- _Npc::SheikaMale<Cado>:
+    coord: [1838.75,964.25]
+    comment: Start cucco quest
+- _Npc<Cottla>:
+    coord: [1870.67, 228.35, 957.56]
+    comment: Play tag (option 2)
+- Return 3 cuccos:
+    icon: tots
+    hide-icon-on-map: true
+    comment: Around the sheds
+- _Npc::SheikaMale<Pikango>:
+    coord: [1828.22, 218.59, 990.14]
+    comment: Find the Fairy Fountain
+    notes: Near Goddess Statue
+- Light torches:
+    icon: tots
+    coord: [1847.75,1000]
+    comment: Arrows of Burning Heat
+- _Npc<Koko>:
+    coord: [1801,1016.5]
+    comment: All 4 Koko quests
+    notes: Carrot, butter, meat, honey
+- _Tod::Night:
+    hide-icon-on-map: true
+    comment: No rain
+- Return 2 cuccos:
+    icon: tots
+    comment: By campfire and in orchard
+    hide-icon-on-map: true
+- _Npc::SheikaMale<Cado>:
+    coord: [1838.75,964.25]
+    comment: Complete cucco quest
+- Collect 5 fireflies:
+    icon: tots
+    coord: [1901,995]
+    notes: If you miss some and scare the rest away, you can respawn them by warping to Taloh Naeg. They don't spawn in rain.
+- _Npc<Lasli>:
+    coord: [1899.75,1035.75]
+    comment: Talk twice
+- _Npc::SheikaFemale<Impa>:
+    coord: [1772.71, 229.43, 984.31]
+- _Npc::SheikaFemale<Paya>:
+    coord: [1772.71, 229.43, 984.31]
+- _Tod::Night:
+    hide-icon-on-map: true
+- _Npc::SheikaFemale<Rola>:
+    coord: [1830.49, 222.41, 1044.89]
+- _Korok::D03
+- _Korok::D02
+- _Korok::D04
+- _Korok::D05
+- _Korok::D12
+- _Korok::D08
+- _Korok::D06
+- _Korok::N07
+- _Korok::N08
+- _Korok::N10
+- .gale():
+    gale: 2
+- _Korok::N09
+- _Korok::D07
+- _Korok::D11
+- _Korok::D10
+- _Korok::D09
+- .dir(NE):
+    time-override: 360
+- .fury() waste:
+    fury: 1
+    notes: If not charged, waste it later.
+- Enter cutscene:
+    icon: tots
+    coord: [2024.21, 292.86, 962.56]
+    comment: Starts around 1:00-1:20am
+    notes: Must get there before 5:00am
+- Kill .enemy(Yiga Blademaster):
+    icon: calamity
+    hide-icon-on-map: true
+    notes: Normal arrow + OB will make him drop the windcleaver. Using elemental or bomb arrows is inconsistent. Use ancient arrows if you already have the windcleaver.
+- _Equipment::Weapon<Windcleaver>:
+    comment: Weapon Connoisseur
+- _Shrine::LaknaRokee
+- _Korok::N28
+- Shoot cursed statue:
+    icon: bow
+    comment: 9pm-4am
+    coord: [2509.80, 117.88, 1522.78]
+- _Shrine::KamUrog
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [2527.50, 242.00, 1904.50]
+- _Boss::Hinox::Stal:
+    coord: [1940.50, 144.41, 2396.50]
+    notes: If you don't make it here before 4am, continue and make night before entering Toto Sah. Then kill the Stalnox after D56.
+- _Chest<Chest in cave>:
+    coord: [1955.82, 178.14, 2609.72]
+    notes: Open any 1 chest for "Misko the Great Bandit" quest. 
+- _Korok::D59
+- _Shrine::TotoSah
+- _Korok::D56
+- _Korok::D55
+- _Shrine::HaDahamar
+- _Korok::D42
+- _Korok::D51
+- _Korok::D52
+- _Korok::N33
+- _Npc::SheikaMale<Calip>:
+    coord: [2398.96, 118.64, 1834.33]
+    comment: Calip
+- _Korok::N34
+- _Korok::N27
+- _Korok::N26
+- _Korok::N35
+- _Korok::N36
+- _Korok::N37
+- _Korok::N38
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [3199.41, 173.38, 1904.36]
+- _Korok::N41
+- _Korok::N45
+- _Korok::N46
+- _Korok::N51
+- _Korok::N52
+- _Korok::N53
+- .gale():
+    gale: 1
+- _Npc::SheikaMale<Bolson>:
+    coord: [3331.22, 235.28, 2284.61]
+    comment: Invite to wedding
+    split-type: UserDefined
+- _Shrine::MyahmAgana
+- _Npc<Nebb>:
+    coord: [3352.40, 225.55, 2138.81]
+    comment: Weapon Connoisseur
+    notes: Turn in all weapons. Nebb wakes at 8am.
+- _Npc::SheikaMale<Manny and Prima>:
+    coord: [3418.24, 226.84, 2121.22]
+- _Npc<Koyin>:
+    coord: [3621.69, 283.36, 2098.13]
+- .gale():
+    gale: 1
+- _Npc::SheikaMale<Symin>:
+    coord: [3778.96, 356.86, 2132.45]
+- Buy compendium pics:
+    icon: camera-plus
+    hide-icon-on-map: true
+    notes: If you sold springs last during transmutation and haven't reloaded a save since then, you'll get all the Material pics for free.
+- .gale():
+    gale: 1
+- _Korok::N47
+- _Korok::N32
+- _Shrine::TahnoOah

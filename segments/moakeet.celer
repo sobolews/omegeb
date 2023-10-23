@@ -1,0 +1,55 @@
+MoaKeet:
+- _Warp::Shrine::NeezYohma:
+    line-color: lime
+    comment: WARP
+- _Npc::ZoraMale<Tumbo>:
+    coord: [3320.59, 244.66, -474.01]
+    notes: 7am-4pm near Mipha's statue, 4pm-8pm near Fronk. Talk twice.
+- _Npc::ZoraMale<Ledo>:
+    coord: [3290.09, 244.86, -451.28]
+    notes: At the gate. Talk twice.
+- _Npc::ZoraFemale<Finley>:
+    coord: [3264.00, 249.76, -480.00]
+    notes: Up the stairs, left railing
+- _Npc::ZoraFemale<Torfeau>:
+    coord: [3300.84, 255.66, -505.93]
+    notes: Talk twice
+- _Npc::ZoraMale<Jiahto>:
+    coord: [3340.25, 256.66, -564.31]
+    notes: Talk twice
+- _Npc::ZoraMale<Kapson>:
+    coord: [3327.76, 256.41, -522.71]
+    notes: Send to Tarrey Town
+- _Npc::ZoraFemale<Laflat>:
+    coord: [3328.97, 268.46, -532.02]
+    notes: Talk twice
+- .gale():
+    gale: 1
+- _Korok::Z16
+- .gale():
+    gale: 1
+- _Korok::Z15
+- _Korok::Z14
+- _Tower::Lanayru
+- _Discover<Inogo Bridge>:
+    coord: [2344.50, 119.50, -247.89]
+- _Shrine::SohKofi
+- _Korok::Z13
+- _Korok::E45
+- .gale():
+    gale: 1
+- _Shrine::TahMuhl
+- _Korok::E44
+- _Shrine::MoaKeet
+- _Npc<Mayro>:
+    coord: [2620.40, 253.87, -1144.95]
+- _Korok::E40
+- _Korok::E38
+- _Discover<Maw Of Death Mountain>:
+    hide-icon-on-map: true
+    notes: Glide low to trigger location
+- _Korok::E41
+- _Korok::E42
+- _Korok::E43
+- _Korok::E37
+- _Korok::E36

@@ -61,9 +61,10 @@ _route:
     - __use__ WoodlandTower
 - Korok Forest:
     - __use__ KuhnSidajj
-- Blood Moon:
+- Ridgeland:
     - __use__ SaasKosah
     - __use__ SheemDagoze
+- Blood Moon:
     - __use__ MijahRokee
 - Gerudo Canyon:
     - __use__ RotaOoh
@@ -92,23 +93,20 @@ _route:
     - __use__ MirroShaz
 - Castle Town:
     - __use__ KahOkeo
-  #   - __use__ Katah Chuki
-  #   - __use__ Noya Neha
+- Tabantha:
+    - __use__ BareedaNaag
+    - __use__ DunbaTaag
+- Eldin/Akkala Cleanup:
+    - __use__ MoaKeet
+    - __use__ RitaagZumo
+- Kakariko/Hateno Cleanup:
+    - __use__ TahnoOah
 
-  # - Ridgeland:
-  #   - __use__ Monya Toma
-  #   - __use__ Maag Norah
-  #   - __use__ Ridgeland Tower
-  #   - __use__ Toh Yahsa
-  #   - __use__ Zalta Wa
-  #   - __use__ Kah Okeo
-
-  # - Tabantha:
-  #   - __use__ Tabantha Tower
-  #   - __use__ Tena Kosah
-  #   - __use__ Bareeda Naag
-  #   - __use__ Akh Vaquot
-  #   - __use__ Voo Lota
+  # - Lanayru Cleanup:
+  #   - __use__ Rucco Maag
+  #   - __use__ Shai Yota
+  #   - __use__ Kenai Shakah
+  #   - __use__ Kah Mael
 
   # - Hebra North:
   #   - __use__ Shada Naw
@@ -124,44 +122,21 @@ _route:
   #   - __use__ Dunba Taag
   #   - __use__ After Dunba Taag
 
-  # - Hebra West:
-  #   - __use__ Mozo Shenno
-  #   - __use__ Maka Rah
-  #   - __use__ Tarrey Town 5
-
-  # - Eldin/Akkala Cleanup:
-  #   - __use__ Lanayru Tower
-  #   - __use__ Soh Kofi
-  #   - __use__ Tah Muhl
-  #   - __use__ Moa Keet
-  #   - __use__ After Moa Keet
-  #   - __use__ Ze Kasho
-  #   - __use__ Ritaag Zumo
-  #   - __use__ After Ritaag Zumo
-
-
-
-  # - Kakariko/Hateno Cleanup:
-  #   - __use__ Lakna Rokee
-  #   - __use__ Kam Urog
-  #   - __use__ Toto Sah
-  #   - __use__ Ha Dahamar
-  #   - __use__ Tahno Oah
-
-  # - Lanayru Cleanup:
-  #   - __use__ Rucco Maag
-  #   - __use__ Shai Yota
-  #   - __use__ Kenai Shakah
-  #   - __use__ Kah Mael
-
   # - Hebra East:
   #   - __use__ Goma Asaagh
   #   - __use__ Rok Uwog
   #   - __use__ Sha Gehma
   #   - __use__ Rin Oyaa
 
+  # - Hebra West:
+  #   - __use__ Mozo Shenno
+  #   - __use__ Maka Rah
+  #   - __use__ Tarrey Town 5
+
   # - Forgotten Temple:
   #   - __use__ Rona Kachta
+
+  
 
   # - 100% Cleanup:
   #   - __use__ After Rona Kachta
@@ -171,3 +146,5 @@ _route:
   #       notes: For verification please show (1) map counter, (2) quest logs, (3) upgraded armor, (4) key items tab.
   #       split-type: UserDefined
   #       icon: memory-final
+
+  

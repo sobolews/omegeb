@@ -1,0 +1,138 @@
+DunbaTaag:
+- _Memory::AncientColumns:
+    comment: Memory
+- _Korok::T35
+- _Korok::T37
+- _Korok::T33
+- Activate .loc(Fairy Fountain):
+    icon: tots
+    coord: [-3541.00, 294.88, -745.00]
+- _Korok::T31
+- _Tod::Noon:
+    coord: [-3426,-729.75]
+    notes: For Bareeda Naag
+- _Boss::Talus::Rare:
+    coord: [-3248.40, 291.68, -1078.12]
+- _Korok::T20
+- Activate .!!(Pedestal):
+    icon: tots
+    hide-icon-on-map: true
+    comment: Fire arrow before 1:15pm
+- _Shrine::BareedaNaag
+- _Korok::T15
+- _Npc::Rito<Kotts>:
+    coord: [-3488.88, 258.52, -1850.25]
+- _Npc::Rito<Bedoli>:
+    coord: [-3632.60, 320.12, -1793.79]
+    notes: Ancient Rito Song
+- _Npc::SheikaFemale<Juney>:
+    coord: [-3611.76, 289.03, -1849.23]
+- _Npc::Rito<Molli>:
+    coord: [-3618.43, 320.15, -1797.41]
+- .gale():
+    gale: 1
+- _Npc::Rito<Notts>:
+    coord: [-3596.62, 317.93, -1794.98]
+- _Npc::Rito<Amali>:
+    coord: [-3668.51, 321.49, -1769.96]
+- _Shrine::AkhVaquot
+- _Korok::T14
+- _Cook<Cook Salmon Meuniere>:
+    comment: Wheat, butter, salmon
+- _Npc::Rito<Genli>:
+    coord: [-3608.76, 296.75, -1797.82]
+    notes: Give Salmon Meuniere
+- _Npc::Rito<Fyson>:
+    coord: [-3600.50, 287.60, -1814.47]
+    comment: Invite to Tarrey Town
+- _Npc::SheikaMale<Jogo>:
+    coord: [-3605.16, 289.12, -1852.43]
+    comment: Give 1 flint
+- _Npc::Rito<Cree>:
+    coord: [-3606.34, 296.75, -1799.16]
+- _Korok::T17
+- _Boss::Hinox::Black:
+    coord: [-3793.68, 246.02, -1557.10]
+- Activate .!!(Pedestal):
+    icon: tots
+    hide-icon-on-map: true
+    comment: 4-5-3-1-2
+    notes: Talk to Kheel for Korok Leaf if you don't have one
+- _Shrine::VooLota
+- _Korok::T16
+- _Korok::T12 
+- _Korok::T09
+- _Korok::T04
+- _Discover<Hebra Trailhead Lodge>:
+    coord: [-3572.02, 247.83, -2258.14]
+- _Korok::T05
+- _Korok::T11
+- _Npc::Rito<Gisane>:
+    coord: [-3308.27, 227.83, -1803.34]
+    notes: Talk twice
+- _Npc::SheikaMale<Lester>:
+    coord: [-3267.07, 224.60, -1773.77]
+    notes: Talk twice
+- _Korok::T21
+- _Korok::T22
+- _Korok::T25
+- _Korok::R05
+- _Discover<Footrace Check-In>:
+    coord: [-2638.00, 282.34, -1175.00]
+- _Korok::R13
+- _Korok::R17
+- _Korok::R24
+- _Korok::R23 
+- _Korok::R18
+- _Korok::R15 
+- Launch red orb:
+    icon: tots
+    coord: [-2135.60, 219.98, -909.20]
+    comment: Fully charge stasis
+- Launch orange orb:
+    icon: tots
+    coord: [-2271.02, 228.58, -1040.27]
+    comment: Fully charge stasis
+- _Korok::R08
+- Place green orb:
+    icon: tots
+    coord: [-2288.70, 235.47, -882.80]
+- Place other orbs:
+    icon: tots
+    hide-icon-on-map: true
+- _Shrine::TohYahsa
+- _Korok::R14
+- _Korok::R22:
+    movements:
+        - to: [-2390,-398.5]
+        - to: [-2434.11, 319.87, -491.04]
+          away: true
+- _Korok::R31:
+    movements:
+        - to: [-2370.11, 307.05, -345.31]
+          away: true
+- _Boss::Hinox::Blue:
+    movements:
+        - to: [-2370.05, 261.70, -419.59]
+          away: true
+- _Korok::R30
+- _Korok::R21
+- _Shrine::ShaeLoya
+- _Npc::SheikaMale<Geggle>:
+    coord: [-2942.5,-485.5]
+    notes: Between 8am and midnight
+- _Npc<Toren>:
+    coord: [-2916.00, 274.73, -561.00]
+    notes: Talk twice. In stable if raining.
+- _Tod::Night:
+    notes: Timing for Zora's Domain quests and darner quest
+- _Korok::T34
+- _Korok::R28
+- _Korok::R29
+- _Korok::R20
+- _Discover<Tanagar Canyon Course>:
+    coord: [-3119.20, -0.58, -627.77]
+- _Korok::R12
+- _Shrine::DunbaTaag
+- _Korok::H73
+- _Korok::R04
