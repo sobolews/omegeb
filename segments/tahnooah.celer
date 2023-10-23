@@ -71,6 +71,7 @@ TahnoOah:
 - _Korok::N08
 - _Korok::N10
 - .gale():
+    suppress: [GaleRecharge]
     gale: 2
 - _Korok::N09
 - _Korok::D07
@@ -85,7 +86,6 @@ TahnoOah:
     notes: If not charged, waste it later.
 - .gale() waste:
     gale: 1
-    suppress: [GaleRecharge]
     notes: If not charged, waste it later.
 - Enter cutscene:
     icon: tots
@@ -145,6 +145,7 @@ TahnoOah:
 - _Korok::N52
 - _Korok::N53
 - .gale():
+    suppress: [GaleRecharge]
     gale: 1
 - _Npc::SheikaMale<Bolson>:
     coord: [3331.22, 235.28, 2284.61]

@@ -117,5 +117,3 @@ _route:
         notes: For verification please show (1) map counter, (2) quest logs, (3) upgraded armor, (4) key items tab.
         split-type: UserDefined
         icon: memory-final
-
-  

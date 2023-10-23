@@ -23,6 +23,7 @@ RinOyaa:
     comment: .fury()
     fury: 3
     coord: [-2144.88, 491.27, -3082.59]
+    suppress: [FuryRecharge]
 - _Korok::H30
 - _Shrine::RokUwog
 - _Korok::H13
