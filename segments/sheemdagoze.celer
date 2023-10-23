@@ -40,15 +40,71 @@ SheemDagoze:
 - _Korok::X24
 - _Korok::C16
 - _Korok::X25
-- _Korok::C33
-- _Korok::C35
-- _Memory::SacredGrounds:
+- _Korok::C32
+- _Korok::C27
+- _Korok::C31
+- _Shrine::KatahChuki
+- _Korok::C30
+- _Korok::C25
+- _Korok::C26 
+- _Korok::C22
+- _Korok::C21
+- _Korok::C20
+- _Korok::C15
+- _Korok::C08
+- _Korok::C03 
+- _Korok::C01
+- _Korok::R11
+- _Korok::C07
+- _Korok::C14 
+- _Shrine::NoyaNeha
+- _Korok::R19
+- _Korok::R16
+- _Korok::R10
+- _Memory::IrchPlain:
     comment: Memory
-- _Korok::C42
-- _Korok::C43
-- _Korok::C40
-- _Korok::C41
-- _Korok::C39
+- _Korok::R07
+- _Boss::Hinox::Blue:
+    coord: [-752.49, 187.41, -1268.12]
+- _Korok::K29
+- _Korok::K27
+- _Korok::K28
+- _Boss::Hinox::Blue:
+    coord: [-480.55, 278.99, -2039.64]
+- _Korok::K19
+- _Korok::K16
+- _Korok::K18
+- _Korok::K26
+- _Korok::K24
+- _Korok::K25
+- Steal horse:
+    icon: calamity
+    coord: [-1019.50, 208.96, -1721.00]
+- _Korok::K17
+- _Korok::K23
+- _Shrine::MonyaToma
+- _Shrine::MaagNorah
+- _Korok::R03
+- _Korok::H71
+- _Boss::Talus::Luminous:
+    comment: .fury()
+    fury: 3
+    coord: [-2177.46, 322.30, -1585.39]
+    notes: Waste a fury
+- _Korok::R02
+- _Korok::R09
+- _Tower::Ridgeland
+- _Korok::R25
+- _Shrine::ZaltaWa
+- _Korok::C24
+- _Korok::R26
+- _Korok::R27
+- _Korok::R44
+- _Korok::R43
+- _Korok::R45
+- _Korok::R42
+- _Boss::Hinox::Black:
+    coord: [-1177.05, 139.48, 118.51]
 - _Korok::C38
 - _Korok::C36
 - _Korok::R49
