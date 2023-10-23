@@ -90,9 +90,8 @@ _route:
     - __use__ KorguChideh
 - Letter Quest:
     - __use__ MirroShaz
-
-  # - Castle Town:
-  #   - __use__ Namika Ozz
+- Castle Town:
+    - __use__ KahOkeo
   #   - __use__ Katah Chuki
   #   - __use__ Noya Neha
 
