@@ -81,6 +81,11 @@ TahnoOah:
     time-override: 360
 - .fury() waste:
     fury: 1
+    suppress: [FuryRecharge]
+    notes: If not charged, waste it later.
+- .gale() waste:
+    gale: 1
+    suppress: [GaleRecharge]
     notes: If not charged, waste it later.
 - Enter cutscene:
     icon: tots

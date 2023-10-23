@@ -1,0 +1,37 @@
+RinOyaa:
+- _Warp::Shrine::ShadaNaw:
+    line-color: orange
+    comment: WARP
+- _Tod::Night:
+    hide-icon-on-map: true
+    comment: if needed
+    notes: For Salvager chest. Make night if here after 2:30am.
+- _Korok::H20
+- _Korok::H28
+- Look .dir(SE) in the sky:
+    icon: tots
+    hide-icon-on-map: true
+    comment: Watch chest land
+- _Shrine::GomaAsaagh
+- _Korok::H35
+- _Chest::Special<Salvager Trousers>:
+    coord: [-2605.00, 583.00, -2652.00]
+- _Korok::H36
+- _Korok::H29
+- _Korok::H31
+- _Boss::Talus::Frost:
+    comment: .fury()
+    fury: 3
+    coord: [-2144.88, 491.27, -3082.59]
+- _Korok::H30
+- _Shrine::RokUwog
+- _Korok::H13
+- _Korok::H05
+- _Shrine::ShaGehma
+- _Korok::H06
+- _Korok::H14
+- _Korok::H37
+- _Npc<Juannelle>:
+    coord: [-1641.43, 339.19, -2561.69]
+    comment: Talk twice
+- _Shrine::RinOyaa

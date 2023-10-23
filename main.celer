@@ -28,7 +28,7 @@ _route:
 - Vah Medoh + OmeGEB:
   - __use__ VahMedoh
   - __use__ ShaWarvo
-- Hebra 1:
+- Hebra South:
   - __use__ ShadaNaw
   - __use__ LannoKooh
   - __use__ HebraTower
@@ -101,50 +101,21 @@ _route:
     - __use__ RitaagZumo
 - Kakariko/Hateno Cleanup:
     - __use__ TahnoOah
-
-  # - Lanayru Cleanup:
-  #   - __use__ Rucco Maag
-  #   - __use__ Shai Yota
-  #   - __use__ Kenai Shakah
-  #   - __use__ Kah Mael
-
-  # - Hebra North:
-  #   - __use__ Shada Naw
-  #   - __use__ Two Hebra Koroks
-  #   - __use__ Hia Miu
-  #   - __use__ To Quomo
-
-  # - Hebra South:
-  #   - __use__ Gee Harah
-  #   - __use__ Lanno Kooh
-  #   - __use__ Hebra Tower
-  #   - __use__ Shae Loya
-  #   - __use__ Dunba Taag
-  #   - __use__ After Dunba Taag
-
-  # - Hebra East:
-  #   - __use__ Goma Asaagh
-  #   - __use__ Rok Uwog
-  #   - __use__ Sha Gehma
-  #   - __use__ Rin Oyaa
-
-  # - Hebra West:
-  #   - __use__ Mozo Shenno
-  #   - __use__ Maka Rah
-  #   - __use__ Tarrey Town 5
-
-  # - Forgotten Temple:
-  #   - __use__ Rona Kachta
-
-  
-
-  # - 100% Cleanup:
-  #   - __use__ After Rona Kachta
-  #   - __use__ 100% Cleanup
-
-  #   - "100%":
-  #       notes: For verification please show (1) map counter, (2) quest logs, (3) upgraded armor, (4) key items tab.
-  #       split-type: UserDefined
-  #       icon: memory-final
+- Lanayru Cleanup:
+    - __use__ KahMael
+- Hebra West:
+    - __use__ MakaRah
+- Hebra North:
+    - __use__ ToQuomo
+- Hebra East:
+    - __use__ RinOyaa
+- Forgotten Temple:
+    - __use__ RonaKachta
+- 100% Cleanup:
+    - __use__ Cleanup
+    - "100%":
+        notes: For verification please show (1) map counter, (2) quest logs, (3) upgraded armor, (4) key items tab.
+        split-type: UserDefined
+        icon: memory-final
 
   

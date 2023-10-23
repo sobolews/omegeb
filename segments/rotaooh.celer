@@ -72,10 +72,8 @@ RotaOoh:
     hide-icon-on-map: true
 - _Npc<Toffa>:
     coord: [-1439.25, 137.72, 1278.45]
-
 - _Npc<Aliza>:
     coord: [-1400.00, 137.72, 1280.00]
-    notes: Star Fragment 1/3
 - _Korok::C78
 - _Korok::C72
 - _Shrine::RotaOoh

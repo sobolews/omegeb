@@ -1,0 +1,40 @@
+RonaKachta:
+- _Korok::H52
+- _Korok::H58
+- _Korok::H62
+- _Korok::H59
+- _Korok::H38
+- _Korok::K10
+- _Korok::K12
+- _Tod::Night:
+    hide-icon-on-map: true
+    notes: For Stalnox and Kilton
+- .gale():
+    gale: 1
+- _Boss::Hinox::Stal:
+    coord: [-1273.50, 213.08, -2113.50]
+- _Npc::SheikaMale<Akrah, Garshon and Onya>:
+    coord: [-1541.84, 212.23, -1804.59]
+    comment: Inside if raining
+- _Discover<Maritta Exchange Ruins>:
+    coord: [-1781.57, 220.00, -1685.07]
+    notes: Discover while gliding to R01
+- _Korok::R01
+- _Korok::H68
+- _Korok::K22
+- _Korok::K20
+- _Korok::K21
+- _Korok::K15
+- _Korok::H63
+- _Korok::K13
+- _Korok::K14
+- .gale():
+    gale: 1
+- _Korok::K09
+- _Shrine::RonaKachta
+- _Chest::Special<Set of the Wild>:
+    comment: A Gift from the Monks
+    hide-icon-on-map: true
+- Turn in orbs for .!!(27 hearts):
+    icon: tots
+    hide-icon-on-map: true

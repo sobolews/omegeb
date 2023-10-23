@@ -13,6 +13,7 @@ KahOkeo:
     fury: 3
     notes: Waste a fury if it's not raining. If raining, save a fury to kill the Keese around C09.
     coord: [771.50, 152.53, -1014.00]
+    suppress: [FuryRecharge]
 - _Equipment::Weapon<Ancient Battle Axe+>:
     comment: Weapon Connoisseur
     hide-icon-on-map: true
