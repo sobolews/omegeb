@@ -54,9 +54,6 @@ ShaiUtoh:
 - _Korok::F15
 - _Boss::Hinox::Red:
     coord: [1493.39, 306.77, 3092.14]
-- _Tower::Faron
-- _Korok::F39
-- _Korok::F40
 - _Equipment::Weapon<Woodcutter's Axe>:
     coord: [1552.29, 196.63, 3533.36]
     notes: Thunder Magnet quest

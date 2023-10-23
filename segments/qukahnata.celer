@@ -20,13 +20,31 @@ QukahNata:
 - _Boss::Hinox::Stal:
     coord: [2078.62, 110.22, 3450.66]
 - _Korok::F35
-- _Korok::F42
 - _Boss::Talus::Stone:
     coord: [1690.73, 165.27, 3335.62]
-- _Korok::F28
 - _Shrine::ShodaSah
 - _Korok::F19
 - _Korok::F20
+- _Boss::Hinox::Black:
+    coord: [2420.75, 327.47, 2782.60]
+- Deliver orb:
+    icon: tots
+    coord: [2616.91, 323.39, 2823.60]
+- _Korok::F14
+- _Boss::Hinox::Red:
+    coord: [2768.06, 258.13, 2711.58]
+- Deliver orb:
+    icon: tots
+    coord: [2648.43, 324.55, 2822.85]
+- .!!(Read shrine stone):
+    icon: tots
+    hide-icon-on-map: true
+- _Boss::Hinox::Blue:
+    coord: [2693.70, 273.89, 2967.57]
+- Deliver orb:
+    icon: tots
+    coord: [2632.47, 321.84, 2848.53]
+- _Shrine::TawaJinn
 - _Korok::F21
 - .!!(Unequip) metal:
     icon: shield

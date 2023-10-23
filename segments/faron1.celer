@@ -1,4 +1,9 @@
 Faron1:
+- _Korok::D53
+- _Korok::D58
+- _Korok::D57
+- _Korok::F07
+- _Korok::F13
 - _Korok::F06
 - _Korok::F09
 - _Korok::F08
@@ -10,9 +15,14 @@ Faron1:
 - _Material<Farosh Claw, 1>
 - _Material<Farosh Horn, 1>
 - _Korok::F27
-- _Material<Mighty Bananas, 5>:
-    coord: [1871.79, 203.92, 3234.32]
+- _Korok::F28
 - _Korok::F26
 - _Korok::F25
+- _Tower::Faron
+- _Korok::F39
+- _Material<Mighty Bananas, 5>:
+    coord: [1481.29, 241.32, 3550.63]
+- _Korok::F40
 - _Korok::F34
+- _Korok::F42
 - _Korok::F46
