@@ -17,7 +17,7 @@ Hestu1:
 - _Korok::D21
 - _Npc<Hestu>:
     coord: [2069.45, 188.17, 1422.25]
-    comment: 2 weapon slots
+    comment: 2 bow slots
     split-type: UserDefined
 - _Korok::D20:
     comment: On bridge

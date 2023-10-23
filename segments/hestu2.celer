@@ -5,7 +5,7 @@ Hestu2:
     coord: [888.06, 131.29, 173.67]
 - _Npc<Hestu>:
     coord: [870.83, 131.54, 203.47]
-    comment: 3 weapon, 2 bow slots
+    comment: 4 bow slots
 - _Korok::Z37:
     comment: Among thorns
 - _Korok::Z38

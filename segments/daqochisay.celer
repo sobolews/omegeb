@@ -2,6 +2,7 @@ DaqoChisay:
 - _Warp::Shrine::MoggLatan:
     comment: WARP
     line-color: cyan
+- _Korok::R60
 - _Korok::G19
 - _Korok::G13
 - _Korok::G10
