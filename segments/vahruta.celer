@@ -38,7 +38,6 @@ VahRuta:
     var-change:
         Monument: 1
 - _Korok::Z25
-- _Korok::Z16
 - _Npc::ZoraMale<King Dorephan>:
     coord: [3338.31, 268.90, -551.60]
 - _Equipment::Shield<Zora Armor>:

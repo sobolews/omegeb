@@ -8,7 +8,7 @@ ShaeKatha:
 - _Korok::D17
 - _Boss::Talus::Stone:
     comment: Shoot while flying to tower
-    coord: [705.34, 137.62, 1471.88]
+    coord: [1186.62, 254.28, 1642.77]
 - _Tower::DuelingPeaks
 - _Korok::D48
 - _Korok::D50

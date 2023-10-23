@@ -1,24 +1,4 @@
 DunbaTaag:
-- _Memory::AncientColumns:
-    comment: Memory
-- _Korok::T35
-- _Korok::T37
-- _Korok::T33
-- Activate .loc(Fairy Fountain):
-    icon: tots
-    coord: [-3541.00, 294.88, -745.00]
-- _Korok::T31
-- _Tod::Noon:
-    coord: [-3426,-729.75]
-    notes: For Bareeda Naag
-- _Boss::Talus::Rare:
-    coord: [-3248.40, 291.68, -1078.12]
-- _Korok::T20
-- Activate .!!(Pedestal):
-    icon: tots
-    hide-icon-on-map: true
-    comment: Fire arrow before 1:15pm
-- _Shrine::BareedaNaag
 - _Korok::T15
 - _Npc::Rito<Kotts>:
     coord: [-3488.88, 258.52, -1850.25]

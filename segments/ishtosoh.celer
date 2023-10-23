@@ -2,17 +2,8 @@ IshtoSoh:
 - Start L65 race:
     icon: tots
     coord: [546.27, 231.59, 3580.35]
-- Ride horse:
-    movements:
-        - to: [502,3447.5]
-        - to: [274,3465.5]
-        - to: [237.5,3515]
-        - to: [190,3518]
-    notes: Ride across the pond, a bit past the right fork. Leave the horse there and windbomb to finish the korok. Do not whistle until after the next shrine, you'll come back here to pick up the horse.
-- Leave horse:
-    icon: tots
-    coord: [161.5,3487]
-- _Korok::L65
+- _Korok::L65:
+    comment: Ride horse during it
 - _Korok::L70
 - _Korok::L71
 - .gale():
