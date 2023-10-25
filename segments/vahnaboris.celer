@@ -52,7 +52,7 @@ VahNaboris:
     hide-icon-on-map: true
 - .boss(Thunderblight):
     icon: ganon
-    comment: AA, .rune(Stasis) → FIND 1 CYCLE STRAT
+    comment: AA, .rune(Stasis) → 2 AA Normal GEB + 1 Fire/Ice/Electric Arrow OmeGEB (No headshots)
     hide-icon-on-map: true
 - .!!(Urbosa's Fury):
     icon: naboris-done

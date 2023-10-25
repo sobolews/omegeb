@@ -61,7 +61,7 @@ VahRuta:
     gale: 1
 - .boss(Waterblight):
     icon: calamity
-    comment: .rune(Stasis) → FIND 1 CYCLE STRAT
+    comment: .rune(Stasis) → 2 AA Normal GEB + 1 AA OmeGEB (no headshots)
     hide-icon-on-map: true
 - Mipha's Grace:
     icon: ruta-done

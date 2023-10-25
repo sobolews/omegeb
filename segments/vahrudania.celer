@@ -32,7 +32,7 @@ VahRudania:
 - .boss(Fireblight):
     icon: calamity
     hide-icon-on-map: true
-    comment: .rune(Stasis) → FIND 1 CYCLE STRAT
+    comment: .rune(Stasis) → 2 AA Normal GEB Body + 1 AA OmeGEB Head
 - Daruk's Protection:
     icon: rudania-done
     split-type: UserDefined

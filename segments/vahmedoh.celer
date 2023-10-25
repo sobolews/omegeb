@@ -33,7 +33,7 @@ VahMedoh:
 - .boss(Windblight Ganon):
     icon: ganon
     hide-icon-on-map: true
-    notes: Ancient Arrow + .rune(Stasis) → 3 FDB body + 5 Head?
+    notes: Ancient Arrow + .rune(Stasis) → 1 FDB body + 4 FDB Head
 - .!!(Revali's Gale):
     icon: medoh-done
     split-type: UserDefined
