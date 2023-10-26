@@ -1,8 +1,6 @@
 JitanSami:
 - _Korok::W62
 - _Korok::W67
-- _Material<2 Voltfruits>:
-    notes: For transmutation
 - _Warp::TechLab::Hateno:
     comment: WARP
     line-color: yellow

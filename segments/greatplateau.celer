@@ -12,7 +12,7 @@ GreatPlateau:
         - to: [-1024.63, 251.40, 1812.55]
         - to: [-1034.19, 249.09, 1847.06]
         - to: [-1012.43, 247.58, 1892.02]
-- _Material<1 HylianShroom>:
+- _Material<1 Hylian Shroom>:
     notes: Cook it
 - _Material<1 Toasty Hylian Shroom>:
     notes: Eat it
@@ -33,7 +33,7 @@ GreatPlateau:
     hide-icon-on-map: true
     comment: Scrap
     notes: Needs 3 in Kakariko
-- _Material<2 Shrooms>:
+- _Material<2 Hylian Shroom>:
     hide-icon-on-map: true
     var-change:
         Scrap: 1

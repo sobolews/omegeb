@@ -26,7 +26,7 @@ MoggLatan:
     notes: Do not eat
 - _Chest<Forest Dweller's Bow>:
     coord: [-2342.64, 348.37, 680.81]
-- _Material<Acorn, 1>:
+- _Material<1 Acorn>:
     coord: [-2338.68, 348.73, 678.83]
     notes: Do not eat. Do not pick up extra acorns.
 - _Material<10 Hearty Durians>:

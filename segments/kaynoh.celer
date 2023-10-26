@@ -23,10 +23,6 @@ KayNoh:
 - _Npc::Gerudo<Isha>:
     notes: In main courtyard, talk twice
     coord: [-3834.85, 149.52, 2875.26]
-- .!!(Dupe + Transmute):
-    icon: tots
-    hide-icon-on-map: true
-    notes: 2 Voltfruit - 2 Fleet-Lotus Seeds - 4 Bananas | 2 Hylian Shroom - 2 Endura Shroom - 4 Rushroom | 2 Blue Nigthshade - 2 Bird Egg - 4 Ancient Spring
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
     comment: Thunder Helm

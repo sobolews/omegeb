@@ -29,7 +29,6 @@ VahNaboris:
 - _Chest::Special<Thunder Helm>:
     coord: [-3451.00, 440.69, 1341.50]
     split-type: UserDefined
-
 - _Warp::Shrine::DaqoChisay:
     comment: WARP
 - _Npc::Gerudo<Riju>:

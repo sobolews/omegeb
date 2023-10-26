@@ -39,6 +39,8 @@ DunbaTaag:
     comment: 4-5-3-1-2
     notes: Talk to Kheel for Korok Leaf if you don't have one
 - _Shrine::VooLota
+- _Material<3 Spicy Pepper>:
+    notes: 1 for korok, 2 for transmute
 - _Korok::T16
 - _Korok::T12 
 - _Korok::T09
@@ -53,6 +55,10 @@ DunbaTaag:
 - _Npc::SheikaMale<Lester>:
     coord: [-3267.07, 224.60, -1773.77]
     notes: Talk twice
+- _Npc<Beedle>:
+    hide-icon-on-map: true
+- _Shop<1 Warm Darner>:
+    hide-icon-on-map: true
 - _Korok::T21
 - _Korok::T22
 - _Korok::T25

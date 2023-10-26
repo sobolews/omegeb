@@ -25,7 +25,7 @@ KuhnSidajj:
 - _Equipment::Weapon<Korok Leaf>:
     coord: [473.68, 249.02, -2125.30]
     notes: For Voo Lota
-- _Material<4 Bird Egg>:
+- _Material<2 Bird Egg>:
     notes: In tree near Hestu and near Deku tree entrance. For transmutation.
 - _Npc<Hestu>:
     icon: hestu
@@ -56,7 +56,7 @@ KuhnSidajj:
     comment: Save for transmutation
     hide-icon-on-map: true
 - _Material<10 Restless Crickets>:
-    notes: Spin attack grass to collect while walking to Oaki. 
+    notes: Spin attack grass to collect while walking to Oaki. Can buy 5 Dueling Peaks Stable worst case
     hide-icon-on-map: true
 - _Material<5 Frogs>:
     comment: If missed any before

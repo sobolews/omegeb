@@ -3,12 +3,6 @@ WastelandTower:
 - _Discover<Gerudo Desert Gateway>:
     coord: [-2924.12, 153.42, 2329.39]
 - _Korok::W15
-- _Npc<Beedle>:
-    comment: "Subject to change"
-    notes: Beedle leaves at 4pm. Make noon if needed. 
-    hide-icon-on-map: true
-- _Shop<1 Warm Darner>:
-    hide-icon-on-map: true
 - _Npc<Sesami>:
     coord: [-2797.53, 135.05, 2240.97]
 - _Npc<Pirou>:

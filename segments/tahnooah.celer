@@ -60,6 +60,10 @@ TahnoOah:
     hide-icon-on-map: true
 - _Npc::SheikaFemale<Rola>:
     coord: [1830.49, 222.41, 1044.89]
+- .!!(Transmute):
+    icon: tots
+    hide-icon-on-map: true
+    notes: 2 Peppers - 2 Fleet-Lotus Seeds - 4 Bananas | 2 Hylian Shroom - 2 Endura Shroom - 4 Rushroom | 2 Blue Nigthshade - 2 Bird Egg - 4 Ancient Spring
 - _Korok::D03
 - _Korok::D02
 - _Korok::D04
