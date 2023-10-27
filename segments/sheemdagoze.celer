@@ -97,6 +97,27 @@ SheemDagoze:
 - _Korok::R06
 - _Korok::R09
 - _Tower::Ridgeland
+- _Korok::R15 
+- Launch red orb:
+    icon: tots
+    coord: [-2135.60, 219.98, -909.20]
+    comment: Fully charge stasis
+- Launch orange orb:
+    icon: tots
+    coord: [-2271.02, 228.58, -1040.27]
+    comment: Fully charge stasis
+- _Korok::R08
+- Place green orb:
+    icon: tots
+    coord: [-2288.70, 235.47, -882.80]
+- Place other orbs:
+    icon: tots
+    hide-icon-on-map: true
+- _Shrine::TohYahsa
+- _Korok::R14
+- _Korok::R24
+- _Korok::R23 
+- _Korok::R18
 - _Korok::R25
 - _Shrine::ZaltaWa
 - _Korok::C24
