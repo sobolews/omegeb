@@ -97,17 +97,17 @@ _route:
 - Tabantha:
     - __use__ BareedaNaag
     - __use__ DunbaTaag
+- Hebra North:
+    - __use__ ToQuomo
 - Eldin/Akkala Cleanup:
     - __use__ MoaKeet
     - __use__ RitaagZumo
+- Hebra West:
+    - __use__ MakaRah
 - Kakariko/Hateno Cleanup:
     - __use__ TahnoOah
 - Lanayru Cleanup:
     - __use__ KahMael
-- Hebra West:
-    - __use__ MakaRah
-- Hebra North:
-    - __use__ ToQuomo
 - Hebra East:
     - __use__ RinOyaa
 - Forgotten Temple:
