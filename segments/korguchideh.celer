@@ -11,13 +11,13 @@ KorguChideh:
 - _Korok::F33
 - _Korok::N65
 - _Korok::N61
+- _Korok::N60
 - _Npc<Kass>:
     coord: [3746.19, 125.42, 2629.38]
     comment: The Hero's Cache
 - _Chest::Special<Gold Rupee>:
     coord: [3773.34, 100.52, 2647.44]
     comment: .rune(Magnesis) chest in water
-- _Korok::N60
 - _Korok::N62
 - .fury() .!!(Enemy Camp):
     icon: calamity
