@@ -2,8 +2,7 @@ MirroShaz:
 - _Warp::Tower::DuelingPeaks:
     line-color: red
     comment: WARP
-- _Korok::D16:
-    comment: On small island
+- _Korok::D16
 - Steal horse:
     icon: calamity
     coord: [927.95, 117.06, 1211.55]
