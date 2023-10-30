@@ -11,16 +11,15 @@ BareedaNaag:
 - _Korok::T29
 - _Korok::T30
 - _Korok::T24
-- _Tower::Tabantha
+- Activate .loc(Fairy Fountain):
+    icon: tots
+    coord: [-3541.00, 294.88, -745.00]
+- _Korok::T33
 - _Shrine::TenaKosah
 - _Memory::AncientColumns:
     comment: Memory
 - _Korok::T35
 - _Korok::T37
-- _Korok::T33
-- Activate .loc(Fairy Fountain):
-    icon: tots
-    coord: [-3541.00, 294.88, -745.00]
 - _Korok::T31
 - _Tod::Noon:
     coord: [-3426,-729.75]

@@ -1,7 +1,7 @@
 VahMedoh:
 - _Warp::Shrine::MoggLatan:
     comment: WARP
-- BLSS to Rito Village
+- _Tower::Tabantha
 - _Material<1 Cold Darner>:
     coord: [-3492.42, 260.81, -1843.52]
 - _Material<1 Hearty Salmon>:
