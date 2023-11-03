@@ -4,9 +4,6 @@ VahRuta:
 - _Korok::Z44
 - _Boss::Hinox::Blue:
     coord: [3526.26, 251.18, 364.97]
-- _Material<2 Hylian Shroom>:
-    coord: [3391.02, 307.70, 81.86]
-    notes: Save for transmutation
 - _Npc::ZoraMale<Zora Monument>:
     coord: [3393.74, 314.18, 49.77]
     comment: .v(Monument)/10
