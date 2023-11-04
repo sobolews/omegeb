@@ -11,6 +11,7 @@ DunbaTaag:
     coord: [-3618.43, 320.15, -1797.41]
 - .gale():
     gale: 1
+    suppress: [GaleRecharge]
 - _Npc::Rito<Notts>:
     coord: [-3596.62, 317.93, -1794.98]
 - _Npc::Rito<Amali>:
