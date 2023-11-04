@@ -32,8 +32,6 @@ KemaZoos:
     hide-icon-on-map: true
     comment: with shock arrow
 - _Shrine::KeehaYoog
-- .gale():
-    gale: 1
 - _Korok::G09
 - _Snap::Quest<Forgotten Sword>:
     comment: SNAP
