@@ -19,6 +19,7 @@ ToQuomo:
     coord: [-4309.50, 460.50, -3495.00]
 - _Korok::H07
 - .gale():
+    suppress: [GaleRecharge]
     gale: 1
 - _Korok::H08
 - _Korok::H02

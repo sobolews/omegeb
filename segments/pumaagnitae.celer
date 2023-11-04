@@ -8,6 +8,7 @@ PumaagNitae:
 - _Korok::L15
 - _Korok::L14
 - .gale():
+    suppress: [GaleRecharge]
     gale: 1
 - _Korok::D54
 - _Tod::Night:
@@ -33,6 +34,7 @@ PumaagNitae:
     comment: 2.5 .rune(Stasis) hits
     notes: 2 hits with 2-handed weapon + 1 hit with 1-handed
 - .gale():
+    suppress: [GaleRecharge]
     gale: 1
 - _Tower::Lake
 - _Korok::L48

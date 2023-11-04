@@ -43,7 +43,9 @@ DunbaTaag:
     notes: 1 for korok, 2 for transmute
 - _Korok::T16
 - _Korok::T12 
-- _Korok::T09
+- _Korok::T09:
+    comment: .gale()
+    gale: 1
 - _Korok::T04
 - _Discover<Hebra Trailhead Lodge>:
     coord: [-3572.02, 247.83, -2258.14]
@@ -62,6 +64,8 @@ DunbaTaag:
 - _Korok::T21
 - _Korok::T22
 - _Korok::T25
+- .gale():
+    gale: 1
 - _Korok::R05
 - _Discover<Footrace Check-In>:
     coord: [-2638.00, 282.34, -1175.00]

@@ -39,7 +39,9 @@ SheemDagoze:
 - _Korok::X20
 - _Korok::X24
 - _Korok::C16
-- _Korok::X25
+- _Korok::X25:
+    comment: .gale() if raining
+    gale: 1
 - _Korok::C32
 - _Korok::C27
 - _Korok::C31
@@ -48,7 +50,9 @@ SheemDagoze:
 - _Korok::C25
 - _Korok::C26 
 - _Korok::C22
-- _Korok::C21
+- _Korok::C21:
+    comment: .gale() if available
+    gale: 1
 - _Korok::C20
 - _Boss::Talus::Rare:
     coord: [-768.74, 152.76, -804.49]
@@ -89,7 +93,9 @@ SheemDagoze:
 - _Korok::R03
 - _Korok::H71
 - _Boss::Talus::Luminous:
-    comment: .fury()
+    comment: .gale() .fury()
+    suppress: [FuryRecharge, GaleRecharge]
+    gale: 1
     fury: 3
     coord: [-2177.46, 322.30, -1585.39]
     notes: Waste a fury
@@ -117,7 +123,9 @@ SheemDagoze:
 - _Korok::R14
 - _Korok::R24
 - _Korok::R23 
-- _Korok::R18
+- _Korok::R18:
+    comment: .gale()
+    gale: 1
 - _Korok::R25
 - _Shrine::ZaltaWa
 - _Korok::C24
@@ -125,7 +133,9 @@ SheemDagoze:
 - _Korok::R27
 - _Korok::R44
 - _Korok::R43
-- _Korok::R45
+- _Korok::R45:
+    comment: .gale()
+    gale: 1
 - _Korok::R42
 - _Boss::Hinox::Black:
     coord: [-1177.05, 139.48, 118.51]

@@ -1,5 +1,7 @@
 BareedaNaag:
-- _Korok::T36
+- _Korok::T36:
+    comment: .gale()
+    gale: 1
 - _Korok::T32
 - _Korok::T27
 - _Korok::T26

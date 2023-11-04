@@ -58,14 +58,17 @@ TahnoOah:
     coord: [1772.71, 229.43, 984.31]
 - _Tod::Night:
     hide-icon-on-map: true
+- _Korok::D02
+- _Korok::D03
 - _Npc::SheikaFemale<Rola>:
     coord: [1830.49, 222.41, 1044.89]
 - .!!(Transmute):
     icon: tots
     hide-icon-on-map: true
     notes: 2 Peppers - 2 Fleet-Lotus Seeds - 4 Bananas | 2 Endura Shroom - 2 Rushroom - 4 Blue Nightshade | 2 Bird Egg - 2 Diamond - 4 Ancient Spring
-- _Korok::D03
-- _Korok::D02
+- .gale():
+    suppress: [GaleRecharge]
+    gale: 1
 - _Korok::D04
 - _Korok::D05
 - _Korok::D12
@@ -75,7 +78,6 @@ TahnoOah:
 - _Korok::N08
 - _Korok::N10
 - .gale():
-    suppress: [GaleRecharge]
     gale: 2
 - _Korok::N09
 - _Korok::D07
@@ -87,9 +89,6 @@ TahnoOah:
 - .fury() waste:
     fury: 1
     suppress: [FuryRecharge]
-    notes: If not charged, waste it later.
-- .gale() waste:
-    gale: 1
     notes: If not charged, waste it later.
 - Enter cutscene:
     icon: tots
@@ -172,8 +171,5 @@ TahnoOah:
     icon: camera-plus
     hide-icon-on-map: true
     notes: If you sold springs last during transmutation and haven't reloaded a save since then, you'll get all the Material pics for free.
-- .gale():
-    gale: 1
-- _Korok::N47
 - _Korok::N32
 - _Shrine::TahnoOah

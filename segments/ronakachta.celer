@@ -10,6 +10,7 @@ RonaKachta:
     hide-icon-on-map: true
     notes: For Stalnox and Kilton
 - .gale():
+    suppress: [GaleRecharge]
     gale: 1
 - _Boss::Hinox::Stal:
     coord: [-1273.50, 213.08, -2113.50]

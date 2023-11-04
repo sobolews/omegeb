@@ -9,7 +9,9 @@ KaoMakagh:
     comment: Balloon Flight quest
     notes: If you don't get one, you can buy one from the shop in Lurelin
 - _Korok::L66
-- _Korok::L72
+- _Korok::L72:
+    comment: .gale()
+    gale: 1
 - _Korok::F38
 - _Boss::Hinox::Blue:
     coord: [1031.43, 127.22, 3496.26]

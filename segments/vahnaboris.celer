@@ -47,7 +47,7 @@ VahNaboris:
     icon: naboris-enter
     coord: [-2754.62, 112.53, 3749.44]
     comment: .gale()
-    gale: 2
+    gale: 3
     hide-icon-on-map: true
 - .boss(Thunderblight):
     icon: ganon

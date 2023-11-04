@@ -1,5 +1,6 @@
 RaqaZunzo:
 - .gale():
+    suppress: [GaleRecharge]
     gale: 1
 - _Korok::W09
 - _Korok::W13

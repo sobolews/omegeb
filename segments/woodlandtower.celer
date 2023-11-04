@@ -13,6 +13,8 @@ WoodlandTower:
     coord: [1707.75,-2422.5]
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]
+- .gale():
+    gale: 1
 - _Npc::Goron<Dugby>:
     coord: [1787.98, 581.97, -2244.39]
     notes: Death Mountain's Secret quest
@@ -35,8 +37,6 @@ WoodlandTower:
 - _Korok::E22
 - _Boss::Talus::Igneo:
     coord: [2372.52, 507.89, -1998.62]
-- .gale():
-    gale: 1
 - _Korok::E23
 - _Korok::E28
 - _Shrine::QuaRaym
@@ -46,4 +46,5 @@ WoodlandTower:
 - _Korok::K31
 - .gale():
     gale: 1
+    notes: or waste during oaki
 - _Tower::Woodland

@@ -23,7 +23,10 @@ KahOkeo:
     hide-icon-on-map: true
     notes: From chest in shrine
 - _Shrine::NamikaOzz
-- _Korok::C09
+- _Korok::C09:
+    suppress: [GaleRecharge]
+    comment: .gale()
+    gale: 1
 - _Korok::C11
 - _Korok::C12
 - _Korok::C19
@@ -56,7 +59,9 @@ KahOkeo:
 - _Korok::R58
 - _Korok::R57
 - _Korok::R55
-- _Korok::R54
+- _Korok::R54:
+    comment: .gale()
+    gale: 1
 - _Boss::Hinox::Stal:
     coord: [-2217.00, 372.31, 584.00]
 - _Korok::R62

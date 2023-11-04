@@ -40,7 +40,9 @@ KayNoh:
     hide-icon-on-map: true
     notes: .link([Orb Puzzle Diagram]https://media.discordapp.net/attachments/303990410500374528/790049019690614794/Heroines_Map_Directions.png?width=811&height=676), .link([Alternative Diagram]https://cdn.discordapp.com/attachments/738799971788390460/1058664341068578857/Untitled_Artwork.png)
 - _Shrine::KorshOhu
-- _Korok::W40
+- _Korok::W40:
+    comment: .gale()
+    gale: 1
 - _Korok::W30
 - _Korok::W19
 - _Shrine::KayNoh

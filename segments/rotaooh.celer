@@ -49,6 +49,7 @@ RotaOoh:
 - _Korok::R74
 - .gale():
     gale: 1
+    suppress: [GaleRecharge]
 - _Memory::SanidinPark:
     comment: Memory
 - Tame White Horse:

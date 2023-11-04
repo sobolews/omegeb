@@ -45,9 +45,7 @@ ShaiUtoh:
 - _Korok::F03
 - _Boss::Hinox::Red:
     coord: [1330.55, 180.38, 2623.94]
-- _Korok::F10:
-    comment: .gale()
-    gale: 1
+- _Korok::F10
 - _Korok::F16:
     comment: .gale()
     gale: 1

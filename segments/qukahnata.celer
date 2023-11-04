@@ -1,4 +1,6 @@
 QukahNata:
+- .gale():
+    gale: 1
 - _Korok::F48:
     comment: Pick up banana nearby
 - _Korok::F55

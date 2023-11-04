@@ -4,6 +4,10 @@ JitanSami:
 - _Warp::TechLab::Hateno:
     comment: WARP
     line-color: yellow
+- .gale():
+    suppress: [GaleRecharge]
+    gale: 1
+- _Korok::N47
 - _Korok::N44
 - Shoot an eye:
     icon: bow
@@ -16,10 +20,13 @@ JitanSami:
     icon: bow
     hide-icon-on-map: true
 - _Korok::N31
+- .gale():
+    suppress: [GaleRecharge]
+    gale: 1
+- _Korok::N39
 - Shoot an eye:
     icon: bow
     hide-icon-on-map: true
-- _Korok::N39
 - _Korok::N21
 - _Korok::N29
 - .dir(<E):
