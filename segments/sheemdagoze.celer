@@ -52,7 +52,6 @@ SheemDagoze:
 - _Korok::C22
 - _Korok::C21:
     comment: .gale() if available
-    gale: 1
 - _Korok::C20
 - _Boss::Talus::Rare:
     coord: [-768.74, 152.76, -804.49]
