@@ -1,7 +1,9 @@
 IST:
+- BLSS .dir(E>)
 - _Discover<Goponga Village Ruins>:
-    coord: [1580.16, 109.80, 312.15]
+    coord: [1564.5,358.5]
 - _Shrine::DakaTuss
+- .dir(S) + .dir(E>) + .dir(S)
 - _Shrine::TalohNaeg:
     comment: Opal in chest
 - _Material<2 Nightshade>:
@@ -14,22 +16,24 @@ IST:
     movements:
         - to: [1965.43, 269.69, 854.73] 
         - to: [1963.57, 269.72, 860.48] 
-- _Material<2 Silent Princess>:
-    notes: Need two
-    movements:
-        - to: [1995.48, 267.93, 841.33] 
-        - to: [1995.75, 267.90, 842.24] 
-        - to: [1998.67, 267.91, 842.24] 
+
 - _Npc::SheikaFemale<Impa>:
     comment: Talk twice
     coord: [1772.71, 229.43, 984.31]
+
 - _Material<1 Energetic Rhino Beetle>:
     coord: [1811.23, 221.34, 1050.06]
-    comment: 7pm to 7am
+    comment: 9pm to 7am
     notes: On tree near shop. Make morning if needed.
-- _Npc::SheikaFemale<Rola>:
+
+- _Npc::SheikaFemale<Arrow Shopkeeper>:
     coord: [1830.49, 222.41, 1044.89]
     comment: Talk twice
+
 - IST:
-    icon: equipment
     coord: [1811.23, 221.34, 1050.06]
+    icon: link
+    hide-icon-on-map: true
+    split-type: UserDefined
+    notes: |
+      Follow these .link([Detailed Instructions]https://docs.google.com/presentation/d/1vXQIsRddX9Ihg8HJ_dKgAeOyXBod6XJ6qI3-lwi6Ml8/edit?usp=sharing)

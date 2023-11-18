@@ -12,31 +12,31 @@ GreatPlateau:
         - to: [-1024.63, 251.40, 1812.55]
         - to: [-1034.19, 249.09, 1847.06]
         - to: [-1012.43, 247.58, 1892.02]
-- _Material<1 Hylian Shroom>:
-    notes: Cook it
-- _Material<1 Toasty Hylian Shroom>:
-    notes: Eat it
+- _Material<Eat Baked Apple>:
+    notes: Knock it away from the old man to avoid dialog. Make sure to eat it immediately. This is needed to unlock the meals tab on the upcoming autosave.
 - _Equipment::Weapon<Torch and Axe>:
-    notes: Sidehop down the hill while grabbing torch to avoid dialogue
+    notes: Sidehop down the hill while grabbing torch to avoid dialog
     movements:
         - to: [-936.20, 224.90, 1880.20] #torch
         - to: [-920.93, 220.65, 1871.83] #axe
-- Run to .loc(Boko Camp):
-    comment: MAKE MANUAL SAVE AFTER AUTOSAVE
-- _Material<Seared Steak>:
-    comment: Food
-    notes: Make sure to eat before IST
-    coord: [-955.87, 237.42, 1948.86]
+- Run toward Boko Camp
+- SAVE:
+    icon: tots
+    hide-icon-on-map: true
+    notes: Hard save as soon as you get the autosave on the way to the camp
+- .!!(System Clock -1 day):
+    notes: If using DST, no need to change clock.
+    icon: calamity
+    hide-icon-on-map: true
+
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
 - _Material<6 Peppers>:
     hide-icon-on-map: true
-    comment: Scrap
-    notes: Needs 3 in Kakariko
-- _Material<2 Hylian Shroom>:
+    comment: Scrap + Food
+    notes: You can eat up to 3 of them
+- _Material<2 Shrooms>:
     hide-icon-on-map: true
-    var-change:
-        Scrap: 1
     comment: Food
     notes: Get more shrooms on Satori for scrap
 - _Chest<Traveler's Bow>:
@@ -45,20 +45,34 @@ GreatPlateau:
 - 5 Normal Arrows:
     icon: bow
     hide-icon-on-map: true
+
+- BLSS to shrine, clip in
 - _Shrine::JaBaij:
     comment: Bombs shrine
+
 - _Npc::SheikaMale<Old Man>:
     coord: [-461.70, 178.41, 1990.18]
     comment: Text option 2-1-1-2
+
 - _Shrine::OmanAu:
     notes: Clear ragdoll glitch in shrine
     comment: Magnesis shrine
+
+- .dir(<S) low angle
 - _Tower::GreatPlateau
+
+- Jump down, BLSS to old man's hut
+
 - _Korok::P18
 - _Shrine::OwaDaim:
     comment: Stasis shrine
+- Boulder ride
+- BLSS to shrine
 - _Shrine::KehNamut:
     comment: Cryonis shrine
+
+- BLSS to Temple of Time
+
 - .!!(Paraglider):
     icon: king
     coord: [-809.33, 263.58, 1964.35]

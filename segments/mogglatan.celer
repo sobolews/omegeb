@@ -1,5 +1,5 @@
 MoggLatan:
-- BLSS to Satori Mountain:
+- BLSS .dir(W>) to Satori Mountain:
     coord: [-2203.83, 267.93, 792.66]
 - _Material<Hylian Shrooms>:
     comment: Scrap
@@ -9,6 +9,8 @@ MoggLatan:
     notes: Keep at least 3
 - _Material<2 Endura Shroom>:
     notes: Save one to cook, can eat the other
+
+- .dir(W)
 - _Material<Courser Bee Honey, 1>:
     movements:
       - to: [-2469.86, 320.38, 736.31]
@@ -18,9 +20,17 @@ MoggLatan:
     coord: [-2479.27, 316.89, 721.97]
     comment: For korok in castle
     notes: Can eat 1
-- _Material<8 Fleet Lotus Seed>:
+
+- .dir(W>)    
+- _Material<5 Fleet Lotus Seed>:
     coord: [-2558.07, 306.99, 655.56]
     comment: Speedfood
+    notes: Do not eat
+- _Material<2 Silent Princess>:
+    coord: [-2558.07, 306.99, 655.56]
+    comment: Behind tree
+
+- .dir(E.)    
 - _Material<1 Rushroom>:
     coord: [-2349.25, 355.64, 672.69]
     notes: Do not eat
@@ -28,9 +38,13 @@ MoggLatan:
     coord: [-2342.64, 348.37, 680.81]
 - _Material<1 Acorn>:
     coord: [-2338.68, 348.73, 678.83]
-    notes: Do not eat. Do not pick up extra acorns.
+    notes: Do not eat.
+
+- .dir(N>)
 - _Material<10 Hearty Durians>:
     coord: [-2196.75, 410.21, 443.15]
     notes: Need 8, 5 for dish 3 for IST
 - _Material<2+ Wood>
+
+- .dir(W)
 - _Shrine::MoggLatan

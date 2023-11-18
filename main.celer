@@ -1,23 +1,34 @@
-_config: {}
+---
 _project:
   authors:
-  - PancakeTurtle
-  - 辉文gege
-  - 秋红葉
-  - BingsF
-  description: 100% Route using Great Eagle Bow with WMC
-  name: 100% OmeGEB
-  url: 'https://github.com/MrPancakeTurtle/100'
-  version: 0.1.0
+    - "PancakeTurtle"
+    - "BingsF"
+    - "ikurapan"
+    - "辉文gege"
+    - "秋红葉"
+  description: "100% Route using Great Eagle Bow with WMC"
+  name: 100% (OmeGEB)
+  url: https://celer.itntpiston.app/#/gh/sobolews/omegeb/
+  version: 1.0
+
+_config:
+  split-format:
+    Shrine: "{{Korok}} - {{_}}"
+    Warp: "{{Korok}} - Warp {{_}}"
+
 _route:
-- (==) Work in progress
+- (?=) Document/Route Info >> .link(["What does '<N' mean?"]https://docs.google.com/drawings/d/1X8y5J9c6hpzh9WuvBoBGg32BtFqok2rpB7Z9-mQqbJg/edit?usp=sharing), .link([NPC Info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283), .link([Simple Glitch Explanations]https://docs.google.com/document/d/14EUBX0M96nGINX3mS7cQceKKUHfIBgOrvFElaHIj-Z0/edit?usp=sharing)
+- (==) Resources >> .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0), .link([Master Guide]https://docs.google.com/spreadsheets/d/1qLOC3ajm6a-vrXvlwAecbhW88iT8vtv9iSvP0jUcwzY/edit?usp=sharing), .link([Drop Table Calculator]https://restite.org/drops/), .link([Material Usage Spreadsheet]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247)
+- (?=) Questions or Corrections? Join the .link([BOTW Speedrunning discord]	https://discord.gg/94YzaMFZxC) and ask in the 100% channel! 
+- "(==) Recommended options (bottom of screen): |\nTheme: Granatus | Split Settings: Split on Shrine, Tower, Other."
+
 - Before Starting:
-  - Set system clock (5m before DST)
+  - __use__ Before Starting
 - Great Plateau:
   - __use__ GreatPlateau
 - Material Gathering:
   - __use__ MoggLatan
-  - __use__ KayaWann
+  - __use__ KayaWan
   - __use__ IST
 - Faron 1:
   - __use__ Hateno
