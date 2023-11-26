@@ -1,7 +1,0 @@
-ShaWarvo:
-- _Korok::T10
-- _Korok::T13
-- _Npc::Rito<Kheel>:
-    coord: [-3979.33, 271.21, -1751.18]
-    comment: Warbler's Nest
-- _Shrine::ShaWarvo

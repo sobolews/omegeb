@@ -1,6 +1,0 @@
-Before Starting:
-- Set system clock:
-    icon: memory-final
-    hide-icon-on-map: true
-    notes: .link([System clock instructions]https://docs.google.com/document/d/13eFkTmChmSTIPahNfOr5xA3VQ8lOXyRm3qUxxTzJvhg/edit?usp=sharing) | .link([DST Table]https://docs.google.com/spreadsheets/d/161rXWdxUxBO8iY6PGltQKQBjbT-nufX2eto1yR84d_g/edit?usp=sharing)
-- (^=) Ensure the clock is at least a day ahead of any existing saves on your profile.
