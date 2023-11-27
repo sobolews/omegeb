@@ -132,6 +132,7 @@ _route:
   - _Material<2 Endura Shroom>:
       notes: Save one to cook, can eat the other
   - _Material<2 Razorshrooms>:
+      comment: Scrap
       notes: Do not eat
 
   - .dir(W)
