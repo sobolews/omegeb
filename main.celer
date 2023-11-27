@@ -618,6 +618,7 @@ _route:
           - to: [-3637.5,-1792.75]
             away: true
       icon: bow
+      split-type: UserDefined
       notes: Follow these .link([Detailed WMC Instructions]https://docs.google.com/presentation/d/1_x1TgluUOfYzo2eR-L68ObXuBVSsVbmMfghdUgv-Osg/edit?usp=sharing)
 
   - Eat speedfood:
