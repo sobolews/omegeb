@@ -6182,7 +6182,7 @@ _route:
       coord: [1830.49, 222.41, 1044.89]
       comment: Rola
 
-  - .!!(Transmute):
+  - .!!(Transmute dragon parts):
       icon: tots
       hide-icon-on-map: true
       notes: .link([Detailed instructions]https://docs.google.com/document/d/1-euUqUVIzwN-zqmU82j8uebHEZz8-MPRsoJw25Zf2CA/edit?usp=sharing)
