@@ -21,6 +21,7 @@ _route:
 - (==) Resources >> .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0), .link([Master Guide]https://docs.google.com/spreadsheets/d/1qLOC3ajm6a-vrXvlwAecbhW88iT8vtv9iSvP0jUcwzY/edit?usp=sharing), .link([Drop Table Calculator]https://restite.org/drops/), .link([Material Usage Spreadsheet]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247)
 - (?=) Questions or Corrections? Join the .link([BOTW Speedrunning discord]	https://discord.gg/94YzaMFZxC) and ask in the 100% channel!
 - "(==) Recommended options (bottom of screen): |\nTheme: Granatus | Split Settings: Split on Shrine, Tower, Other."
+- "(!=) .link([Commentated walkthrough of the early parts of the route]https://youtu.be/0YZkmVyhfy4) // .link([Reference run of the whole route]https://youtu.be/Aw14LJhXV-8?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax)"
 
 - Before Starting:
   - Set system clock:
@@ -291,7 +292,7 @@ _route:
       hide-icon-on-map: true
       split-type: UserDefined
       notes: |
-        Follow these .link([Detailed IST Instructions]https://docs.google.com/presentation/d/1AVJe_qxlJft2x4Dtv6zVQ9I1-esx9vKIZb9QDUpE56E/edit?usp=sharing)
+        Follow these .link([Detailed IST Instructions]https://docs.google.com/presentation/d/1AVJe_qxlJft2x4Dtv6zVQ9I1-esx9vKIZb9QDUpE56E/edit?usp=sharing). Here is a .link([video guide for the IST]https://youtu.be/0YZkmVyhfy4?t=3245).
 
 - Hateno / Farosh:
 
@@ -620,7 +621,7 @@ _route:
             away: true
       icon: bow
       split-type: UserDefined
-      notes: Follow these .link([Detailed WMC Instructions]https://docs.google.com/presentation/d/1_x1TgluUOfYzo2eR-L68ObXuBVSsVbmMfghdUgv-Osg/edit?usp=sharing)
+      notes: Follow these .link([Detailed WMC Instructions]https://docs.google.com/presentation/d/1_x1TgluUOfYzo2eR-L68ObXuBVSsVbmMfghdUgv-Osg/edit?usp=sharing). Here is a .link([video guide for the WMC]https://youtu.be/0YZkmVyhfy4?t=9690).
 
   - Eat speedfood:
       icon: cook
@@ -4515,7 +4516,6 @@ _route:
 
   - _Npc::SheikaFemale<Lady by horses>:
       coord: [1540.08, 165.97, 3531.94]
-      notes: Thunder Magnet
       comment: Cima
       notes: Awake from 7am - 9pm
 
@@ -6185,7 +6185,7 @@ _route:
   - .!!(Transmute dragon parts):
       icon: tots
       hide-icon-on-map: true
-      notes: .link([Detailed instructions]https://docs.google.com/document/d/1-euUqUVIzwN-zqmU82j8uebHEZz8-MPRsoJw25Zf2CA/edit?usp=sharing)
+      notes: .link([Detailed instructions]https://docs.google.com/document/d/1-euUqUVIzwN-zqmU82j8uebHEZz8-MPRsoJw25Zf2CA/edit?usp=sharing). Here is a .link([video guide for transmutation]https://youtu.be/0YZkmVyhfy4?t=11238).
 
   - Run out, .gale():
       gale: 1
