@@ -192,6 +192,8 @@ _route:
   - _Equipment::Weapon<Royal Guard's Claymore>:
       hide-icon-on-map: true
       comment: Sneakstrike the moblin
+  - _Chest<Naydra Fang>:
+      comment: Under stairs
 
   - _Korok::X19
   - _Chest<3 Ancient Arrows>
