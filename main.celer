@@ -555,7 +555,7 @@ _route:
   - Eat last speedfood:
       icon: cook
       hide-icon-on-map: true
-      notes: Ensure you have exactly 40 meals
+      notes: Ensure you have exactly 40 meals. Unpause and pause after eating.
 
   - Drop 10 Korok Seeds:
       hide-icon-on-map: true
