@@ -55,6 +55,8 @@ _route:
           - to: [-936.20, 224.90, 1880.20] #torch
           - to: [-920.93, 220.65, 1871.83] #axe
 
+  - Unequip weapon
+
   - Run toward Boko Camp
 
   - SAVE:
