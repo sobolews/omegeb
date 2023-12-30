@@ -3576,7 +3576,7 @@ _route:
       hide-icon-on-map: true
 
   - _Tod::Noon:
-      notes: For Sasa Kai timing. Can make noon later in this segment for more margin of error.
+      notes: For Xenoblade chest timing. Can make noon later in the next segment for more margin of error.
       hide-icon-on-map: true
 
   - Equip Armor:
