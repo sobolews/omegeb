@@ -170,7 +170,8 @@ _route:
   - _Material<2+ Wood>
 
   - .dir(W)
-  - _Shrine::MoggLatan
+  - _Shrine::MoggLatan:
+      comment: Right Peg, < aim, backflip WB OR BLSS
   - _Korok::R60
 
   - BLSS to .loc(Hyrule Castle):
@@ -263,7 +264,8 @@ _route:
   - BLSS .dir(E>)
   - _Discover<Goponga Village Ruins>:
       coord: [1564.5,358.5]
-  - _Shrine::DakaTuss
+  - _Shrine::DakaTuss:
+      comment: Fronthop, Fronthop + Bomb, Neutral hop + Remove Shield, dmg boost; WB up
   - .dir(S) + .dir(E>) + .dir(S)
   - _Shrine::TalohNaeg:
       comment: Opal in chest
@@ -640,7 +642,8 @@ _route:
       comment: Warbler's Nest
 
   - .dir(N>)
-  - _Shrine::ShaWarvo
+  - _Shrine::ShaWarvo:
+      comment: High WB and midairs
 
   - .dir(N>>)
   - _Boss::Talus::Frost:
@@ -676,7 +679,8 @@ _route:
       comment: Pinwheel
 
   - .dir(<E) + midair
-  - _Shrine::ShadaNaw
+  - _Shrine::ShadaNaw:
+      comment: Peg, short straight
 
   - .dir(S.) down under ice shelf
   - _Boss::Talus::Frost:
@@ -730,7 +734,8 @@ _route:
   - .dir(E>)
   - Open cave door:
       notes: .link([Snowball strat]https://www.youtube.com/watch?v=cbn3TgjVdDk&t=10)
-  - _Shrine::GeeHarah
+  - _Shrine::GeeHarah:
+      comment: Left Peg, 90 right wb
 
   - .gale() + .dir(N) + .dir(E>) midair:
       gale: 1
@@ -819,7 +824,8 @@ _route:
       comment: Luminous Stone Gathering
       notes: 10 needed, can get more later. Take any flint you get too.
       hide-icon-on-map: true
-  - _Shrine::KuhTakkar
+  - _Shrine::KuhTakkar:
+      comment: Stasis ice block
 
   - .dir(<W)
   - _Boss::Talus::Frost:
@@ -839,7 +845,8 @@ _route:
   - _Npc::SheikaMale<Guy near shrine>:
       comment: Benja
       coord: [-3804.64, 149.50, 2818.36]
-  - _Shrine::DaqoChisay
+  - _Shrine::DaqoChisay:
+      comment: WB straight from ledge
 
   - .dir(<E)
   - _Npc<Vilia>:
@@ -988,7 +995,8 @@ _route:
       comment: Deliver ice
 
   - .dir(N>) + midair
-  - _Shrine::DakoTah
+  - _Shrine::DakoTah:
+      comment: Right peg, delayed turn
 
   - .dir(<<E)
   - _Korok::G34:
@@ -1302,7 +1310,8 @@ _route:
   - _Korok::N16
 
   - .dir(S)
-  - _Shrine::DowNaeh
+  - _Shrine::DowNaeh:
+      comment: Aim at end, Square first
 
   - .dir(N) + .dir(W)
   - _Korok::N20
@@ -1349,7 +1358,8 @@ _route:
   - _Korok::N03:
       comment: Behind shrine
 
-  - _Shrine::MezzaLo
+  - _Shrine::MezzaLo:
+      comment: Right peg, Aim at near right corner of cage, low WB
 
   - .dir(E)
   - _Korok::Z42:
@@ -1425,7 +1435,8 @@ _route:
       coord: [3299.5,-474.5]
       comment: Mipha Memory
 
-  - _Shrine::NeezYohma
+  - _Shrine::NeezYohma:
+      comment: Right peg/ledge, Turn right, High WB
 
   - .gale() + .dir(E):
       gale: 1
@@ -1637,7 +1648,8 @@ _route:
       comment: " "
 
   - .dir(<N)
-  - _Shrine::SahDahaj
+  - _Shrine::SahDahaj:
+      comment: Left peg, 90 right
 
   - .dir(N)
   - _Korok::E34
@@ -1752,7 +1764,8 @@ _route:
       coord: [1713.95, 498.05, -2446.92]
 
   - .dir(N>)
-  - _Shrine::ShaeMosah
+  - _Shrine::ShaeMosah:
+      comment: WB up through hole off barrel
 
 - North Eldin/Akkala:
 
@@ -1792,7 +1805,8 @@ _route:
   - _Korok::E07:
       comment: Top of crab island
 
-  - _Shrine::ShoraHah
+  - _Shrine::ShoraHah:
+      comment: Left peg, 90 left, aim right slightly, WB and glide
 
   - Ride minecart:
       icon: tots
@@ -2082,7 +2096,8 @@ _route:
   - _Korok::A23
 
   - .dir(W) run
-  - _Shrine::KatosaAug
+  - _Shrine::KatosaAug:
+      comment: Straight short
 
   - .dir(W>) run
   - _Npc<Soldier Guy>:
@@ -2159,7 +2174,8 @@ _route:
       comment: " "
 
   - .dir(E. + midair)
-  - _Shrine::DaqaKoh
+  - _Shrine::DaqaKoh:
+      comment: Straight high
 
   - .dir(S>>)
   - _Equipment::Weapon<Drillshaft>:
@@ -2237,7 +2253,8 @@ _route:
           - to: [1823.00, 453.77, -1891.17]
             away: true
 
-  - _Shrine::KayraMah
+  - _Shrine::KayraMah:
+      comment: Peg straight + midair
 
   - .dir(N)
   - _Korok::E20:
@@ -2266,7 +2283,8 @@ _route:
       comment: Down in skull
 
   - .dir(<W)
-  - _Shrine::QuaRaym
+  - _Shrine::QuaRaym:
+      comment: Short off stairs
 
 - Korok Forest:
 
@@ -2386,7 +2404,8 @@ _route:
         Don't approach until you see the Oaki say: "Woo! I finally made it!"
   - _Warp::Shrine::KeoRuug:
       comment: WARP
-  - _Shrine::KeoRuug
+  - _Shrine::KeoRuug:
+      comment: Straight off ledge
 
   - .dir(E)
   - _Npc<Damia>:
@@ -2728,7 +2747,8 @@ _route:
       comment: " "
 
   - midair .dir(S>)
-  - _Shrine::MonyaToma
+  - _Shrine::MonyaToma:
+      comment: WB from up ramp
 
   - .dir(W)
   - _Shrine::MaagNorah:
@@ -2791,7 +2811,8 @@ _route:
       icon: tots
       hide-icon-on-map: true
 
-  - _Shrine::TohYahsa
+  - _Shrine::TohYahsa:
+      comment: Straight from peg
 
   - .dir(S) short
   - _Korok::R14
@@ -2812,7 +2833,8 @@ _route:
       comment: " "
 
   - .dir(.E)
-  - _Shrine::ZaltaWa
+  - _Shrine::ZaltaWa:
+      comment: Straight wb
 
   - .dir(E>)
   - _Korok::C24:
@@ -2890,7 +2912,8 @@ _route:
       coord: [-1855.25,76.25]
       notes: Use Falcon Bow
 
-  - _Shrine::SheemDagoze
+  - _Shrine::SheemDagoze:
+      comment: Shield jump dmg boost
 
   - .dir(N)
   - _Korok::R38:
@@ -3022,7 +3045,8 @@ _route:
   - _Korok::C62
 
   - .dir(NW)
-  - _Shrine::KaamYatak
+  - _Shrine::KaamYatak:
+      comment: 45 left, ledge, turn to reduce height
 
   - .dir(S>)
   - _Korok::C61
@@ -3096,7 +3120,8 @@ _route:
       comment: " "
 
   - .dir(<<W)
-  - _Shrine::RotaOoh
+  - _Shrine::RotaOoh:
+      comment: Left peg, 90 left
 
   - .dir(<W)
   - _Korok::C85
@@ -3168,7 +3193,8 @@ _route:
       icon: tots
       coord: [-2005.45, 225.98, 1740.65]
 
-  - _Shrine::JolooNah
+  - _Shrine::JolooNah:
+      comment: Shock; Apparatus + Stasis; WB
 
   - _Tod::Noon:
       notes: For Sasa Kai timing. Can make noon later in this segment for more margin of error.
@@ -3351,7 +3377,8 @@ _route:
       hide-icon-on-map: true
       comment: Drop luminous stone
       notes: Smash an ore and take a luminous stone for easier menuing. Check that you have at least 10.
-  - _Shrine::ShoDantu
+  - _Shrine::ShoDantu:
+      comment: Right peg, Aim at right sconce, High WB
 
   - .dir(NW)
   - _Korok::W02:
@@ -3382,7 +3409,8 @@ _route:
   - _Korok::G33
 
   - .dir(W) + midair
-  - _Shrine::KemaZoos
+  - _Shrine::KemaZoos:
+      comment: Peg straight
 
   - Step back and .gale():
       gale: 1
@@ -3439,7 +3467,7 @@ _route:
       comment: SNAP in shrine
 
   - _Shrine::HawaKoth:
-      comment: Set skew outside
+      comment: Set skew outside; Shock; WB; Clip
 
   - _Npc::Gerudo<Barta>:
       comment: Behind shrine
@@ -3559,7 +3587,8 @@ _route:
   - _Korok::W19:
       comment: On ledge
 
-  - _Shrine::KayNoh
+  - _Shrine::KayNoh:
+      comment: Peg High WB OR Shock; Stasis; Mag
 
   - Run .dir(N)
   - _Korok::W15
@@ -3636,7 +3665,8 @@ _route:
   - _Korok::W26
 
   - Down
-  - _Shrine::JeeNoh
+  - _Shrine::JeeNoh:
+      comment: Peg straight
 
   - .dir(N>)
   - _Korok::G36
@@ -3720,7 +3750,8 @@ _route:
   - _Korok::L25
 
   - .dir(SE)
-  - _Shrine::YaNaga
+  - _Shrine::YaNaga:
+      comment: Bomb arrow roof + ride block
 
   - _Tod::Night:
       comment: if needed
@@ -3919,7 +3950,8 @@ _route:
       notes: Make noon if raining. Need to finish twice, one under 1:30 and one under 1:15, to get horse saddle and bridle. Can dismount horse to restart if needed.
 
   - .dir(S)
-  - _Shrine::KaoMakagh
+  - _Shrine::KaoMakagh:
+      comment: Peg straight
 
   - .dir(S)
   - Start L65 race:
@@ -4052,7 +4084,8 @@ _route:
       comment: Pinwheel
 
   - .dir(E)
-  - _Shrine::IshtoSoh
+  - _Shrine::IshtoSoh:
+      comment: Peg straight
 
   - .dir(N)
   - _Boss::Talus::Luminous:
@@ -4159,7 +4192,8 @@ _route:
   - _Korok::C65
 
   - .dir(SE)
-  - _Shrine::WahgoKatta
+  - _Shrine::WahgoKatta:
+      comment: WB
 
   - .dir(S) surf
   - _Npc<Lady in Stable>:
@@ -4211,7 +4245,8 @@ _route:
   - _Korok::D33
 
   - .dir(W>)
-  - _Shrine::BoshKala
+  - _Shrine::BoshKala:
+      comment: Glide through normally
 
   - .dir(S) run
   - _Korok::D32:
@@ -4315,10 +4350,12 @@ _route:
       comment: " "
 
   - .dir(E>)
-  - _Shrine::ReeDahee
+  - _Shrine::ReeDahee:
+      comment: 2 short wb OR BLSS off peg
 
   - .dir(E>)
-  - _Shrine::HaDahamar
+  - _Shrine::HaDahamar:
+      comment: Left peg, aim left of waterfall; High WB off rafters
 
   - .dir(E)
   - _Korok::D42
@@ -4351,9 +4388,11 @@ _route:
   - _Equipment::Weapon<Traveler's Sword>:
       comment: Weapon Connoisseur
 
-  - _Shrine::SheeVaneer
+  - _Shrine::SheeVaneer:
+      comment: Peg straight
   - Drop down .dir(N)
-  - _Shrine::SheeVenath
+  - _Shrine::SheeVenath:
+      comment: Peg straight
 
   - .dir(<W)
   - _Korok::D48
@@ -4527,7 +4566,7 @@ _route:
       comment: at cookpot
 
   - _Shrine::ShaiUtoh:
-      comment: Cave behind rubble
+      comment: Cave behind rubble; Left peg, aim right side of seesaw
 
   - .dir(<E) + midair .dir(<S)
 
@@ -4597,7 +4636,8 @@ _route:
       comment: Ledge beside waterfall
 
   - .dir(N)
-  - _Shrine::ShodaSah
+  - _Shrine::ShodaSah:
+      comment: Low wb
 
   - .dir(S) short
   - _Korok::F19:
@@ -4729,7 +4769,8 @@ _route:
       icon: tots
       hide-icon-on-map: true
       comment: Crouch
-  - _Shrine::KahYah
+  - _Shrine::KahYah:
+      comment: WB off the ramp
 
   - .gale() + .dir(W) midair:
       gale: 1
@@ -4788,7 +4829,8 @@ _route:
       notes: .link([BLSS strat]https://youtu.be/uCSSyymHYxY?t=6809), .link([Walking strat]https://youtu.be/Sy_7N7ixshg?t=5445)
 
   - .dir(W>)
-  - _Shrine::YahRin
+  - _Shrine::YahRin:
+      comment: Right peg, aim left side post of right scale
 
 - Eventide:
 
@@ -4978,7 +5020,8 @@ _route:
       coord: [680.19, 111.37, 977.87]
 
   - .dir(NE)
-  - _Shrine::HilaRao
+  - _Shrine::HilaRao:
+      comment: WB up onto right side
 
   - Run (avoid flowers)
   - _Npc<Flower Lady>:
@@ -5076,7 +5119,8 @@ _route:
       notes: Make noon later if you can't get to Balloon Girl by 8pm.
 
   - .dir(<<N)
-  - _Shrine::ShehRata
+  - _Shrine::ShehRata:
+      comment: WB to end off ledge
 
 - Central:
 
@@ -5157,7 +5201,8 @@ _route:
   - .dir(W>) short
   - _Korok::K33
 
-  - _Shrine::MirroShaz
+  - _Shrine::MirroShaz:
+      comment: Stasis normally or shield clip; bomb arrow small block
 
   - .dir(<W)
   - _Npc<Balloon Girl>:
@@ -5405,7 +5450,8 @@ _route:
       comment: Pinwheel
 
   - .dir(N>)
-  - _Shrine::KahOkeo
+  - _Shrine::KahOkeo:
+      comment: WB back off ramp, glide to end
 
 - Tabantha:
 
@@ -5455,7 +5501,8 @@ _route:
       comment: Pinwheel
 
   - .dir(S)
-  - _Shrine::TenaKosah
+  - _Shrine::TenaKosah:
+      comment: Major Test of Strength
 
   - _Memory::AncientColumns:
       comment: Memory
@@ -5488,7 +5535,8 @@ _route:
       icon: tots
       hide-icon-on-map: true
       comment: Fire arrow before 1:15pm
-  - _Shrine::BareedaNaag
+  - _Shrine::BareedaNaag:
+      comment: Peg straight short
 
   - .dir(N)
   - _Korok::T15
@@ -5529,7 +5577,8 @@ _route:
       coord: [-3668.51, 321.49, -1769.96]
       comment: Amali
 
-  - _Shrine::AkhVaquot
+  - _Shrine::AkhVaquot:
+      comment: WB off a fan pedestal
 
   - _Korok::T14:
       comment: Step back, aim all the way up
@@ -5572,7 +5621,8 @@ _route:
       hide-icon-on-map: true
       comment: 4-5-3-1-2
       notes: Talk to Kheel for Korok Leaf if you don't have one
-  - _Shrine::VooLota
+  - _Shrine::VooLota:
+      comment: Trapdoor and midair
 
   - .dir(<S) run
   - _Material<3 Spicy Pepper>:
@@ -5664,7 +5714,8 @@ _route:
   - _Korok::R21
 
   - .dir(W.)
-  - _Shrine::ShaeLoya
+  - _Shrine::ShaeLoya:
+      comment: Peg straight high
 
   - .dir(.N) run
   - _Npc::SheikaMale<Pointing guy>:
@@ -5697,7 +5748,8 @@ _route:
   - _Korok::R12
 
   - .dir(N>) + midair
-  - _Shrine::DunbaTaag
+  - _Shrine::DunbaTaag:
+      comment: Straight off ledge to wall
 
   - .dir(.S) from behind shrine
   - _Korok::H73:
@@ -5889,14 +5941,16 @@ _route:
 
   - .gale() + N midair:
       gale: 1
-  - _Shrine::TahMuhl
+  - _Shrine::TahMuhl:
+      comment: Through leaves ahead, climb up slope
 
   - .dir(E.) + midair
   - _Korok::E44:
       comment: Among rocks by road
 
   - .dir(N>)
-  - _Shrine::MoaKeet
+  - _Shrine::MoaKeet:
+      comment: WB, catch a glide
 
   - .dir(<W) short
   - _Npc<Painting guy in stable>:
@@ -5951,7 +6005,8 @@ _route:
         - to: [3112.55, 426.00, -1295.33]
 
   - .dir(.N)
-  - _Shrine::ZeKasho
+  - _Shrine::ZeKasho:
+      comment: Far left of ledge, aim at right corner diagonal
 
   - .dir(E)
   - _Npc::SheikaFemale<Big Sister>:
@@ -6081,7 +6136,8 @@ _route:
       comment: In corner against cliff
 
   - .dir(E) to cave entrance
-  - _Shrine::MakaRah
+  - _Shrine::MakaRah:
+      comment: Right peg, aim left side of right torch base
 
 - Kakariko / Hateno:
 
@@ -6258,7 +6314,8 @@ _route:
       icon: bow
       comment: 9pm-4am
       coord: [2509.80, 117.88, 1522.78]
-  - _Shrine::KamUrog
+  - _Shrine::KamUrog:
+      comment: Right peg, straight high
 
   - .dir(S) + midair
   - _Boss::Talus::Stone:
@@ -6283,7 +6340,7 @@ _route:
 
   - .dir(<N)
   - _Shrine::TotoSah:
-      comment: Behind rubble
+      comment: Behind rubble; Right peg, aim at right sconce, catch glide
 
   - .dir(NE) run
   - _Korok::D56:
@@ -6368,7 +6425,8 @@ _route:
       coord: [3331.22, 235.28, 2284.61]
 
   - .dir(NE)
-  - _Shrine::MyahmAgana
+  - _Shrine::MyahmAgana:
+      comment: Left peg, aim at left front torch
 
   - .dir(N)
   - _Npc<Nebb>:
@@ -6467,7 +6525,8 @@ _route:
         - to: [3271.14, 105.92, 656.82]
 
   - .dir(N.)
-  - _Shrine::RuccoMaag
+  - _Shrine::RuccoMaag:
+      comment: Right peg low
 
   - .dir(E>)
   - _Korok::Z53
@@ -6603,7 +6662,8 @@ _route:
   - _Korok::H30
 
   - .dir(<<N)
-  - _Shrine::RokUwog
+  - _Shrine::RokUwog:
+      comment: Right peg, aim at concave corner
 
   - .dir(N) + .dir(<E)
   - _Korok::H13:
@@ -6614,7 +6674,8 @@ _route:
       comment: Pinwheel on peak
 
   - .dir(E)
-  - _Shrine::ShaGehma
+  - _Shrine::ShaGehma:
+      comment: Mag and Stasis
 
   - .dir(E>)
   - _Korok::H06
@@ -6631,7 +6692,8 @@ _route:
       coord: [-1641.43, 339.19, -2561.69]
       comment: Talk twice
 
-  - _Shrine::RinOyaa
+  - _Shrine::RinOyaa:
+      comment: Turn 90 right, WB off ledge
 
   - .dir(.W)
   - _Korok::H52
