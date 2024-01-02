@@ -5457,7 +5457,8 @@ _route:
       comment: Pinwheel
 
   - .dir(S)
-  - _Shrine::TenaKosah
+  - _Shrine::TenaKosah:
+      comment: Major Test of Strength
 
   - _Memory::AncientColumns:
       comment: Memory
