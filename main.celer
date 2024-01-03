@@ -1511,6 +1511,7 @@ _route:
   - .dir(SW)
   - _Boss::Hinox::Blue:
       coord: [2930.51, 312.54, -298.40]
+      notes: (optional) Knight's Bow, if you want a metal bow for Eldin.
 
   - .dir(S)
   - _Korok::Z24:
