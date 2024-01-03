@@ -172,7 +172,8 @@ _route:
   - _Material<2+ Wood>
 
   - .dir(W)
-  - _Shrine::MoggLatan
+  - _Shrine::MoggLatan:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=1469))
   - _Korok::R60
 
   - BLSS to .loc(Hyrule Castle):
@@ -259,16 +260,17 @@ _route:
       notes: Text option 2
       comment: Riverbed Reward
   - _Shrine::KayaWan:
-      comment: Ancient Core in chest
+      comment: Ancient Core in chest (.link([vod]https://youtu.be/Aw14LJhXV-8&t=2068))
       notes: Skip Ancient Core if you already have one
 
   - BLSS .dir(E>)
   - _Discover<Goponga Village Ruins>:
       coord: [1564.5,358.5]
-  - _Shrine::DakaTuss
+  - _Shrine::DakaTuss:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=2182))
   - .dir(S) + .dir(E>) + .dir(S)
   - _Shrine::TalohNaeg:
-      comment: Opal in chest
+      comment: Opal in chest (.link([vod]https://youtu.be/Aw14LJhXV-8&t=2288))
   - _Material<2 Nightshade>:
       coord: [1965.43, 269.69, 854.73]
   - _Material<2 Fairy>
@@ -594,6 +596,7 @@ _route:
   - Enter Medoh:
       icon: medoh-enter
       coord: [-3850.5,-2278.5]
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=6449))
       notes: |
         1 ancient arrow per cannon. Visual cues: .link([Left-Right]https://cdn.discordapp.com/attachments/293465650540838913/688224174937735188/a3.png), .link([Middle]https://cdn.discordapp.com/attachments/293465650540838913/688224173427785910/a4.png)
 
@@ -642,7 +645,8 @@ _route:
       comment: Warbler's Nest
 
   - .dir(N>)
-  - _Shrine::ShaWarvo
+  - _Shrine::ShaWarvo:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=7200))
 
   - .dir(N>>)
   - _Boss::Talus::Frost:
@@ -678,7 +682,8 @@ _route:
       comment: Pinwheel
 
   - .dir(<E) + midair
-  - _Shrine::ShadaNaw
+  - _Shrine::ShadaNaw:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=7534))
 
   - .dir(S.) down under ice shelf
   - _Boss::Talus::Frost:
@@ -732,7 +737,8 @@ _route:
   - .dir(E>)
   - Open cave door:
       notes: .link([Snowball strat]https://www.youtube.com/watch?v=cbn3TgjVdDk&t=10)
-  - _Shrine::GeeHarah
+  - _Shrine::GeeHarah:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=7903))
 
   - .gale() + .dir(N) + .dir(E>) midair:
       gale: 1
@@ -742,7 +748,8 @@ _route:
   - _Korok::H57
 
   - .dir(<W)
-  - _Shrine::LannoKooh
+  - _Shrine::LannoKooh:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=8018))
 
   - _Korok::H64
 
@@ -821,7 +828,8 @@ _route:
       comment: Luminous Stone Gathering
       notes: 10 needed, can get more later. Take any flint you get too.
       hide-icon-on-map: true
-  - _Shrine::KuhTakkar
+  - _Shrine::KuhTakkar:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=8689))
 
   - .dir(<W)
   - _Boss::Talus::Frost:
@@ -841,7 +849,8 @@ _route:
   - _Npc::SheikaMale<Guy near shrine>:
       comment: Benja
       coord: [-3804.64, 149.50, 2818.36]
-  - _Shrine::DaqoChisay
+  - _Shrine::DaqoChisay:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=10542))
 
   - .dir(<E)
   - _Npc<Vilia>:
@@ -918,7 +927,7 @@ _route:
   - Vah Naboris:
       icon: naboris-enter
       coord: [-2754.62, 112.53, 3749.44]
-      comment: .gale()
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=11408)) .gale()
       gale: 3
       hide-icon-on-map: true
 
@@ -990,7 +999,8 @@ _route:
       comment: Deliver ice
 
   - .dir(N>) + midair
-  - _Shrine::DakoTah
+  - _Shrine::DakoTah:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=12002))
 
   - .dir(<<E)
   - _Korok::G34:
@@ -1097,7 +1107,8 @@ _route:
   - .dir(<E):
       coord: [-1748.5,3470.25]
       notes: See map or vod for where to drop in
-  - _Shrine::DilaMaag
+  - _Shrine::DilaMaag:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=12607))
 
   - .dir(N) + .dir(E>) + midair + .dir(N>):
       coord: [-1806.75,3340.5]
@@ -1128,7 +1139,8 @@ _route:
       notes: 4:00-5:30pm. After 4:40pm, you can use a cryo block in the puddle.
       comment: Carry snowball
 
-  - _Shrine::SumaSahma
+  - _Shrine::SumaSahma:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=12851))
 
   - .gale() + .dir(N>):
       gale: 1
@@ -1169,7 +1181,8 @@ _route:
       coord: [-2968.22, 137.69, 3775.00]
       notes: Perfect Drink quest
 
-  - _Shrine::MisaeSuma
+  - _Shrine::MisaeSuma:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=13171))
 
   - .dir(W)
   - _Korok::W62
@@ -1253,7 +1266,8 @@ _route:
       icon: tots
       hide-icon-on-map: true
       notes: Shoot the top of the scale with normal arrows to avoid picking it up.
-  - _Shrine::JitanSami
+  - _Shrine::JitanSami:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=13798))
 
   - .dir(<E) + .dir(<W):
       notes: Windbomb .dir(<E) away from the mountain, until you reach the trees on the minimap, and then back. Otherwise, Naydra will not spawn. Make morning at the spot marked on the map, and point the camera up at the peak of the mountain.
@@ -1304,7 +1318,8 @@ _route:
   - _Korok::N16
 
   - .dir(S)
-  - _Shrine::DowNaeh
+  - _Shrine::DowNaeh:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=14225))
 
   - .dir(N) + .dir(W)
   - _Korok::N20
@@ -1351,7 +1366,8 @@ _route:
   - _Korok::N03:
       comment: Behind shrine
 
-  - _Shrine::MezzaLo
+  - _Shrine::MezzaLo:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=14598))
 
   - .dir(E)
   - _Korok::Z42:
@@ -1427,7 +1443,8 @@ _route:
       coord: [3299.5,-474.5]
       comment: Mipha Memory
 
-  - _Shrine::NeezYohma
+  - _Shrine::NeezYohma:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=15220))
 
   - .gale() + .dir(E):
       gale: 1
@@ -1444,7 +1461,7 @@ _route:
   - Vah Ruta:
       icon: ruta-enter
       coord: [3662.40, 315.66, -175.42]
-      comment: .gale()
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=15498)) .gale()
       gale: 1
 
   - .boss(Waterblight):
@@ -1488,7 +1505,8 @@ _route:
       coord: [3081,-459]
 
   - Toss trident
-  - _Shrine::DagahKeek
+  - _Shrine::DagahKeek:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=15977))
 
   - .dir(SW)
   - _Boss::Hinox::Blue:
@@ -1639,7 +1657,8 @@ _route:
       comment: " "
 
   - .dir(<N)
-  - _Shrine::SahDahaj
+  - _Shrine::SahDahaj:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=17093))
 
   - .dir(N)
   - _Korok::E34
@@ -1754,7 +1773,8 @@ _route:
       coord: [1713.95, 498.05, -2446.92]
 
   - .dir(N>)
-  - _Shrine::ShaeMosah
+  - _Shrine::ShaeMosah:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=17871))
 
 - North Eldin/Akkala:
 
@@ -1794,7 +1814,8 @@ _route:
   - _Korok::E07:
       comment: Top of crab island
 
-  - _Shrine::ShoraHah
+  - _Shrine::ShoraHah:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=18193))
 
   - Ride minecart:
       icon: tots
@@ -1829,7 +1850,8 @@ _route:
       coord: [-777.25,-3525]
       notes: See map for where to drop in
 
-  - _Shrine::QazaTokki
+  - _Shrine::QazaTokki:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=18475))
 
   - .dir(W) + .dir(S>)
   - _Korok::H15
@@ -1852,7 +1874,8 @@ _route:
       icon: tots
       comment: Deposit orb
 
-  - _Shrine::KetohWawai
+  - _Shrine::KetohWawai:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=18739))
 
   - _Tod::Morning:
       notes: If it's between 12:00am and 5:00am, make morning twice to properly advance a day for Dinraal.
@@ -1935,7 +1958,8 @@ _route:
       notes: Collect 5 red rupees
       gale: 1
 
-  - _Shrine::GoraeTorr
+  - _Shrine::GoraeTorr:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=19367))
   - _Tod::Night:
       notes: For Kilton and Salvager chest
       coord: [2682.92, 469.68, -3472.12]
@@ -1989,7 +2013,8 @@ _route:
             away: true
 
   - .dir(W>)
-  - _Shrine::ZunaKai
+  - _Shrine::ZunaKai:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=19647))
 
   - Look up .!!(East) in the sky:
       icon: tots
@@ -2053,7 +2078,8 @@ _route:
       notes: See map for where to drop in
       coord: [4627,-3693.5]
 
-  - _Shrine::TuKaloh
+  - _Shrine::TuKaloh:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=20098))
 
   - .dir(S>)
   - _Korok::A08
@@ -2084,7 +2110,8 @@ _route:
   - _Korok::A23
 
   - .dir(W) run
-  - _Shrine::KatosaAug
+  - _Shrine::KatosaAug:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=20366))
 
   - .dir(W>) run
   - _Npc<Soldier Guy>:
@@ -2161,7 +2188,8 @@ _route:
       comment: " "
 
   - .dir(E. + midair)
-  - _Shrine::DaqaKoh
+  - _Shrine::DaqaKoh:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=21063))
 
   - .dir(S>>)
   - _Equipment::Weapon<Drillshaft>:
@@ -2183,10 +2211,10 @@ _route:
           - to: [2794.50, 774.84, -2657.93]
       notes: Break ores during escort if missing amber (10) or flint (11)
 
-  - Complete divine beast:
+  - Vah Rudania:
       icon: tots
       hide-icon-on-map: true
-      comment: .gale()
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=21567)) .gale()
       gale: 1
 
   - .boss(Fireblight):
@@ -2239,7 +2267,8 @@ _route:
           - to: [1823.00, 453.77, -1891.17]
             away: true
 
-  - _Shrine::KayraMah
+  - _Shrine::KayraMah:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=22150))
 
   - .dir(N)
   - _Korok::E20:
@@ -2268,7 +2297,8 @@ _route:
       comment: Down in skull
 
   - .dir(<W)
-  - _Shrine::QuaRaym
+  - _Shrine::QuaRaym:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=22384))
 
 - Korok Forest:
 
@@ -2384,11 +2414,14 @@ _route:
       hide-icon-on-map: true
 
   - _Shrine::DaagChokah:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=23296))
       notes: |
         Don't approach until you see the Oaki say: "Woo! I finally made it!"
+
   - _Warp::Shrine::KeoRuug:
       comment: WARP
-  - _Shrine::KeoRuug
+  - _Shrine::KeoRuug:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=23368))
 
   - .dir(E)
   - _Npc<Damia>:
@@ -2396,7 +2429,8 @@ _route:
       comment: Start Trial of Wood
 
   - .dir(LE)
-  - _Shrine::MaagHalan
+  - _Shrine::MaagHalan:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=23501))
 
   - Jump into mud to void out
   - .dir(<W) super
@@ -2411,7 +2445,8 @@ _route:
       coord: [100.06, 286.08, -1827.37]
       notes: Keep the shield for a korok later
 
-  - _Shrine::KuhnSidajj
+  - _Shrine::KuhnSidajj:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=23682))
 
 - Castle:
 
@@ -2662,7 +2697,7 @@ _route:
 
   - In cave on west side
   - _Shrine::NoyaNeha:
-      comment: Take ancient axe
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=25392)) Take ancient axe
 
   - Jump out → .dir(W)
   - _Korok::R19:
@@ -2730,7 +2765,8 @@ _route:
       comment: " "
 
   - midair .dir(S>)
-  - _Shrine::MonyaToma
+  - _Shrine::MonyaToma:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=25933))
 
   - .dir(W)
   - _Shrine::MaagNorah:
@@ -2793,7 +2829,8 @@ _route:
       icon: tots
       hide-icon-on-map: true
 
-  - _Shrine::TohYahsa
+  - _Shrine::TohYahsa:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=26469))
 
   - .dir(S) short
   - _Korok::R14
@@ -2814,7 +2851,8 @@ _route:
       comment: " "
 
   - .dir(.E)
-  - _Shrine::ZaltaWa
+  - _Shrine::ZaltaWa:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=26656))
 
   - .dir(E>)
   - _Korok::C24:
@@ -2892,7 +2930,8 @@ _route:
       coord: [-1855.25,76.25]
       notes: Use Falcon Bow
 
-  - _Shrine::SheemDagoze
+  - _Shrine::SheemDagoze:
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=27131))
 
   - .dir(N)
   - _Korok::R38:
@@ -3024,7 +3063,8 @@ _route:
   - _Korok::C62
 
   - .dir(NW)
-  - _Shrine::KaamYatak
+  - _Shrine::KaamYatak:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=628))
 
   - .dir(S>)
   - _Korok::C61
@@ -3098,7 +3138,8 @@ _route:
       comment: " "
 
   - .dir(<<W)
-  - _Shrine::RotaOoh
+  - _Shrine::RotaOoh:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=1151))
 
   - .dir(<W)
   - _Korok::C85
@@ -3170,7 +3211,8 @@ _route:
       icon: tots
       coord: [-2005.45, 225.98, 1740.65]
 
-  - _Shrine::JolooNah
+  - _Shrine::JolooNah:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=1871))
 
   - _Tod::Noon:
       notes: For Sasa Kai timing. Can make noon later in this segment for more margin of error.
@@ -3317,7 +3359,8 @@ _route:
       icon: tots
       hide-icon-on-map: true
       comment: with shock arrow
-  - _Shrine::KeehaYoog
+  - _Shrine::KeehaYoog:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=3081))
 
   - .dir(E>) + midair .dir(S)
   - _Korok::G09
@@ -3353,7 +3396,8 @@ _route:
       hide-icon-on-map: true
       comment: Drop luminous stone
       notes: Smash an ore and take a luminous stone for easier menuing. Check that you have at least 10.
-  - _Shrine::ShoDantu
+  - _Shrine::ShoDantu:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=3341))
 
   - .dir(NW)
   - _Korok::W02:
@@ -3384,7 +3428,8 @@ _route:
   - _Korok::G33
 
   - .dir(W) + midair
-  - _Shrine::KemaZoos
+  - _Shrine::KemaZoos:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=3626))
 
   - Step back and .gale():
       gale: 1
@@ -3416,7 +3461,8 @@ _route:
       comment: Medicinal Molduga
       hide-icon-on-map: true
 
-  - _Shrine::ThoKayu
+  - _Shrine::ThoKayu:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=3806))
 
   - .dir(<S)
   - _Boss::Molduga:
@@ -3441,7 +3487,7 @@ _route:
       comment: SNAP in shrine
 
   - _Shrine::HawaKoth:
-      comment: Set skew outside
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=4043)) Set skew outside
 
   - _Npc::Gerudo<Barta>:
       comment: Behind shrine
@@ -3474,7 +3520,8 @@ _route:
       icon: tots
       hide-icon-on-map: true
 
-  - _Shrine::RaqaZunzo
+  - _Shrine::RaqaZunzo:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=4469))
 
   - .dir(N)
   - _Npc<Bozai>:
@@ -3548,7 +3595,8 @@ _route:
       hide-icon-on-map: true
       notes: .link([Orb Puzzle Diagram]https://media.discordapp.net/attachments/303990410500374528/790049019690614794/Heroines_Map_Directions.png?width=811&height=676), .link([Alternative Diagram]https://cdn.discordapp.com/attachments/738799971788390460/1058664341068578857/Untitled_Artwork.png)
 
-  - _Shrine::KorshOhu
+  - _Shrine::KorshOhu:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=5056))
 
   - .gale() + .dir(S):
       gale: 1
@@ -3561,7 +3609,8 @@ _route:
   - _Korok::W19:
       comment: On ledge
 
-  - _Shrine::KayNoh
+  - _Shrine::KayNoh:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=5207))
 
   - Run .dir(N)
   - _Korok::W15
@@ -3638,7 +3687,8 @@ _route:
   - _Korok::W26
 
   - Down
-  - _Shrine::JeeNoh
+  - _Shrine::JeeNoh:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=5633))
 
   - .dir(N>)
   - _Korok::G36
@@ -3722,7 +3772,8 @@ _route:
   - _Korok::L25
 
   - .dir(SE)
-  - _Shrine::YaNaga
+  - _Shrine::YaNaga:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=6247))
 
   - _Tod::Night:
       comment: if needed
@@ -3921,7 +3972,8 @@ _route:
       notes: Make noon if raining. Need to finish twice, one under 1:30 and one under 1:15, to get horse saddle and bridle. Can dismount horse to restart if needed.
 
   - .dir(S)
-  - _Shrine::KaoMakagh
+  - _Shrine::KaoMakagh:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=7652))
 
   - .dir(S)
   - Start L65 race:
@@ -4054,7 +4106,8 @@ _route:
       comment: Pinwheel
 
   - .dir(E)
-  - _Shrine::IshtoSoh
+  - _Shrine::IshtoSoh:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=8694))
 
   - .dir(N)
   - _Boss::Talus::Luminous:
@@ -4161,7 +4214,8 @@ _route:
   - _Korok::C65
 
   - .dir(SE)
-  - _Shrine::WahgoKatta
+  - _Shrine::WahgoKatta:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=9479))
 
   - .dir(S) surf
   - _Npc<Lady in Stable>:
@@ -4213,7 +4267,8 @@ _route:
   - _Korok::D33
 
   - .dir(W>)
-  - _Shrine::BoshKala
+  - _Shrine::BoshKala:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=9753))
 
   - .dir(S) run
   - _Korok::D32:
@@ -4317,10 +4372,12 @@ _route:
       comment: " "
 
   - .dir(E>)
-  - _Shrine::ReeDahee
+  - _Shrine::ReeDahee:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=10487))
 
   - .dir(E>)
-  - _Shrine::HaDahamar
+  - _Shrine::HaDahamar:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=10587))
 
   - .dir(E)
   - _Korok::D42
@@ -4353,9 +4410,11 @@ _route:
   - _Equipment::Weapon<Traveler's Sword>:
       comment: Weapon Connoisseur
 
-  - _Shrine::SheeVaneer
+  - _Shrine::SheeVaneer:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=10825))
   - Drop down .dir(N)
-  - _Shrine::SheeVenath
+  - _Shrine::SheeVenath:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=10893))
 
   - .dir(<W)
   - _Korok::D48
@@ -4389,7 +4448,8 @@ _route:
       icon: tots
       hide-icon-on-map: true
       notes: Use the single scale, not from the slot with 2.
-  - _Shrine::ShaeKatha
+  - _Shrine::ShaeKatha:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=11228))
 
   - _Discover<Spring of Courage>:
       coord: [879.50, 123.00, 2388.00]
@@ -4529,7 +4589,7 @@ _route:
       comment: at cookpot
 
   - _Shrine::ShaiUtoh:
-      comment: Cave behind rubble
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=12053)) Cave behind rubble
 
   - .dir(<E) + midair .dir(<S)
 
@@ -4599,7 +4659,8 @@ _route:
       comment: Ledge beside waterfall
 
   - .dir(N)
-  - _Shrine::ShodaSah
+  - _Shrine::ShodaSah:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=12545))
 
   - .dir(S) short
   - _Korok::F19:
@@ -4644,7 +4705,8 @@ _route:
       icon: tots
       coord: [2632.47, 321.84, 2848.53]
 
-  - _Shrine::TawaJinn
+  - _Shrine::TawaJinn:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=12879))
 
   - .dir(<W)
   - _Korok::F21
@@ -4670,7 +4732,8 @@ _route:
       icon: tots
       hide-icon-on-map: true
       notes: Get hit by lightning
-  - _Shrine::QukahNata
+  - _Shrine::QukahNata:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=13053))
 
   - .dir(E>) super
 
@@ -4731,7 +4794,8 @@ _route:
       icon: tots
       hide-icon-on-map: true
       comment: Crouch
-  - _Shrine::KahYah
+  - _Shrine::KahYah:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=13599))
 
   - .gale() + .dir(W) midair:
       gale: 1
@@ -4790,7 +4854,8 @@ _route:
       notes: .link([BLSS strat]https://youtu.be/uCSSyymHYxY?t=6809), .link([Walking strat]https://youtu.be/Sy_7N7ixshg?t=5445)
 
   - .dir(W>)
-  - _Shrine::YahRin
+  - _Shrine::YahRin:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=13864))
 
 - Eventide:
 
@@ -4911,7 +4976,8 @@ _route:
 
   - .gale() to shrine:
       gale: 1
-  - _Shrine::KorguChideh
+  - _Shrine::KorguChideh:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=14943))
 
   - _Warp::Shrine::DahHesho:
       comment: WARP Tarrey Town
@@ -4980,7 +5046,8 @@ _route:
       coord: [680.19, 111.37, 977.87]
 
   - .dir(NE)
-  - _Shrine::HilaRao
+  - _Shrine::HilaRao:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=15347))
 
   - Run (avoid flowers)
   - _Npc<Flower Lady>:
@@ -5078,7 +5145,8 @@ _route:
       notes: Make noon later if you can't get to Balloon Girl by 8pm.
 
   - .dir(<<N)
-  - _Shrine::ShehRata
+  - _Shrine::ShehRata:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=15978))
 
 - Central:
 
@@ -5159,7 +5227,8 @@ _route:
   - .dir(W>) short
   - _Korok::K33
 
-  - _Shrine::MirroShaz
+  - _Shrine::MirroShaz:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=16657))
 
   - .dir(<W)
   - _Npc<Balloon Girl>:
@@ -5407,7 +5476,8 @@ _route:
       comment: Pinwheel
 
   - .dir(N>)
-  - _Shrine::KahOkeo
+  - _Shrine::KahOkeo:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=18268))
 
 - Tabantha:
 
@@ -5491,7 +5561,8 @@ _route:
       icon: tots
       hide-icon-on-map: true
       comment: Fire arrow before 1:15pm
-  - _Shrine::BareedaNaag
+  - _Shrine::BareedaNaag:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=19002))
 
   - .dir(N)
   - _Korok::T15
@@ -5532,7 +5603,8 @@ _route:
       coord: [-3668.51, 321.49, -1769.96]
       comment: Amali
 
-  - _Shrine::AkhVaquot
+  - _Shrine::AkhVaquot:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=19172))
 
   - _Korok::T14:
       comment: Step back, aim all the way up
@@ -5575,7 +5647,8 @@ _route:
       hide-icon-on-map: true
       comment: 4-5-3-1-2
       notes: Talk to Kheel for Korok Leaf if you don't have one
-  - _Shrine::VooLota
+  - _Shrine::VooLota:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=19482))
 
   - .dir(<S) run
   - _Material<3 Spicy Pepper>:
@@ -5667,7 +5740,8 @@ _route:
   - _Korok::R21
 
   - .dir(W.)
-  - _Shrine::ShaeLoya
+  - _Shrine::ShaeLoya:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=19999))
 
   - .dir(.N) run
   - _Npc::SheikaMale<Pointing guy>:
@@ -5700,7 +5774,8 @@ _route:
   - _Korok::R12
 
   - .dir(N>) + midair
-  - _Shrine::DunbaTaag
+  - _Shrine::DunbaTaag:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=21886))
 
   - .dir(.S) from behind shrine
   - _Korok::H73:
@@ -5774,7 +5849,8 @@ _route:
   - _Korok::H03:
       comment: On skeleton
 
-  - _Shrine::ToQuomo
+  - _Shrine::ToQuomo:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=22478))
 
   - _Snap::Quest<Hebra Great Skeleton>:
       hide-icon-on-map: true
@@ -5892,14 +5968,16 @@ _route:
 
   - .gale() + N midair:
       gale: 1
-  - _Shrine::TahMuhl
+  - _Shrine::TahMuhl:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=23299))
 
   - .dir(E.) + midair
   - _Korok::E44:
       comment: Among rocks by road
 
   - .dir(N>)
-  - _Shrine::MoaKeet
+  - _Shrine::MoaKeet:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=23394))
 
   - .dir(<W) short
   - _Npc<Painting guy in stable>:
@@ -5954,7 +6032,8 @@ _route:
         - to: [3112.55, 426.00, -1295.33]
 
   - .dir(.N)
-  - _Shrine::ZeKasho
+  - _Shrine::ZeKasho:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=23782))
 
   - .dir(E)
   - _Npc::SheikaFemale<Big Sister>:
@@ -5987,7 +6066,8 @@ _route:
             away: true
 
   - BLSS with orb
-  - _Shrine::RitaagZumo
+  - _Shrine::RitaagZumo:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=24114))
 
   - .dir(S) run
   - _Korok::A33
@@ -6084,7 +6164,8 @@ _route:
       comment: In corner against cliff
 
   - .dir(E) to cave entrance
-  - _Shrine::MakaRah
+  - _Shrine::MakaRah:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=24903))
 
 - Kakariko / Hateno:
 
@@ -6252,7 +6333,8 @@ _route:
   - _Equipment::Weapon<Windcleaver>:
       comment: Weapon Connoisseur
 
-  - _Shrine::LaknaRokee
+  - _Shrine::LaknaRokee:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=26139))
 
   - .dir(S>) + .dir(E>) midair super
   - _Korok::N28
@@ -6261,7 +6343,8 @@ _route:
       icon: bow
       comment: 9pm-4am
       coord: [2509.80, 117.88, 1522.78]
-  - _Shrine::KamUrog
+  - _Shrine::KamUrog:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=26279))
 
   - .dir(S) + midair
   - _Boss::Talus::Stone:
@@ -6286,7 +6369,7 @@ _route:
 
   - .dir(<N)
   - _Shrine::TotoSah:
-      comment: Behind rubble
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=26445)) Behind rubble
 
   - .dir(NE) run
   - _Korok::D56:
@@ -6371,7 +6454,8 @@ _route:
       coord: [3331.22, 235.28, 2284.61]
 
   - .dir(NE)
-  - _Shrine::MyahmAgana
+  - _Shrine::MyahmAgana:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=27040))
 
   - .dir(N)
   - _Npc<Nebb>:
@@ -6410,7 +6494,8 @@ _route:
   - _Korok::N32:
       comment: " "
 
-  - _Shrine::TahnoOah
+  - _Shrine::TahnoOah:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=27529))
 
 - Lanayru Coast:
 
@@ -6470,7 +6555,8 @@ _route:
         - to: [3271.14, 105.92, 656.82]
 
   - .dir(N.)
-  - _Shrine::RuccoMaag
+  - _Shrine::RuccoMaag:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=28048))
 
   - .dir(E>)
   - _Korok::Z53
@@ -6488,7 +6574,8 @@ _route:
       coord: [4226.75,312.75]
       comment: Land with paraglider open
 
-  - _Shrine::ShaiYota
+  - _Shrine::ShaiYota:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=28255))
 
   - .dir(N.)
   - _Korok::Z36
@@ -6547,7 +6634,7 @@ _route:
 
   - .dir(S) surf
   - _Shrine::KahMael:
-      comment: Under slab
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=28766)) Under slab
 
 - Hebra East:
 
@@ -6606,7 +6693,8 @@ _route:
   - _Korok::H30
 
   - .dir(<<N)
-  - _Shrine::RokUwog
+  - _Shrine::RokUwog:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=29172))
 
   - .dir(N) + .dir(<E)
   - _Korok::H13:
@@ -6617,7 +6705,8 @@ _route:
       comment: Pinwheel on peak
 
   - .dir(E)
-  - _Shrine::ShaGehma
+  - _Shrine::ShaGehma:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=29308))
 
   - .dir(E>)
   - _Korok::H06
@@ -6634,7 +6723,8 @@ _route:
       coord: [-1641.43, 339.19, -2561.69]
       comment: Talk twice
 
-  - _Shrine::RinOyaa
+  - _Shrine::RinOyaa:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=29497))
 
   - .dir(.W)
   - _Korok::H52
@@ -6712,7 +6802,8 @@ _route:
       gale: 1
   - _Korok::K09
 
-  - _Shrine::RonaKachta
+  - _Shrine::RonaKachta:
+      comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=30111))
 
 - 100% Cleanup:
 
