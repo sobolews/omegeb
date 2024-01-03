@@ -2698,7 +2698,8 @@ _route:
 
   - In cave on west side
   - _Shrine::NoyaNeha:
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=25392)) Take ancient axe
+      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=25392))
+      notes: Take ancient axe to use at Thundra Plateau to avoid lightning.
 
   - Jump out → .dir(W)
   - _Korok::R19:
