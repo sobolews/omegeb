@@ -18,7 +18,7 @@ _config:
 
 _route:
 - (?=) Document/Route Info >> .link(["What does '<N' mean?"]https://docs.google.com/drawings/d/1X8y5J9c6hpzh9WuvBoBGg32BtFqok2rpB7Z9-mQqbJg/edit?usp=sharing), .link([NPC Info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283), .link([Simple Glitch Explanations]https://docs.google.com/document/d/14EUBX0M96nGINX3mS7cQceKKUHfIBgOrvFElaHIj-Z0/edit?usp=sharing)
-- (==) Resources >> .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0), .link([Master Guide]https://docs.google.com/spreadsheets/d/1qLOC3ajm6a-vrXvlwAecbhW88iT8vtv9iSvP0jUcwzY/edit?usp=sharing), .link([Drop Table Calculator]https://restite.org/drops/), .link([Material Usage Spreadsheet]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247)
+- (==) Resources >> .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0), .link([Master Guide]https://docs.google.com/spreadsheets/d/1qLOC3ajm6a-vrXvlwAecbhW88iT8vtv9iSvP0jUcwzY/edit?usp=sharing), .link([Drop Table Calculator]https://restite.org/drops/), .link([Material Usage Spreadsheet]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247), .link([Database of Shrine Strats]https://restite.org/as/)
 - (?=) Questions or Corrections? Join the .link([BOTW Speedrunning discord]	https://discord.gg/94YzaMFZxC) and ask in the 100% channel!
 - "(==) Recommended options (bottom of screen): |\nTheme: Granatus | Split Settings: Split on Shrine, Tower, Other."
 - "(!=) .link([Commentated walkthrough of the early parts of the route]https://youtu.be/0YZkmVyhfy4) // .link([Reference run of the whole route]https://youtu.be/Aw14LJhXV-8?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax)"
@@ -2408,7 +2408,7 @@ _route:
       comment: Save for transmutation
       hide-icon-on-map: true
   - _Material<10 Restless Crickets>:
-      notes: Spin attack grass to collect while walking to Oaki.
+      notes: Spin attack grass to collect while walking to Oaki. If you're short you can buy some from Beedle near Rota Ooh.
       hide-icon-on-map: true
   - _Material<5 Frogs>:
       comment: If missed any before
