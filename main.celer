@@ -6,9 +6,10 @@ _project:
     - "ikurapan"
     - "辉文gege"
     - "秋红葉"
+    - "dotzo"
   description: "100% Route using Great Eagle Bow with WMC"
   name: 100% (OmeGEB)
-  url: https://celer.itntpiston.app/#/gh/sobolews/omegeb/v1
+  url: https://celer.itntpiston.app/#/gh/dotzo/omegeb/v1
   version: 1.0
 
 _config:
@@ -179,7 +180,7 @@ _route:
   - Through unloaded gate:
       icon: equipment
       hide-icon-on-map: true
-      notes: Drop 5 Branches and Traveler Bow while waiting for castle cutscene. If the gate loads then ESC in or run around the side entrance.
+      notes: Drop 5 Branches, Axe, and Traveler Bow while waiting for castle cutscene. If the gate loads then ESC in or run around the side entrance.
   - _Equipment::Bow<Falcon Bow>:
       comment: Against wall on upper level
       coord: [-412.66, 182.53, -851.28]
@@ -291,9 +292,9 @@ _route:
       comment: Talk twice
 
   - IST:
-      coord: [1811.23, 221.34, 1050.06]
+      coord: [1801, 0, 1016.5]
       icon: link
-      hide-icon-on-map: true
+      hide-icon-on-map: false
       split-type: UserDefined
       notes: |
         Follow these .link([Detailed IST Instructions]https://docs.google.com/presentation/d/1AVJe_qxlJft2x4Dtv6zVQ9I1-esx9vKIZb9QDUpE56E/edit?usp=sharing). Here is a .link([video guide for the IST]https://youtu.be/0YZkmVyhfy4?t=3245).
@@ -303,9 +304,11 @@ _route:
   - Eat speedfood:
       icon: material
 
-  - .dir(N)> + .dir(N) + BLSS .dir(SE)
+  - .dir(E) + BLSS .dir(SE)
   - _Npc<Bolson>:
-      coord: [3302.77, 239.88, 2302.60]
+      movements: 
+        - to: [1923.75, 0, 1046.15625]
+        - to: [3302.77, 239.88, 2302.60]
       comment: Talk once
   - Cookpot:
       icon: cook
@@ -614,10 +617,12 @@ _route:
       hide-icon-on-map: true
       icon: bow
 
-  - _Material<Cold Darner>
+  - _Material<Cold Darner>:
+      comment: For Cold Elixer
   - _Chest::Special<Great Eagle Bow>:
       coord: [-3627.20, 323.57, -1830.81]
       notes: Chest gives autosave for WMC.
+      
 
   - WMC:
       movements:
@@ -1006,7 +1011,16 @@ _route:
   - _Discover<Gerudo Desert Gateway>:
       coord: [-2924.12, 153.42, 2329.39]
 
-  - .dir(.E)
+  - .dir(E)
+  - _Korok::W19:
+      comment: On ledge
+
+  - _Shrine::KayNoh:
+      comment: Peg High WB OR Shock; Stasis; Mag
+
+  - Run .dir(N)
+  - _Korok::W15
+
   - _Npc<Sesami>:
       coord: [-2797.53, 135.05, 2240.97]
 
@@ -1908,6 +1922,7 @@ _route:
       notes: 94% chance to get one, but if you don't, kill lynel near A07.
   - _Equipment::Bow<Lynel Bow>:
       hide-icon-on-map: true
+      comment: For Transmutation
 
   - _Korok::K03
 
@@ -2183,7 +2198,7 @@ _route:
       notes: Save for quest
       comment: Behind rubble
 
-  - .dir(LE)
+  - .dir(<E)
   - Kill .enemy(2 moblins):
       icon: calamity
       coord: [2142.43, 634.02, -2288.29]
@@ -2367,6 +2382,7 @@ _route:
   - _Npc<Peeks>:
       coord: [441.00, 248.56, -2133.05]
       comment: Legendary Rabbit Trial
+      notes: Inside at night
   - _Npc<Kula>:
       comment: Freezing Rod
       coord: [419.28, 248.65, -2134.93]
@@ -2393,7 +2409,7 @@ _route:
       comment: Save for transmutation
       hide-icon-on-map: true
   - _Material<10 Restless Crickets>:
-      notes: Spin attack grass to collect while walking to Oaki.
+      notes: Spin attack grass to collect while walking to Oaki.  Buy at Outskirt Stable if lacking.
       hide-icon-on-map: true
   - _Material<5 Frogs>:
       comment: If missed any before
@@ -2412,7 +2428,7 @@ _route:
       coord: [564.99, 264.83, -2160.65]
       comment: Start Trial of Wood
 
-  - .dir(LE)
+  - .dir(<E)
   - _Shrine::MaagHalan
 
   - Jump into mud to void out
@@ -2585,7 +2601,8 @@ _route:
       comment: On wall
 
   - .dir(S)
-  - _Discover<Dining Hall>
+  - _Discover<Dining Hall>:
+      notes: Remove armor to load the hall, stay naked until next equip
 
   - _Material<Raw Gourmet Meat>:
       coord: [-152.50, 210.39, -821.58]
@@ -2679,7 +2696,7 @@ _route:
 
   - In cave on west side
   - _Shrine::NoyaNeha:
-      comment: Take ancient axe
+      comment: Take Ancient Axe for Thundra Plateau
 
   - Jump out → .dir(W)
   - _Korok::R19:
@@ -2780,7 +2797,7 @@ _route:
   - .dir(.S)
   - _Tower::Ridgeland:
       notes: Equip ancient axe + wooden shield to avoid lightning
-      comment: 35.73%
+      comment: 35.89%
 
   - .dir(W)
   - _Korok::R15:
@@ -2926,6 +2943,7 @@ _route:
   - .dir(W>)
   - _Korok::R37:
       comment: Ledge on cliff
+      notes: If you already did Mijah Rokee, WB <S far + midairs to R72
 
   - .dir(<W) + midairs
   - _Npc::Rito<Kass>:
@@ -3094,6 +3112,7 @@ _route:
           - to: [-1506,1101]
           - to: [-1475,1175]
           - to: [-1449.49, 137.75, 1269.01]
+      notes: Buy Restless Crickets from Beedle if < 10
 
   - _Npc<Gourmet Meat Guy>:
       coord: [-1432.50, 137.72, 1264.50]
@@ -3267,7 +3286,7 @@ _route:
       comment: Gerudo Set + Snow Boots
       icon: shield
 
-  - .dir(>W)
+  - .dir(W>)
   - _Korok::G31:
       comment: Pinwheel on rock
       notes: Can backflip for bullet time
@@ -3583,16 +3602,7 @@ _route:
   - .dir(N>) + midair
   - _Korok::W30
 
-  - .dir(NW)
-  - _Korok::W19:
-      comment: On ledge
-
-  - _Shrine::KayNoh:
-      comment: Peg High WB OR Shock; Stasis; Mag
-
-  - Run .dir(N)
-  - _Korok::W15
-
+  - .dir(<<N)
   - _Npc<Sesami>:
       coord: [-2797.53, 135.05, 2240.97]
       comment: Missing in Action
@@ -3603,7 +3613,7 @@ _route:
       hide-icon-on-map: true
 
   - _Tod::Noon:
-      notes: For Sasa Kai timing. Can make noon later in this segment for more margin of error.
+      notes: For Salvager Chest timing. Can make noon later in this segment for more margin of error.
       hide-icon-on-map: true
 
   - Equip Armor:
@@ -3628,7 +3638,7 @@ _route:
   - .dir(N>)
   - _Korok::G17
 
-  - .dir(E)
+  - .dir(E) - defuse
   - _Boss::Talus::Frost:
       coord: [-2919.99, 656.12, 1294.27]
       comment: .fury()
@@ -3826,9 +3836,9 @@ _route:
   - .dir(W) run
   - _Korok::L43
 
-  - .dir(SW)
+  - .dir(SW) - defuse
   - _Korok::L51:
-      notes: Stasis + 2 hits + shoot upwards
+      notes: Stasis + 2 hits + shoot upwards with Falcon
 
   - .gale() + .dir(W):
       gale: 1
@@ -3839,7 +3849,7 @@ _route:
   - _Korok::L48:
       comment: On small ledge against cliff
 
-  - .dir(SE) short
+  - .dir(SE) short - defuse
   - _Korok::L49
 
   - .dir(NE) down
@@ -3850,7 +3860,7 @@ _route:
   - _Korok::L59:
       comment: " "
 
-  - .dir(.S)
+  - .dir(.S) - defuse
   - _Korok::L60:
       comment: Up against cliff
 
@@ -3976,7 +3986,7 @@ _route:
 
   - .dir(S.)
   - _Korok::L70:
-      comment: " "
+      comment: "Jump forward BT"
 
   - .dir(E>) short
   - _Korok::L71
@@ -4032,10 +4042,14 @@ _route:
       comment: from cliff near Stalnox
       icon: tots
       hide-icon-on-map: true
+      coord: [61.4375,3389.84375]
   - _Boss::Hinox::Stal:
       comment: Shoot once + .fury()
       fury: 3
-      coord: [100.50, 111.28, 3371.00]
+      movements: 
+        - to: [61.4375,3389.84375]
+        - to: [100.50, 111.28, 3371.00]
+          away: true
       notes: Kill stalnox while the horse is approaching you.
 
   - Ride to .loc(Mounted Archery Camp):
@@ -4079,7 +4093,7 @@ _route:
   - .dir(N) midair
   - _Korok::L68
 
-  - .dir(W>)
+  - .dir(W>) - defuse
   - _Korok::L67:
       comment: Pinwheel
 
@@ -4160,7 +4174,8 @@ _route:
   - _Korok::C53
 
   - .dir(<E)
-  - _Tower::Central
+  - _Tower::Central:
+      comment: 57.40%
 
   - .dir(N>) down
   - _Korok::C48:
@@ -4252,10 +4267,10 @@ _route:
   - _Korok::D32:
       comment: " "
 
-  - .dir(S.)
+  - .dir(S.) - defuse
   - _Korok::D31
 
-  - .dir(S>)
+  - .dir(S>) - defuse
   - _Korok::D44:
       comment: On ruins
 
@@ -4331,7 +4346,7 @@ _route:
   - _Korok::D36:
       comment: In hollow log
 
-  - .dir(<S)
+  - .dir(<S) - defuse
   - _Korok::D46:
       comment: " "
 
@@ -4351,13 +4366,13 @@ _route:
 
   - .dir(E>)
   - _Shrine::ReeDahee:
-      comment: 2 short wb OR BLSS off peg
+      comment: 2 short wb OR BLSS (left peg aim at left torch)
 
   - .dir(E>)
   - _Shrine::HaDahamar:
       comment: Left peg, aim left of waterfall; High WB off rafters
 
-  - .dir(E)
+  - .dir(E) - defuse
   - _Korok::D42
 
   - .dir(<N) + midair
@@ -4568,12 +4583,11 @@ _route:
   - _Shrine::ShaiUtoh:
       comment: Cave behind rubble; Left peg, aim right side of seesaw
 
-  - .dir(<E) + midair .dir(<S)
-
+  - .dir(<E) + midair .dir(<S) - defuse
   - _Korok::F48:
       notes: Make sure you have at least 4 bananas
 
-  - .dir(SE)
+  - .dir(SE) - defuse
   - _Korok::F55:
       comment: Up near enemy camp
 
@@ -4618,7 +4632,7 @@ _route:
   - _Korok::F42:
       comment: " "
 
-  - .dir(N)
+  - .dir(N) - defuse
   - _Boss::Talus::Stone:
       coord: [1690.73, 165.27, 3335.62]
 
@@ -5106,12 +5120,9 @@ _route:
       icon: npc-zora-female
       movements:
           - to: [2754.00, 189.53, -83.50]
-          - to: [2789,-250]
-          - to: [2737,-341]
-          - to: [2658,-370]
-          - to: [2384,-248]
+          - to: [2660.5,-143.625]
           - to: [1760.46, 115.80, -36.04]
-      notes: BLSS the letter to the guy at the tent. Fall and don't pull glider, and the letter will survive. Don't fall into water.
+      notes: Run W and BLSS the letter to the guy at the tent. Fall and don't pull glider, and the letter will survive. Don't fall into water.
 
   - _Tod::Noon:
       coord: [1760.46, 115.80, -36.04]
@@ -5264,7 +5275,7 @@ _route:
   - .dir(NW) midair
   - _Korok::C18
 
-  - .dir(NW)
+  - .dir(NW) - defuse
   - _Korok::C10:
       comment: From bridge
 
@@ -5364,6 +5375,10 @@ _route:
   - _Korok::R68:
       comment: Pinwheel
   - _Korok::R69:
+      movements:
+        - to: [-1965.81, 255.74, 600.95]
+        - to: [-2053.49, 258.47, 636.41]
+          away: true
       comment: Snipe from pinwheel
 
   - .dir(S) far
@@ -5472,7 +5487,7 @@ _route:
   - .dir(.N)
   - _Korok::T23
 
-  - .dir(SE)
+  - .dir(SE) - defuse
   - _Discover<Gisa Crater>
   - _Boss::Talus::Rare:
       coord: [-3929.30, 197.19, -1083.48]
@@ -5549,7 +5564,7 @@ _route:
   - .dir(W)
   - _Material<1 Cold Darner>:
       notes: There's another on the bridge to the shrine if you miss it.
-      comment: On landing pad
+      comment: On landing pad, for Jana
 
   - _Npc::Rito<Rito lady on flight pad>:
       coord: [-3632.60, 320.12, -1793.79]
@@ -5749,7 +5764,7 @@ _route:
 
   - .dir(N>) + midair
   - _Shrine::DunbaTaag:
-      comment: Straight off ledge to wall
+      comment: Straight off ledge onto wall
 
   - .dir(.S) from behind shrine
   - _Korok::H73:
@@ -5952,7 +5967,7 @@ _route:
   - _Shrine::MoaKeet:
       comment: WB, catch a glide
 
-  - .dir(<W) short
+  - .dir(<W) short - defuse
   - _Npc<Painting guy in stable>:
       coord: [2620.40, 253.87, -1144.95]
       comment: Mayro
@@ -6549,7 +6564,7 @@ _route:
   - .dir(N.)
   - _Korok::Z36
 
-  - .dir(<W) + .dir(W>) midair:
+  - .dir(<W) (stop, defuse) + .dir(W>) midair:
       notes: (optional) can use a GALE for more height
   - _Korok::Z35
 
@@ -6798,7 +6813,7 @@ _route:
   - .!!(Upgrade armor):
       icon: tots
       hide-icon-on-map: true
-      notes: "7 full upgrades: Set of the Wild, Zora Set, Champion's Tunic"
+      notes: "7 full upgrades: Set of the Wild, Zora Set, Champion's Tunic (.link([Easy Inputs]https://pastebin.com/7neBvwV7))"
 
   - .dir(N.)
   - _Npc<Kilton>:
