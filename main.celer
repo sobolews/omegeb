@@ -6421,8 +6421,34 @@ _route:
       comment: " "
 
   - .dir(W)
-  - _Korok::N45:
-      comment: Shoot 10 targets + balloon
+  - Shoot 10 targets + Balloon:
+      icon: tots
+      movements: 
+        - to: [2873.125,2066.5]
+        - to: [2859.85, 125.92, 2006.76]
+          away: true
+        - to: [2942.50, 127.50, 2014.27]
+          away: true
+        - to: [2966.63, 119.08, 2116.76]
+          away: true
+        - to: [2965.24, 117.79, 2117.93]
+          away: true
+        - to: [2929.67, 120.46, 2135.82]
+          away: true
+        - to: [2881.41, 123.69, 2142.18]
+          away: true
+        - to: [2855.64, 122.88, 2119.72]
+          away: true
+        - to: [2835.29, 122.50, 2101.18]
+          away: true
+        - to: [2811.71, 121.67, 2080.08]
+          away: true
+        - to: [2808.72, 122.06, 2048.74]
+          away: true  
+        - to: [2873.125,2066.5]
+          away: true
+
+  - _Korok::N45
 
   - .dir(S)
   - _Korok::N46
