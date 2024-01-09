@@ -4730,7 +4730,7 @@ _route:
       coord: [2584.90, 290.11, 3547.64]
       comment: Gift of Nightshade
 
-  - .dir(S>)
+  - .dir(S>) - defuse
   - _Korok::F47:
       comment: On peak
 
@@ -5002,7 +5002,7 @@ _route:
   - _Korok::D25:
       comment: " "
 
-  - .dir(<S)
+  - .dir(<S) - defuse
   - _Korok::D29:
       comment: On small island
 
@@ -5086,6 +5086,7 @@ _route:
   - _Npc::ZoraFemale<Finley>:
       coord: [2754.00, 189.53, -83.50]
       comment: Special Delivery
+      notes: Shoot cylinder in water
 
   - .dir(E)
   - _Npc::ZoraMale<Zora Monument>:
@@ -5249,6 +5250,8 @@ _route:
       notes: From chest in shrine
   - _Shrine::NamikaOzz:
       comment: Modest Test of Strength
+      notes: Make Night for Stalnox if needed
+      
 
   - .dir(W)
   - _Korok::C09:
@@ -6564,7 +6567,7 @@ _route:
   - .dir(N.)
   - _Korok::Z36
 
-  - .dir(<W) (stop, defuse) + .dir(W>) midair:
+  - .dir(S) (stop, defuse) + .dir(W>) midair:
       notes: (optional) can use a GALE for more height
   - _Korok::Z35
 
@@ -6618,7 +6621,7 @@ _route:
 
   - .dir(S) surf
   - _Shrine::KahMael:
-      comment: Under slab
+      comment: Under slab; Left peg, aim slightly left and bounce
 
 - Hebra East:
 
