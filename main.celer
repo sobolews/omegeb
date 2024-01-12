@@ -2429,7 +2429,7 @@ _route:
       coord: [564.99, 264.83, -2160.65]
       comment: Start Trial of Wood
 
-  - .dir(LE)
+  - .dir(<E)
   - _Shrine::MaagHalan:
       comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=23501))
 
