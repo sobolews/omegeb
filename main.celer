@@ -1336,6 +1336,10 @@ _route:
 
   - .dir(N>)
   - _Korok::N11:
+      movements:
+        - to: [2496.04, 302.86, 892.13]
+        - to: [2409.55, 269.61, 849.32]
+          away: true
       comment: " "
 
   - .dir(E)
@@ -1535,6 +1539,11 @@ _route:
 
   - .dir(N) + midair
   - _Korok::Z19:
+      movements:
+        - to: [4071.79, 483.77, -459.05]
+        - to: [4118.09, 480.78, -474.36]
+          away: true
+        - to: [4071.79, 483.77, -459.05]
       comment: .rune(Magnesis) the boulder
 
   - _Korok::Z20
@@ -1692,12 +1701,19 @@ _route:
 
   - .dir(<W)
   - _Boss::Talus::Igneo:
-      coord: [1795.54, 394.18, -1746.73]
+      movements: 
+        - to: [1796.4375,-1727.46875]
+        - to: [1795.54, 394.18, -1746.73]
+          away: true
       comment: .fury() from ledge above
       fury: 3
 
   - .dir(W)
   - _Korok::E26:
+      movements:
+        - to: [1703,-1759.96875]
+        - to: [1687.56, 427.40, -1717.09]
+          away: true
       comment: " "
 
   - .dir(<W)
@@ -1707,6 +1723,10 @@ _route:
 
   - .dir(N.)
   - _Korok::E24:
+      movements:
+        - to: [1468.58, 425.75, -1740.36]
+        - to: [1412.02, 408.75, -1759.80]
+          away: true
       comment: " "
 
   - .dir(N>)
@@ -1862,6 +1882,10 @@ _route:
 
   - .dir(.W) + .dir(S>)
   - _Korok::H22:
+      movements:
+        - to: [-1254.75, 529.05, -3230.49]
+        - to: [-1110.80, 438.06, -3043.86]
+          away: true
       comment: " "
       notes: WB away while it's rolling, but don't get too far away.
 
@@ -2271,8 +2295,15 @@ _route:
   - _Shrine::KayraMah:
       comment: Peg straight + midair
 
-  - .dir(N)
+      
+
+  - .dir(W) Run + .dir(N)
   - _Korok::E20:
+      movements:
+        - to: [1992.75,-2033.03125]
+        - to: [1995.97, 579.82, -2106.65]
+        - to: [2019.42, 557.72, -2172.90]
+          away: true
       comment: " "
 
   - .dir(<E)
@@ -2286,7 +2317,9 @@ _route:
   - _Korok::E22:
       comment: " "
   - _Boss::Talus::Igneo:
-      coord: [2372.52, 507.89, -1998.62]
+      movements: 
+        - to: [2372.52, 507.89, -1998.62]
+          away: true
       notes: Wake + shoot from E22 island
 
   - .dir(E) super
@@ -2700,6 +2733,10 @@ _route:
 
   - Jump out → .dir(W)
   - _Korok::R19:
+      movements: 
+        - to: [-1201.52, 186.82, -627.24]
+        - to: [-1125.28, 157.91, -675.43]
+          away: true
       comment: " "
 
   - .dir(N>)
@@ -3838,6 +3875,10 @@ _route:
 
   - .dir(SW) - defuse
   - _Korok::L51:
+      movements:
+        - to: [116.57, 140.83, 2960.67]
+        - to: [153.95, 143.87, 2981.72]
+          away: true
       notes: Stasis + 2 hits + shoot upwards with Falcon
 
   - .gale() + .dir(W):
@@ -3998,10 +4039,18 @@ _route:
 
   - .dir(E)
   - _Korok::L74:
+      movements: 
+        - to: [365,3662.84375]
+        - to: [367.10, 176.93, 3642.12]
+          away: true
       comment: " "
 
   - .dir(E)
   - _Korok::L76:
+      movements: 
+        - to: [535.90, 190.36, 3638.16]
+        - to: [522.47, 166.30, 3680.96]
+          away: true
       comment: " "
 
   - .dir(S>) up
@@ -4308,6 +4357,10 @@ _route:
 
   - .dir(<S)
   - _Korok::L16:
+      movements:
+        - to: [341.48, 130.52, 2378.26]
+        - to: [280.43, 97.65, 2405.01]
+          away: true
       comment: " "
 
   - .dir(N)
@@ -4386,7 +4439,11 @@ _route:
   - _Korok::D30
 
   - .dir(E) + .dir(S) midair
-  - _Korok::D41
+  - _Korok::D41:
+      movements:
+        - to: [1389.52, 450.25, 1858.39]
+        - to: [1517.27, 400.25, 1850.08]
+          away: true
 
   - .dir(W)
   - _Korok::D40
@@ -4428,9 +4485,13 @@ _route:
 
   - .dir(E>)
   - _Korok::L07:
+      movements: 
+        - to: [1048.22, 245.83, 2183.37]
+        - to: [908.29, 247.17, 2193.53]
+          away: true
       comment: .rune(Stasis) 5 hits, aim at hole
 
-  - .dir(S>)
+  - .dir(S>) (.dir(S) if chasing boulder)
   - _Korok::L19
 
   - .dir(E>)
@@ -5410,6 +5471,10 @@ _route:
 
   - .dir(W) short
   - _Korok::R73:
+      movements: 
+        - to: [-2348.58, 312.18, 739.06]
+        - to: [-2351.15, 263.40, 846.18]
+          away: true
       comment: Stasis and shoot boulder
 
   - .dir(W>>)
@@ -5497,6 +5562,10 @@ _route:
 
   - .dir(<S)
   - _Korok::T28:
+      movements: 
+        - to: [-3817.18, 231.14, -832.07]
+        - to: [-3841.71, 218.42, -803.98]
+          away: true
       comment: " "
 
   - .dir(S) run
@@ -6394,6 +6463,10 @@ _route:
 
   - .dir(NE)
   - _Korok::N26:
+      movements:
+        - to: [2349.53, 204.37, 1527.43]
+        - to: [2276.03, 162.26, 1501.62]
+          away: true
       comment: " "
 
   - .dir(<S)
@@ -6518,6 +6591,10 @@ _route:
 
   - .dir(<N) + midair
   - _Korok::N25:
+      movements:
+        - to: [4391.18, 170.93, 1463.30]
+        - to: [4438.91, 141.72, 1432.92]
+          away: true
       comment: " "
 
   - .dir(N.)
@@ -6750,7 +6827,11 @@ _route:
       comment: Pinwheel on cliff edge
 
   - .dir(<E) down
-  - _Korok::H59
+  - _Korok::H59:
+      movements: 
+        - to: [-1461.54, 245.19, -2361.67]
+        - to: [-1414.65, 228.59, -2398.60]
+          away: true
 
   - _Tod::Night:
       hide-icon-on-map: true
