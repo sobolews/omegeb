@@ -2198,7 +2198,7 @@ _route:
       notes: Save for quest
       comment: Behind rubble
 
-  - .dir(LE)
+  - .dir(<E)
   - Kill .enemy(2 moblins):
       icon: calamity
       coord: [2142.43, 634.02, -2288.29]
