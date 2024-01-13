@@ -2604,7 +2604,8 @@ _route:
       comment: On wall
 
   - .dir(S)
-  - _Discover<Dining Hall>
+  - _Discover<Dining Hall>:
+      hide-icon-on-map: true
 
   - _Material<Raw Gourmet Meat>:
       coord: [-152.50, 210.39, -821.58]
