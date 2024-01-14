@@ -62,7 +62,7 @@ _route:
   - SAVE:
       icon: tots
       hide-icon-on-map: true
-      notes: Hard save as soon as you get the autosave on the way to the camp
+      notes: Hard save as soon as you get the autosave on the way to the camp. Make sure not to make any additional hard saves until IST.
 
   - .!!(System Clock -1 day):
       notes: If using DST, no need to change clock.
