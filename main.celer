@@ -181,7 +181,7 @@ _route:
   - Through unloaded gate:
       icon: equipment
       hide-icon-on-map: true
-      notes: Drop 5 Branches and Traveler Bow while waiting for castle cutscene. If the gate loads then ESC in or run around the side entrance.
+      notes: Drop 5 Branches, Axe, and Traveler Bow while waiting for castle cutscene. If the gate loads then ESC in or run around the side entrance.
   - _Equipment::Bow<Falcon Bow>:
       comment: Against wall on upper level
       coord: [-412.66, 182.53, -851.28]
