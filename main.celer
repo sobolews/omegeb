@@ -1016,6 +1016,7 @@ _route:
 
   - _Cook<Cook Cold Elixir>:
       comment: Cold Darner + Lizalfos Tail
+      notes: If missed cold darner, can substitute butterfly from Beedle.
       coord: [-2811.31, 134.87, 2239.89]
 
   - _Npc<Rushroom Guy>:
