@@ -3434,7 +3434,7 @@ _route:
       comment: Drop luminous stone
       notes: Smash an ore and take a luminous stone for easier menuing. Check that you have at least 10.
   - _Shrine::ShoDantu:
-      comment: Right peg, Aim at right sconce, High WB
+      comment: Right peg, 90 right, Aim at right sconce, High WB
 
   - .dir(NW)
   - _Korok::W02:
