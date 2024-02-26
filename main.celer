@@ -2834,7 +2834,7 @@ _route:
   - .dir(.S)
   - _Tower::Ridgeland:
       notes: Equip ancient axe + wooden shield to avoid lightning
-      comment: 35.89%
+      comment: 36.06%
 
   - .dir(W)
   - _Korok::R15:
