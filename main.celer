@@ -3597,7 +3597,7 @@ _route:
   - Complete orb puzzle:
       icon: tots
       hide-icon-on-map: true
-      notes: .link([Orb Puzzle Diagram]https://media.discordapp.net/attachments/303990410500374528/790049019690614794/Heroines_Map_Directions.png?width=811&height=676), .link([Alternative Diagram]https://cdn.discordapp.com/attachments/738799971788390460/1058664341068578857/Untitled_Artwork.png)
+      notes: .link([Orb Puzzle Diagram]https://i.imgur.com/i8XCNI8.png), .link([Alternative Diagram]https://i.imgur.com/ziWggqR.png)
 
   - _Shrine::KorshOhu:
       comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=5056))
