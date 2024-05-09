@@ -3381,7 +3381,7 @@
   - _Shrine::KeehaYoog:
       comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=3081))
 
-  - .dir(E>) + midair .dir(S)
+  - .dir(E) + midair .dir(S)
   - _Korok::G09
 
   - Updraft + .dir(<W)
