@@ -2439,7 +2439,7 @@ _route:
       coord: [251.03, 285.34, -1979.93]
       comment: Trial of Second Sight
 
-  - .dir(LW):
+  - .dir(<W):
       notes: Glide until the white void stops, then drop
 
   - _Equipment::Shield<Rusty Shield>:
