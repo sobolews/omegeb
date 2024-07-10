@@ -1765,7 +1765,7 @@ _route:
   - _Korok::E15:
       comment: In smiling Goron's mouth
 
-  - .dir(NE) down
+  - .dir(E) down
   - _Shop<Buy Goron Spice>:
       coord: [1689.61, 491.59, -2468.49]
 
