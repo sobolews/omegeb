@@ -353,7 +353,7 @@ _route:
   - _Korok::N48:
       comment: " "
 
-  - .dir(<N)
+  - .dir(N.) + .dir(W.)
   - _Korok::N43:
       comment: " "
 
