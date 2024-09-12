@@ -348,7 +348,7 @@
   - _Korok::N48:
       comment: " "
 
-  - .dir(<N)
+  - .dir(N.) + .dir(W.)
   - _Korok::N43:
       comment: " "
 
@@ -1779,7 +1779,7 @@
   - _Korok::E15:
       comment: In smiling Goron's mouth
 
-  - .dir(NE) down
+  - .dir(E) down
   - _Shop<Buy Goron Spice>:
       coord: [1689.61, 491.59, -2468.49]
 
@@ -2464,7 +2464,7 @@
       coord: [251.03, 285.34, -1979.93]
       comment: Trial of Second Sight
 
-  - .dir(LW):
+  - .dir(<W):
       notes: Glide until the white void stops, then drop
 
   - _Equipment::Shield<Rusty Shield>:
@@ -6449,7 +6449,7 @@
   - .dir(W)
   - Shoot 10 targets:
       icon: tots
-      movements: 
+      movements:
         - to: [2873.125,2066.5]
         - push
         - to: [2859.85, 125.92, 2006.76]
