@@ -1698,7 +1698,7 @@
 
   - .dir(<<N)
   - _Korok::E27:
-      notes: Windbombs won't work during the first of burn damage. Make sure to windbomb either before Link catches fire, or after the second tick. The bow is on a 30s timer to burn up, but it gets reset every time you windbomb or take out the bow and put it away.
+      notes: Windbombs won't work during the first tick of burn damage. Make sure to windbomb either before Link catches fire, or after the second tick. The bow is on a 30s timer to burn up, but it gets reset every time you windbomb or take out the bow and put it away.
 
   - .dir(<W)
   - _Boss::Talus::Igneo:
