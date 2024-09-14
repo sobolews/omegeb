@@ -4899,7 +4899,7 @@
   - _Korok::F33:
       comment: On cliff ledge
 
-  - .dir(W>) down
+  - .dir(W>) + down
   - _Korok::N65
 
   - .dir(N)
