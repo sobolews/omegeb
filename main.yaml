@@ -5270,9 +5270,8 @@
   - _Shrine::NamikaOzz:
       comment: Modest Test of Strength
 
-  - .dir(W)
+  - .gale(GALE 1) + glide .dir(W)
   - _Korok::C09:
-      comment: .gale(GALE 1) from shrine
       notes: Fury keese if raining
 
   - .dir(SW)
