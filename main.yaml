@@ -4615,7 +4615,7 @@
   - _Korok::F55:
       comment: Up near enemy camp
 
-  - .dir(W) down
+  - .dir(W) + down
   - _Korok::F54:
       comment: Ledge against cliff
 
