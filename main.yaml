@@ -4181,7 +4181,7 @@
   - _Korok::C73:
       comment: " "
 
-  - .dir(<N)
+  - .dir(N.)
   - _Discover<Aquame Bridge>:
       coord: [-1128.81, 142.45, 1017.05]
   - _Korok::C67:
