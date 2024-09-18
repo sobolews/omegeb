@@ -4000,7 +4000,7 @@
       icon: tots
       coord: [546.27, 231.59, 3580.35]
 
-  - .dir(E) ride horse:
+  - .dir(W) ride horse:
       movements:
           - to: [502,3447.5]
           - to: [274,3465.5]
