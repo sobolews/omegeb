@@ -5366,9 +5366,8 @@
       comment: In tree stump
       notes: If the Lord of the Mountain is awake, reload the autosave from this korok or the stalnox won't wake up. Also make night if you need to.
 
-  - .dir(N) run
-  - _Korok::R54:
-      comment: .gale(GALE 2) from R55
+  - .gale(GALE 2) .dir(N)
+  - _Korok::R54
 
   - .dir(SW)
   - _Boss::Hinox::Stal:
