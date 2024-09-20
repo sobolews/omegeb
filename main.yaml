@@ -3163,7 +3163,7 @@
   - _Shrine::RotaOoh:
       comment: (.link([vod]https://youtu.be/9q2gebqXM2o&t=1151))
 
-  - .dir(<W)
+  - .gale(GALE 2) + .dir(<W)
   - _Korok::C85
 
   - .dir(SW)
@@ -3183,7 +3183,7 @@
   - _Shrine::DahKaso:
       comment: Minor Test of Strength
 
-  - .gale(GALE 2) + .dir(W>)
+  - .dir(W>)
   - _Korok::G29
 
   - .dir(<S)
