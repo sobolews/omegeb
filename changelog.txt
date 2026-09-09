@@ -1,0 +1,2 @@
+- Removed splitting on memories and warps by default (new celer enabled this automatically)
+TODO

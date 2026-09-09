@@ -1,18 +1,30 @@
-title: 100% Route using Great Eagle Bow with WMC
-
-version: 1.0
+title: 100% Route 1.9v2
+version: 9.2
 
 route:
   use: ./main.yaml
 
 config:
 - use: Pistonight/celer-presets/botw/full.yaml
+- use: ./locations.yaml
+- use: ./100.yaml
 - plugins:
   - use: link
   - use: split-format
     with:
       Shrines: ".var(counter-korok) - .prop(text)"
   - use: variables
+    with:
+      init:
+        with-dlc: 0
+        great-plateau-count: 1
+        map-pct-items-total: 1209
+      split-types:
+        - Shrines
+        - Towers
+        - UserDefined
+      expose: true
+
 - tags:
     user-defined-split:
       color: black
@@ -24,13 +36,20 @@ config:
     fury:
       color: black
       background: orange
+    counter-memory:
+      split-type: null
+    counter-warp:
+      color: black
+      background: cyan
+      split-type: null
+
 - presets:
     _Snap:
       Quest:
         text: $(0)
         icon: camera
         icon-priority: 2
-        comment: SNAP for QUEST
+        comment: SNAP for quest
 
 - splits:
   - user-defined-split

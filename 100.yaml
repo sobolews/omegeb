@@ -1,0 +1,125 @@
+# Counters
+# counter-divine-beast-enter      4  
+# counter-divine-beast-done       4  
+# counter-shrine                120  
+# counter-tower                  15  
+# counter-location              164  
+# counter-korok                 900  
+# counter-calamity-ganon          1  
+# counter-dark-beast-ganon        1  
+# Total                        1209  
+
+presets:
+  KorokLoc:
+    presets: _Korok::$(0)
+    notes: "(Discovers location: $(1))"
+    vars:
+      - counter-location: .add(1)
+
+  Location:
+    text: $(0)
+    icon: location
+    comment: Discover
+    vars:
+      - _x: $(1)
+      - counter-location: .add(_x)
+  
+  map%:
+    vars:
+      - map-pct-items: .var(counter-location)
+      - map-pct-items: .add(counter-korok)
+      - map-pct-items: .add(counter-tower)
+      - map-pct-items: .add(counter-shrine)
+      - map-pct-items: .add(counter-calamity-ganon)
+      - map-pct-items: .add(counter-dark-beast-ganon)
+      - map-pct-items: .add(counter-divine-beast-done)
+      - map-pct-items: .add(counter-divine-beast-enter)
+      - map-pct: .var(map-pct-items)
+      - map-pct: .mul(100)
+      - map-pct: .div(map-pct-items-total)
+      - rounded: .var(map-pct-items)
+      - rounded: .mul(0.08271)
+    comment: map% (.var(map-pct-items)) = .var(rounded)% == .var(map-pct)%
+
+  debugmap%:
+    text: |
+      counter-divine-beast-enter = .var(counter-divine-beast-enter)
+      counter-divine-beast-done = .var(counter-divine-beast-done) ||
+      counter-shrine = .var(counter-shrine) ||
+      counter-tower = .var(counter-tower) ||
+      counter-location = .var(counter-location) ||
+      counter-korok = .var(counter-korok) ||
+      counter-calamity-ganon = .var(counter-calamity-ganon) ||
+      counter-dark-beast-ganon = .var(counter-dark-beast-ganon) ||
+
+
+  _Boss:
+    CalamityGanon:
+      text: .boss(Calamity Ganon)
+      counter: .var(counter-calamity-ganon)
+      icon-doc: ganon
+      icon-priority: 0
+      movements:
+          - push
+          - to: [-254.00, 191.01, -1084.37]
+            color: "#FFC0FA"
+            icon: ganon
+          - pop
+
+    DarkBeastGanon:
+      text: Dark Beast Ganon
+      counter: .var(counter-dark-beast-ganon)
+      icon: ganon
+      icon-map: null
+
+    Thunderblight:
+      text: Thunderblight
+      counter: .var(counter-divine-beast-done)
+      icon: ganon
+      icon-map: null
+
+    Waterblight:
+      text: Waterblight
+      counter: .var(counter-divine-beast-done)
+      icon: ganon
+      icon-map: null
+
+    Windblight:
+      text: Windblight
+      counter: .var(counter-divine-beast-done)
+      icon: ganon
+      icon-map: null
+
+    Fireblight:
+      text: Fireblight
+      counter: .var(counter-divine-beast-done)
+      icon: ganon
+      icon-map: null
+
+    VahRudania:
+      text: Vah Rudania
+      counter: .var(counter-divine-beast-enter)
+      icon: rudania-enter
+      icon-priority: 0
+      coord: [2451.85, 1007.58, -2559.08]
+
+    VahMedoh:
+      text: Vah Medoh
+      counter: .var(counter-divine-beast-enter)
+      icon: medoh-enter
+      icon-priority: 0
+      coord: [-3850.5,-2278.5]
+
+    VahRuta:
+      text: Vah Ruta
+      counter: .var(counter-divine-beast-enter)
+      icon: ruta-enter
+      icon-priority: 0
+      coord: [3662.40, 315.66, -175.42]
+
+    VahNaboris:
+      text: Vah Naboris
+      counter: .var(counter-divine-beast-enter)
+      icon: naboris-enter
+      icon-priority: 0
+      coord: [-2754.62, 112.53, 3749.44]
