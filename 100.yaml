@@ -37,21 +37,66 @@ presets:
       - map-pct: .var(map-pct-items)
       - map-pct: .mul(100)
       - map-pct: .div(map-pct-items-total)
+      # - rounded: .var(map-pct-items)
+      # - rounded: .mul(0.08271)  # close enough and produces fewer decimal places
+      - mapmul100: .var(map-pct)
+      - mapmul100: .mul(100)
+      - mapfloor: .var(map-pct)
+      - mapfloor: .sub(0.5)
+    # $(0): Map .var(rounded)%
+    $(0): 'Map: .var(pad02:last3:mapfloor)..var(pad02:last2:mapmul100)%'
+
+  TowerWithMap%:
+    text: ".loc($(0) Tower)"
+    icon: tower
+    icon-priority: 0
+    counter: .var(counter-tower)
+    coord: [$(1), $(2), $(3)]      
+    vars:
+      - map-pct-items: .var(counter-location)
+      - map-pct-items: .add(counter-korok)
+      - map-pct-items: .add(counter-tower)
+      - map-pct-items: .add(counter-shrine)
+      - map-pct-items: .add(counter-calamity-ganon)
+      - map-pct-items: .add(counter-dark-beast-ganon)
+      - map-pct-items: .add(counter-divine-beast-done)
+      - map-pct-items: .add(counter-divine-beast-enter)
+      - map-pct-items: .add(1)  # count this Tower
+      # - map-pct: .var(map-pct-items)
+      # - map-pct: .mul(100)
+      # - map-pct: .div(map-pct-items-total)
       - rounded: .var(map-pct-items)
       - rounded: .mul(0.08271)
-    comment: map% (.var(map-pct-items)) = .var(rounded)% == .var(map-pct)%
-
-  debugmap%:
-    text: |
-      counter-divine-beast-enter = .var(counter-divine-beast-enter)
-      counter-divine-beast-done = .var(counter-divine-beast-done) ||
-      counter-shrine = .var(counter-shrine) ||
-      counter-tower = .var(counter-tower) ||
-      counter-location = .var(counter-location) ||
-      counter-korok = .var(counter-korok) ||
-      counter-calamity-ganon = .var(counter-calamity-ganon) ||
-      counter-dark-beast-ganon = .var(counter-dark-beast-ganon) ||
-
+    comment: Map .var(rounded)%
+  _TowerWithMap%:
+    Central:
+      presets: _TowerWithMap%<Central,-788.64,197.64,442.03>
+    Lake:
+      presets: _TowerWithMap%<Lake,-31.82,280.48,2961.60>
+    DuelingPeaks:
+      presets: _TowerWithMap%<Dueling Peaks,1016.78,184.01,1714.08>
+    Faron:
+      presets: _TowerWithMap%<Faron,1331.20,269.93,3273.72>
+    Hateno:
+      presets: _TowerWithMap%<Hateno,2735.50,336.18,2133.50>
+    Lanayru:
+      presets: _TowerWithMap%<Lanayru,2258.00,310.92,-109.00>
+    Eldin:
+      presets: _TowerWithMap%<Eldin,2174.15,508.73,-1556.78>
+    Woodland:
+      presets: _TowerWithMap%<Woodland,883.88,350.22,-1605.71>
+    Akkala:
+      presets: _TowerWithMap%<Akkala,3308.00,593.78,-1500.10>
+    Tabantha:
+      presets: _TowerWithMap%<Tabantha,-3613.75,445.04,-990.16>
+    Gerudo:
+      presets: _TowerWithMap%<Gerudo,-3666.00,470.98,1828.60>
+    Wasteland:
+      presets: _TowerWithMap%<Wasteland,-2306.84,530.18,2437.32>
+    Hebra:
+      presets: _TowerWithMap%<Hebra,-2173.00,529.18,-2034.00>
+    Ridgeland:
+      presets: _TowerWithMap%<Ridgeland,-1755.30,328.58,-774.30>
 
   _Boss:
     CalamityGanon:
