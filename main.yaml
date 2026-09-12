@@ -1,15 +1,15 @@
 - Document/Route Info >> .link(["What does '<N' mean?"]https://docs.google.com/drawings/d/1X8y5J9c6hpzh9WuvBoBGg32BtFqok2rpB7Z9-mQqbJg/edit?usp=sharing), .link([NPC Info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283), .link([Simple Glitch Explanations]https://docs.google.com/document/d/14EUBX0M96nGINX3mS7cQceKKUHfIBgOrvFElaHIj-Z0/edit?usp=sharing)
-- Resources >> .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0), .link([Master Guide]https://docs.google.com/spreadsheets/d/1qLOC3ajm6a-vrXvlwAecbhW88iT8vtv9iSvP0jUcwzY/edit?usp=sharing), .link([Drop Table Calculator]https://restite.org/drops/), .link([Material Usage Spreadsheet]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247), .link([Database of Shrine Strats]https://restite.org/as/)
-- Questions or Corrections? Join the .link([BOTW Speedrunning discord]https://discord.gg/94YzaMFZxC) and ask in the 100% channel!
-- .link([Commentated walkthrough of the early parts of the route]https://youtu.be/0YZkmVyhfy4) (outdated but still useful) // .link([Reference VOD - TODO add link]https://youtu.be/Aw14LJhXV-8?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax)
+- "Resources >> .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0), .link([Master Guide]https://docs.google.com/spreadsheets/d/1qLOC3ajm6a-vrXvlwAecbhW88iT8vtv9iSvP0jUcwzY/edit?usp=sharing), .link([Drop Table Calculator]https://restite.org/drops/), .link([Database of Shrine Strats]https://restite.org/as/)"
+- "Questions or Corrections? Join the .link([BOTW Speedrunning discord]https://discord.gg/94YzaMFZxC) and ask in the 100% channel!"
+- "Reference VOD .link([Part 1]https://www.twitch.tv/videos/2866473358) .link([Part 2]https://www.twitch.tv/videos/2867392316) // .link([Commentated walkthrough of the early parts of the route]https://youtu.be/0YZkmVyhfy4) (outdated but still useful)"
+- "Celer Settings (click the gear icon) - I recommend - Theme: Granatus | Sync map view: ON | Icons: Primary=Large, Secondary=Regular, Other=Small | Lines: Section mode=Show All Highlight Current, Thickness=Regular"
 
 - Before Starting:
   - Set system clock:
       icon: memory-final
       icon-map: null
       notes: .link([System clock instructions]https://docs.google.com/document/d/13eFkTmChmSTIPahNfOr5xA3VQ8lOXyRm3qUxxTzJvhg/edit?usp=sharing) | .link([DST Table]https://docs.google.com/spreadsheets/d/161rXWdxUxBO8iY6PGltQKQBjbT-nufX2eto1yR84d_g/edit?usp=sharing)
-  - Ensure the clock is at least a day ahead of any existing saves on your profile:
-      banner: true
+  - Ensure the clock is at least a day ahead of any existing saves on your profile
 
 - Great Plateau:
   - SoR clip:
@@ -49,7 +49,7 @@
       notes: Hard save as soon as you get the autosave on the way to the camp. Make sure not to make any additional hard saves until IST.
 
   - .!!(System Clock -1 day):
-      notes: If using DST, no need to change clock.
+      comment: (unless using DST)
       icon: calamity
       icon-map: null
 
@@ -185,13 +185,11 @@
         - at: [-1338.5,226.5]
       vars:
         - counter-location: .add(1) # Hyrule Castle
-
-      notes: TODO vod reference
+      notes: .link([video reference]https://youtu.be/IF6sbyBVNpY)
 
   - Run through passage to the back of the .loc(Guard's Chamber):
       vars:
         - counter-location: .add(1) # Guard's Chamber
-
 
   - _Equipment::Bow<Falcon Bow>:
       comment: Against wall on upper level
@@ -326,28 +324,35 @@
         Here is a (outdated, but still useful for learning) .link([video guide for an older IST setup]https://youtu.be/0YZkmVyhfy4?t=3245).
   # TODO: slides update
 
-  - Do NOT reload or close the game until WMC is done.:
-      banner: true
+  - Do NOT reload or close the game until WMC is done.
 
 - Hateno / Farosh:
 
-  - WB chain .dir(E) to Hateno
+  - WB chain .dir(E) to Hateno:
+      notes: If you need to use a stamfood on the way, then eat one fewer after cooking the speedfood (i.e. eat 3 instead of 4)
   - Finish IST steps and cooking
-
-  - _Npc<Bolson + Hudson>:
-      coord: [3302.77, 239.88, 2302.60]
-      notes: Send Hudson to Tarrey Town, fully upgrade house.
-      vars:
-        - counter-location: .add(1) # Hateno Village
 
   - Eat speedfood:
       icon: material
+      icon-map: null
       comment: Eat the other when it runs out
+
+  - Eat 20 stamfood:
+      icon: material
+      icon-map: null
+      comment: One full page
+
+  - _Npc<Bolson + Hudson>:
+      coord: [3302.77, 239.88, 2302.60]
+      notes: Send Hudson to Tarrey Town, then fully upgrade house. If you want, you can wait until the next Hateno visit to do the house upgrades.
+      vars:
+        - counter-location: .add(1) # Hateno Village
 
   - .dir(<N)
   - _Npc<Horned Statue>:
       coord: [3285.60, 217.60, 2197.58]
-      comment: Ask for heart
+      comment: Ask for stamina
+      notes: You should have 9 hearts and full stamina afterward
 
   - .dir(.E)
   - _Npc<Lady on dock>:
@@ -1777,15 +1782,19 @@
       vars:
         - counter-location: .add(1) # Goron City
 
-  - .dir(N>)
-  - _Shrine::ShaeMosah
-
 - North Eldin/Akkala:
+
+  - .dir(N>)
+  - Activate .loc(Shae Mo'sah):
+      icon: shrine
+      vars:
+        - counter-location: .add(1) # Shae Mo'sah
+      notes: Complete the shrine when you warp back to it later. This is to pad time of day for Dugby.
 
   - .dir(<N)
   - _Npc::Goron<Yunobo>:
       coord: [1630.68, 560.52, -2941.37]
-      notes: ESC through the back. .link([Example of clip in.]https://youtu.be/s8UMMQmUioQ?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax&t=5167)
+      comment: ESC into cave. .link([Example]https://youtu.be/s8UMMQmUioQ?list=PLxRHLKOlaIbj6REgghSRSqMeAPxUX33ax&t=5167)
       vars:
         - counter-location: .add(1) # Abandoned North Mine
 
@@ -2206,7 +2215,11 @@
 
   - _Warp::Shrine::ShaeMosah:
       color: "blue"
-      comment: (Goron City) WARP
+      comment: (Goron City)
+
+  - _Shrine::ShaeMosah:
+      vars:
+        - counter-location: .sub(1) # already activated
 
 - Vah Rudania:
 
@@ -2829,7 +2842,8 @@
       comment: " "
 
   - .dir(.S)
-  - _TowerWithMap%::Ridgeland
+  - _TowerWithMap%::Ridgeland:
+      notes: Post-Ganon, the game shows the map completion %. This document automatically calculates the expected map% at each tower and warp. Each location counts for ~0.08%. You may differ by ±0.01% due to rounding.
 
   - .dir(W.)
   - Launch red orb:
@@ -3031,11 +3045,10 @@
 - Gerudo:
 
   - _Warp::Shrine::OwaDaim:
-      # color: violet
       color: "#33ff4e"
       text: Warp Stasis shrine
       presets:
-        - _map%
+        - _map%<comment>
       notes: Depending on your preferred plateau route, you may need to warp to Bombs shrine or Plateau tower instead.
 
   - .dir(<<W)
@@ -3966,6 +3979,9 @@
       vars:
         - counter-location: .add(1) # Highland Stable
 
+  - _Material<Swift Carrot>:
+      coord: [523.34, 152.89, 3463.33]
+      comment: for Koko
   - _Npc<Lady near stable horses>:
       coord: [516.76, 152.98, 3453.71]
       comment: Perosa
@@ -4742,7 +4758,12 @@
   - Reveal shrine:
       icon-doc: tots
       comment: Get hit by lightning
-  - _Shrine::QukahNata
+  - _Shrine::QukahNata:
+      notes: No split for this shrine since it may be done early.
+      # workaround to remove this shrine as a split
+      counter: null
+      vars:
+        - counter-shrine: .add(1)
 
   - .dir(<<E)
   - _Korok::F21
@@ -4782,7 +4803,11 @@
       icon: tots
       coord: [2632.47, 321.84, 2848.53]
 
-  - _Shrine::TawaJinn
+  - _Shrine::TawaJinn:
+      counter: .user-defined-split()
+      split-name: ".var(counter-korok) - Qukah Jinn"
+      vars:
+        - counter-shrine: .add(1)
 
   - .dir(S)
 
@@ -5873,6 +5898,8 @@
 
   - _Warp::Shrine::NeezYohma:
       color: lime
+      presets:
+        - _map%<comment>
 
   - _Npc::ZoraMale<Blue frog kid>:
       coord: [3320.59, 244.66, -474.01]
@@ -5988,7 +6015,9 @@
   - _Korok::E36:
       comment: " "
 
-  - _Warp::Tower::Akkala
+  - _Warp::Tower::Akkala:
+      presets:
+        - _map%<comment>
 
   - .dir(S.) down
   - _Korok::A42:
@@ -6031,7 +6060,9 @@
 
 - Hebra West:
 
-  - _Warp::Shrine::ShadaNaw
+  - _Warp::Shrine::ShadaNaw:
+      presets:
+        - _map%<comment>
 
   - .dir(.W)
   - _Shrine::MozoShenno:
@@ -6124,6 +6155,8 @@
 
   - _Warp::Shrine::TalohNaeg:
       color: violet
+      presets:
+        - _map%<comment>
 
   - _Tod::Noon:
       notes: Keep making noon until it's not raining.
@@ -6468,6 +6501,7 @@
   - .gale(GALE 1)
   - _Npc::SheikaMale<Invite Bolson>:
       coord: [3331.22, 235.28, 2284.61]
+      notes: If you didn't upgrade the house yet, ask Bolson to wait and upgrade it before sending him to the wedding.
 
   - .dir(NE)
   - _Shrine::MyahmAgana
@@ -6650,7 +6684,8 @@
 
   - _Warp::Shrine::ShadaNaw:
       color: orange
-      # TODO map% (96.44%/95.11%)
+      presets:
+        - _map%<comment>
 
   - _Tod::Night:
       icon-map: null
@@ -6822,10 +6857,11 @@
   - _Warp::Shrine::DahHesho:
       comment: Tarrey Town
       color: darkgray
-      notes: ".link([Missable Locations]https://drive.google.com/file/d/1hN-TJYfVUIlQGkuJYRkK4f0mCPJoIyxW/view). Also missable: Dining Hall, Gisa Crater."
-      # TODO map%
+      presets:
+        - _map%<notes>
 
-  - .dir(.E)
+  - .dir(.E):
+      notes: ".link([Missable Locations]https://drive.google.com/file/d/1hN-TJYfVUIlQGkuJYRkK4f0mCPJoIyxW/view). Also missable: Dining Hall, Gisa Crater."
   - _Korok::A48
 
   - _Location::GreatFairyFountainAkkala
@@ -6874,7 +6910,8 @@
       notes: Talk to Hudson again after the wedding
 
   - _Warp::Shrine::KeoRuug:
-      comment: TODO map% 99.83% (98.45%)
+      presets:
+        - _map%<comment>
 
   - _Npc<Hestu>:
       icon: hestu
@@ -6906,7 +6943,7 @@
       icon-map: null
       icon: memory-final
 
-  - " "  
+  - " "
   - "For verification please show:":
       banner: true
   - (1) map counter:
@@ -6917,8 +6954,3 @@
       banner: true
   - (4) key items tab:
       banner: true
-  - " "
-  - " "
-  - " "
-  - "search TODO "
-  - " TODO IST / WMC instructions"

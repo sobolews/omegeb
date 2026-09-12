@@ -42,6 +42,11 @@ config:
       color: black
       background: cyan
       split-type: null
+    val:
+      color:
+        dark: "#ff7272"
+        light: "#800000"
+      bold: true
 
 - presets:
     _Snap:

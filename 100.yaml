@@ -37,14 +37,11 @@ presets:
       - map-pct: .var(map-pct-items)
       - map-pct: .mul(100)
       - map-pct: .div(map-pct-items-total)
-      # - rounded: .var(map-pct-items)
-      # - rounded: .mul(0.08271)  # close enough and produces fewer decimal places
-      - mapmul100: .var(map-pct)
-      - mapmul100: .mul(100)
-      - mapfloor: .var(map-pct)
-      - mapfloor: .sub(0.5)
-    # $(0): Map .var(rounded)%
-    $(0): 'Map: .var(pad02:last3:mapfloor)..var(pad02:last2:mapmul100)%'
+      - map-mul-100: .var(map-pct)
+      - map-mul-100: .mul(100)
+      - map-floor: .var(map-pct)
+      - map-floor: .sub(0.5)
+    $(0): 'Map: .var(pad02:last3:map-floor).val(.).var(pad02:last2:map-mul-100)%'
 
   TowerWithMap%:
     text: ".loc($(0) Tower)"
@@ -62,12 +59,15 @@ presets:
       - map-pct-items: .add(counter-divine-beast-done)
       - map-pct-items: .add(counter-divine-beast-enter)
       - map-pct-items: .add(1)  # count this Tower
-      # - map-pct: .var(map-pct-items)
-      # - map-pct: .mul(100)
-      # - map-pct: .div(map-pct-items-total)
-      - rounded: .var(map-pct-items)
-      - rounded: .mul(0.08271)
-    comment: Map .var(rounded)%
+      - map-pct: .var(map-pct-items)
+      - map-pct: .mul(100)
+      - map-pct: .div(map-pct-items-total)
+      - map-mul-100: .var(map-pct)
+      - map-mul-100: .mul(100)
+      - map-floor: .var(map-pct)
+      - map-floor: .sub(0.5)
+    comment: 'Map: .var(pad02:last3:map-floor)..var(pad02:last2:map-mul-100)%'
+
   _TowerWithMap%:
     Central:
       presets: _TowerWithMap%<Central,-788.64,197.64,442.03>
