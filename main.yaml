@@ -318,11 +318,10 @@
       icon: link
       icon-map: null
       comment: |
-        .link([IST Instructions]https://docs.google.com/presentation/d/1AVJe_qxlJft2x4Dtv6zVQ9I1-esx9vKIZb9QDUpE56E/edit?usp=sharing)
+        .link([IST Instructions]https://docs.google.com/presentation/d/1mrrG4W08Ri0xB_Jox7eXfeOV0pGGcaFgGQJCTaLf7eg/edit?usp=sharing) or .link([IST Simulator steps]https://ist.pistonite.app/github/sobolews/omegeb/1.9v2/ist.txt)
       counter: .user-defined-split()
       notes: |
-        Here is a (outdated, but still useful for learning) .link([video guide for an older IST setup]https://youtu.be/0YZkmVyhfy4?t=3245).
-  # TODO: slides update
+        .link([Outdated (but still useful for learning\) video guide for an older IST setup]https://youtu.be/0YZkmVyhfy4?t=3245)
 
   - Do NOT reload or close the game until WMC is done.
 
@@ -612,7 +611,7 @@
       coord: [-3591.41, 319.37, -1804.93]
   - _Chest::Special<Great Eagle Bow>:
       coord: [-3630.37, 323.57, -1828.17]
-      notes: Chest gives autosave for WMC.
+      comment: Chest gives autosave for WMC
 
   - _Equipment::Shield<Pot Lid>:
       coord: [-3588.54, 298.00, -1809.50]
@@ -620,31 +619,18 @@
   - Cook speedfood:
       icon-map: null
       icon: cook
-      comment: 4 Lotus + Farosh Horn
-
-  - Eat extra stamina food:
-      icon: cook
-      icon-map: null
-      notes: Ensure you have exactly 40 meals. Unpause and pause after eating.
-
-  - Drop 10 Koroks:
-     icon: korok
-     icon-map: null
-     notes: .link([TODO Prompt Entanglement Inputs to hold korok seeds]https://imgur.com/SM1lRFn)
-
-  - Drop Slate:
-     icon: equipment
-     icon-map: null
-     comment: Slide says to eat, just drop instead
-     notes: .link([TODO Prompt Entanglement Inputs to hold slate]https://docs.google.com/presentation/d/1_x1TgluUOfYzo2eR-L68ObXuBVSsVbmMfghdUgv-Osg/edit?slide=id.g261b3b9031a_0_5#slide=id.g261b3b9031a_0_5)
+      comment: 3 Lotus + Rushroom + Farosh Horn
+      notes: Ensure you have only two tabs of meals after cooking speedfood.
 
   - WMC:
       icon: bow
       coord: [-3637.5,-1792.75]
       counter: .user-defined-split()
       comment: |
-        .link([WMC Instructions]https://docs.google.com/presentation/d/1_x1TgluUOfYzo2eR-L68ObXuBVSsVbmMfghdUgv-Osg/edit?usp=sharing)
-      notes: TODO Follow these .link([Detailed WMC Instructions from line 176 onwards]https://ist.pistonite.app/github/Mickystam521/hundo-new/main/ist.txt) or .link([the same steps in the slides]https://docs.google.com/presentation/d/1-6e8Q39j7zekRpRPVtFtKec2DpZ7eCHcuMpAdwp56qo/edit?usp=drivesdk) Follow these .link([Detailed WMC Instructions]https://docs.google.com/presentation/d/1_x1TgluUOfYzo2eR-L68ObXuBVSsVbmMfghdUgv-Osg/edit?usp=sharing). Here is a .link([video guide for the WMC]https://youtu.be/0YZkmVyhfy4?t=9690).
+        .link([WMC Instructions]https://docs.google.com/presentation/d/1bHuYNCK6jkmvWBslKHeA0I7fTmewz1hqPn2l8Fna9yw/edit?usp=sharing)
+      notes: .link([Simulator link (line 145\)]https://ist.pistonite.app/github/sobolews/omegeb/1.9v2/ist.txt). Here is a .link([video guide for the WMC]https://youtu.be/0YZkmVyhfy4?t=9690) (old).
+  - " "
+
 
 - Hebra South:
 
