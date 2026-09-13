@@ -5051,6 +5051,7 @@
 - Letter Quest / Central:
 
   - _Warp::Tower::DuelingPeaks:
+      text: Warp .loc(Dueling Peaks Tower)
       color: red
 
   - .dir(<E)
@@ -6002,6 +6003,7 @@
       comment: " "
 
   - _Warp::Tower::Akkala:
+      text: Warp .loc(Akkala Tower)
       presets:
         - _map%<comment>
 
@@ -6221,7 +6223,9 @@
   - .dir(W.)
   - _Npc::SheikaFemale<Impa>:
       coord: [1772.71, 229.43, 984.31]
-      comment: Map 89.99% (88.75%)
+      presets:
+        - _map%<comment>
+
   - _Npc::SheikaFemale<Paya>:
       coord: [1772.71, 229.43, 984.31]
       notes: If she is not crying, then you missed some quest.
