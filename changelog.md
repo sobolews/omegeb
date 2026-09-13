@@ -16,7 +16,7 @@ This route is intended for latest patch, and since the fastest version of that i
 
 - Moved R53 and C36 to get on the way from Satori to Castle.
 
-- Added a headshot lizalfos BTB to get to Castle. (note: you can make this BTB easier with ice arrows, but then you'll need a different, slightly slower, IST setup)
+- Added a headshot lizalfos BTB to get to Castle. (note: you can make this BTB easier with ice arrows, but then you'll need a different, slightly slower, [IST setup](https://tinyurl.com/y8acrbp8)
 
 - Moved Goponga Village Ruins to Tabantha Tower split
 
