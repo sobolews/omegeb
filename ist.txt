@@ -9,7 +9,7 @@ save-as autoplat
 # Follow Route
 drop 5 branch axe
 get pot-lid 3 peppers 3 shrooms bokobow 5 arrows 8 spiritorb paraglider 3 sunshroom 2 endura-shroom 2 razorshroom honey 2 egg 6 lotus rushroom forestdwellersbow acorn 10 durian 2 wood 5 korok falconbow 5 bombarrow royalclaymore royalguardsclaymore naydrasfang 3 ancientarrow 2 lizalfostalon lizalfostail lizalfoshorn enduring-mushroom-skewer hasty-omelet dinraalsfang hylianshield 3 ancientscrew  ancientspring ancientshaft 4 hyrulebass ancientcore opal 2 fairy 2 nightshade 1 enduracarrot 2 princess beetle
-drop bokobow potlid 2 endurashroom 2 egg 4 lotus 6 durian royalguardsclaymore 
+drop bokobow potlid 2 endurashroom 2 egg 4 lotus 6 durian royalguardsclaymore
 !remove hasty-omelet 4 bombarrow 2 ancientarrow
 unpause
 ###########
@@ -37,7 +37,7 @@ get 2 durian honey 2 sunshroom 2 pepper 2 hylianshroom
 #dnp = drop and pickup (any order within each line)
 dnp 3 screw enduracarrot rushroom
 dnp 2 lotus dinraalsfang naydrasfang
-dnp 4 hyrulebass 
+dnp 4 hyrulebass
 dnp 2 lizalfostalon lizalfoshorn shaft
 save
 #If you didn't do DSTA, then go to your switch clock and go to present time (the time after your plateau autosave)
@@ -61,7 +61,7 @@ dnp 2 dinraalsfang 2 naydrasfang 2 shaft 4 lotus
 dnp 4 lizalfostalon
 save
 reload
-#Drop all talon before picking up 
+#Drop all talon before picking up
 dnp 8 lizalfostalon
 dnp 4 lizalfoshorn 4 shaft
 #Get 9 stamina, 7 hearts
@@ -113,14 +113,14 @@ shoot 1 time
 save
 reload
 # Go to Hateno
-drop enduracarrot 
+drop enduracarrot
 equip firearrow
 shoot
 get roastedenduracarrot
 # Talk to Bolson
 save
 reload
-!remove dinraalsfang rushroom 3 lotus 
+!remove dinraalsfang rushroom 3 lotus
 get hasty-fruitandmushroommix
 eat 4 enduring-mushroom-skewer
 sort food 2 times
@@ -149,10 +149,10 @@ get potlid
 !remove rushroom 3 lotus faroshhorn # cook them
 get hasty-fruitandmushroommix
 #Go to meals tab 1, row 1, column 1. In quick succession: D-pad [Left Up Right Right] R3 Left, D-pad Right, R3 Left, D-Pad Right, then do R3 right 3 tabs. Hold and drop 4 korok seeds, then repeat.
-!remove 8 koroks 
+!remove 8 koroks
 #Go to meals tab 1, row 1, column 1. In quick succession: D-pad [Left Up] R3 Left, D-pad Right, R3 Left, D-Pad Right, then do R3 right 3 tabs. Hold and drop the slate.
 !remove slate
-#Sell and drop everything mentioned
+#Sell and drop everything mentioned (everything but blue fish and scale)
 sell all rushroom all naydrasfang all hyrulebass all princess all honey all banana all acorn all beetle all fairy all lizalfostail all spring all apple all wood all lizalfostalon all lizalfoshorn all opal all shaft all dinraalsfang all ancientcore darner durian pumpkin claw
 #Eat all food apart from last 2
 eat all enduring-mushroom-skewer all sneaky-fried-wild-greens all but 1 roastedenduracarrot all but 1 hasty-fruitandmushroommix
@@ -163,9 +163,9 @@ drop torch
 drop forestdwellersbow falconbow #Make sure they don't despawn
 #Drop in any order, then pick up IN ORDER
 drop royalclaymore potlid heartybass faroshscale
-get royalclaymore 
-get heartybass 
-get faroshscale 
+get royalclaymore
+get heartybass
+get faroshscale
 get potlid
 save
 #Pick up bows
@@ -194,7 +194,7 @@ unequip royalclaymore
 #Equip and drop 1st bow
 equip geb
 drop geb
-#Drop all shields except the 2nd hylian shield (which should be equipped)
+#Drop all shields except the 2nd hylian shield
 drop all potlid hylianshield
 unequip shield
 drop scale
