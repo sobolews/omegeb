@@ -2900,8 +2900,10 @@
   - _Korok::R44:
       comment: " "
 
-  - run .dir(S>)
-  - _Korok::R43:
+  - run .dir(S>):
+      movements:
+        - _Korok::R45::Start
+  - _Korok::R43::Away<white>:
       comment: Hanging under bridge
 
   - _Korok::R45:
