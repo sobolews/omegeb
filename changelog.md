@@ -83,6 +83,8 @@ This route is intended for latest patch, and since the fastest version of that i
 
 - Reordered most of Rito2 NPCs/koroks/shrine
 
+- Reordered H10, H09, H11, H04 (better movement)
+
 - Moved H20 from Goma Asaagh to small Hebra North branch (better movement)
 
 - Moved A44, A35, A36, A33, Ritaag Zumo to the previous branch (time of day for Tumbo)
