@@ -1,7 +1,7 @@
 # [Hundo 1.9v2 Route](https://celer.pistonite.org/view/sobolews/omegeb:1.9v2) Changelog
 
 These are all the changes since the [previous route I ran and documented](https://celer.pistonite.org/view/sobolews/omegeb:v1_new_celer).
-Some of these changes are already years old, but were never properly documented, some are related to version 1.9 patching BLSS, and some are because the run has gotten fast enough that several time-of-day and fury timing cycles are breaking.
+Some of these changes are already years old, but were never properly documented, some are related to version 1.9 patching BLSS, and some are because the run has gotten fast enough that several time-of-day and fury timing cycles were breaking.
 
 This route is intended for latest patch, and since the fastest version of that is 1.9 Switch 1 Edition run on a Switch 2, I've removed references to superlaunches and unloaded shrines/caves as they can't happen on S2 hardware.
 
