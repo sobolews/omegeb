@@ -1,0 +1,223 @@
+#IST/WMC setup for BOTW 100% V1.8.2.
+#workaround for sim limit
+#plat setup
+save-as sor
+!init 5 branch torch axe slate
+!system [sync-overworld]
+get bakedapple
+eat bakedapple
+save-as autoplat
+#Follow Route
+drop 5 branch axe
+get pot-lid 3 peppers 3 shrooms bokobow 5 arrows sledgehammer 8 spiritorb paraglider 2 zapshroom 3 sunshroom 2 endura-shroom 2 razorshroom honey 2 egg 6 lotus 4 princess rushroom forestdwellersbow acorn 4 icearrow 7 durian 2 wood 4 korok falconbow 5 bombarrow royalclaymore royalguardsclaymore naydrasfang 3 ancientarrow 2 lizalfostalon lizalfostail lizalfoshorn enduring-mushroom-skewer hasty-omelet hearty-simmered-fruit dinraalsfang hylianshield 3 ancientscrew ancientcore ancientspring ancientshaft 4 hyrulebass opal 3 fairy 2 nightshade 1 enduracarrot beetle
+drop sledgehammer bokobow potlid 2 endurashroom 2 egg 4 lotus 4 durian royalguardsclaymore
+eat hasty-omelet hearty-simmered-fruit
+unpause
+###########
+#IST START#
+###########
+#First slot breaking
+equip torch
+#Do smuggle glitch. Hold zapshroom, razorshroom, ancientspring, wood, nightshade. Smuggle-hold them and talk to shop. Sell these items (except ancientspring which should be at 0.)
+!remove 2 zapshroom 2 razorshroom ancientspring 2 wood 2 nightshade
+!break 4 slots
+#Pick them up in order
+get nightshade ancientspring wood zapshroom razorshroom
+eat razorshroom
+#Second slot breaking
+#Drop one of each from the below mentioned
+drop hylianshroom pepper sunshroom durian
+#Smuggle, hold 1 of each item below, smuggle-hold them, talk to shop. Sell the items (except honey which should be at 0)
+!remove 2 hylianshroom 2 pepper 2 sunshroom 2 durian honey
+!break 4 slots
+#Pick everything up in any order
+get 2 durian honey 2 sunshroom 2 pepper 2 hylianshroom
+#Third slot breaking
+#Smuggle glitch, hold 1 of each below, smuggle-hold, talk to shop. Sell the items (except zapshroom which should be at 0)
+!remove 2 hylianshroom 2 pepper 2 sunshroom 2 durian zapshroom
+!break 4 slots
+#dnp = throw on the floor and pick back up
+dnp 3 screw enduracarrot rushroom
+dnp 4 hyrulebass 2 lotus dinraalsfang naydrasfang
+dnp 2 lizalfostalon lizalfoshorn shaft
+dnp torch
+equip forestdwellersbow
+equip icearrow
+equip hylianshield
+save
+#If you didn't do DSTA, then go to your switch clock and go to present time (the time after your plateau autosave)
+reload sor
+#Get Invalid Star Tab: pause, L, R3 right 3 times, unpause. Repeat 3 times.
+pause; unpause
+#A simple reload means reloading your hard save. If you can't see your cursor in the saves menu you did it right. Press D-Pad right to bring it back to screen.
+reload
+sort key-item
+#Go to meals tab 1, row 3, column 5. In quick succession: R3 Left, D-pad Up, R3 Right, D-Pad Left, then do R3 right. Hold and drop 8 korok seeds.
+!remove 8 korokseed
+dnp 4 hyrulebass lizalfoshorn 2 lizalfostalon 2 lotus shaft
+dnp 4 princess
+save
+#Hold 2 fairies, burn in the fire, spam A to drop them and pick them up again
+!remove 3 fairies
+!break 1 slot
+get 2 fairies
+#Hold 1 fairy, burn, press A to let it fly away
+!remove 2 fairies
+!break 1 slot
+reload
+#Drop all bass before picking up
+dnp 8 hyrulebass 2 lizalfoshorn
+dnp 4 princess 4 lotus
+dnp 2 dinraalsfang 2 naydrasfang 2 shaft 4 lizalfostalon
+save
+reload
+#Drop all talon before picking up
+dnp 8 lizalfostalon
+dnp 4 lizalfoshorn 4 shaft
+#Drop all princess before picking up
+dnp 8 princess
+#Get max stamina, 6 hearts
+!remove 64 spirit-orb
+#First corruption
+save
+reload autoplat
+eat 3 enduring-mushroom-skewer
+reload
+#Every time you come back from GP, immediately pause (or shoot and pause if told to do so) and don't unpause before saving
+save
+reload
+drop acorn 5 core
+#Sell 994 cores, pick back up 5 and the acorn
+!remove all core
+get 5 core acorn
+equip falconbow
+equip royalclaymore
+save
+#Second corruption
+reload autoplat
+eat 7 enduring-mushroom-skewer
+reload
+#Shoot immediately and pause/save right after
+shoot 1 time
+save
+#Third corruption
+reload autoplat
+eat 6 enduring-mushroom-skewer
+reload
+#Shoot immediately and pause/save right after
+shoot 1 time
+save
+reload
+buy firearrow
+equip ancientarrow
+buy swiftcarrot
+sort material
+save
+#Fourth corruption
+reload autoplat
+get bokospear
+equip torch
+eat 9 enduring-mushroom-skewer
+reload
+shoot 1 time
+save
+reload
+drop enduracarrot bluenightshade
+equip firearrow
+get roastedenduracarrot
+save
+reload
+!remove 4 lotus dinraalsfang
+get hasty-simmeredfruit
+eat 7 enduring-mushroom-skewer
+sort food 2 times
+#Go to meals tab 1, row 3, column 5. In quick succession: R3 Left, D-pad Up, R3 Right, D-Pad Left, then do R3 right. Hold roasted carrot. Unpause, pause, hold silent princess and 3 fairies, cook them.
+!remove roastedenduracarrot princess 3 fairies
+get sneaky-fried-wild-greens[price=155,hp=120]
+eat 2 enduring-mushroom-skewer
+save
+reload
+#complete the Bolson quest house thing
+eat hasty-simmered-fruit
+#Follow the route, up to the part where you drop the Slate
+get 5 apples 32 Koroks bass faroshhorn faroshscale faroshclaw durian 6 bananas pumpkin
+!remove 22 koroks 3 screws 3 ancientcore 3 shafts
+equip forestdwellersbow
+unequip forestdwellersbow
+get gale darner geb
+############
+#PREP START#
+############
+save-as autorito
+get potlid
+eat 21 enduring-mushroom-skewer #make sure you have exactly 41 meals
+!remove 4 lotus faroshhorn #cook them
+get hasty-simmered-fruit
+!remove 10 koroks slate
+#Sell and drop everything mentioned
+sell all rushroom all naydrasfang all hyrulebass all princess all honey all banana all acorn all beetle all fairy all lizalfostail all spring all apple all wood all lizalfostalon all lizalfoshorn all opal all shaft
+drop carrot all dinraalsfang all ancientcore
+drop darner durian pumpkin claw
+#Eat all food apart from last 2
+eat all enduring-mushroom-skewer all sneaky-fried-wild-greens all but 1 roastedenduracarrot all but 1 hasty-simmered-fruit
+drop torch
+###########
+#WMC START#
+###########
+drop forestdwellersbow falconbow #Make sure they don't despawn
+#Drop in any order, then pick up in order
+drop royalclaymore potlid heartybass faroshscale
+get royalclaymore heartybass faroshscale potlid
+save
+#Pick your bows back up
+get forestdwellersbow falconbow
+drop faroshscale heartybass
+eat all food
+reload
+#Shoot and save immediately
+shoot 1 time
+save
+equip ancientarrow
+#Unequip the second GEB, equip the second pot lid
+unequip geb [slot=2]
+equip pot [slot=2]
+drop heartybass faroshscale
+eat hasty-simmered-fruit
+reload
+#Shoot and save immediately
+shoot 1 time
+save
+#Drop 3rd and 4th shield
+drop hylianshield [slot=2] potlid [slot=2]
+eat heartybass
+reload
+unequip royalclaymore
+#Equip and drop 1st bow
+equip geb
+drop geb
+#Drop all shields except the 2nd hylian shield (which should be equipped)
+drop all potlid hylianshield
+#Drop 2nd scale
+drop scale [slot=2]
+get scale
+#Eat carrot and first food slot
+eat roastedenduracarrot
+eat hasty-simmered-fruit
+#Reload GEB autosave
+reload autorito
+#Drop 2nd claymore (should have been equipped)
+drop royalclaymore [slot=2]
+#Equip 1st bow
+equip geb
+#Drop 2nd shield (both shold have been equipped)
+drop hylian-shield [slot=2]
+#Go to shop, buy everything except bomb arrows. You have like 1500, you need more? Screw you
+buy 4 sunshroom 5 butter 3 sugar 3 wheat
+equip claymore
+#Continue route until Voltfin Trout
+get 4 koroks 1 spiritorb trout
+#Save and close the game
+save
+close-game
+reload
+#IST and WMC have been completed, continue the run as normal. Hard part done, good luck on the rest champ :)

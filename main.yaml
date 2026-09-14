@@ -185,7 +185,8 @@
         - at: [-1338.5,226.5]
       vars:
         - counter-location: .add(1) # Hyrule Castle
-      notes: .link([video reference]https://youtu.be/IF6sbyBVNpY)
+      comment: .link([video reference]https://youtu.be/IF6sbyBVNpY)
+      notes: This uses a headshot BTB, because this route's IST setup doesn't work if you get ice arrows. If you strongly prefer the easier method of freezing the lizalfos, you can get the ice arrow chest at Satori, and you'll have to use .link([this slower IST setup instead]https://ist.pistonite.app/github/sobolews/omegeb/1.9v2/ice-arrow-ist.txt). Pay close attention to the inventory differences if you use this. (2 zapshrooms, 4 princesses, 3 fairies, and equipping fire arrows at WMC)
 
   - Run through passage to the back of the .loc(Guard's Chamber):
       vars:
@@ -193,8 +194,10 @@
 
   - _Equipment::Bow<Falcon Bow>:
       comment: Against wall on upper level
-      notes: Drop 5 Branches, Axe, and Boko Bow.
       coord: [-412.66, 182.53, -851.28]
+
+  - Drop 5 Branches, Axe, and Boko Bow:
+      icon-doc: equipment
 
   - _Chest<5 Bomb Arrows>:
       comment: Next to Falcon Bow
