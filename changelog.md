@@ -101,3 +101,6 @@ This route is intended for latest patch, and since the fastest version of that i
 ### Sept 17 2026
 
 - Moved D51 from Myahm Agana to Ha Dahamar (fury timing for south dueling peaks talus)
+
+## Added Horsey W for Player5
+  - (not really recommended, tricky for a small timesave on success or a  large timeloss if failed)
