@@ -1,5 +1,5 @@
-title: 100% Route 1.9v2
-version: 2
+title: 100% Route (1.9)
+version: v2
 
 route:
   use: ./main.yaml
