@@ -266,7 +266,7 @@
       vars:
         - counter-location: .add(1) # Central Square
 
-  - WB chain E> to NPC Izra
+  - WB chain .dir(E>) to NPC Izra
   - _Material<4 Hyrule Bass>:
       comment: Bomb the water
       icon-map: null
@@ -677,7 +677,7 @@
   - .dir(E>) down
   - _Korok::T03
 
-  - Swim W
+  - Swim .dir(W)
   - _Material<Voltfin Trout>:
       coord: [-3012.75, 217.66, -2157.02]
       comment: null
@@ -726,7 +726,7 @@
 
   - .dir(N)
   - _Korok::H44:
-      comment: Look NW, balloon under ledge
+      comment: Look .dir(NW), balloon under ledge
 
   - .dir(E) midair
   - _Korok::H45
@@ -4251,7 +4251,7 @@
   - _Korok::D14:
       comment: Under bridge
 
-  - Surf S
+  - Surf .dir(S)
   - _Location::OwlanBridge
 
   - .dir(<E)
@@ -5129,7 +5129,7 @@
 
   - .dir(E.)
   - _Korok::Z23
-  - Surf S
+  - Surf .dir(S)
   - _Npc::ZoraFemale<Finley>:
       coord: [2754.00, 189.53, -83.50]
       comment: Special Delivery
@@ -5148,7 +5148,7 @@
       vars:
           Monument: .add(1)
 
-  - S drop
+  - .dir(S) drop
   - _Location::OrenBridge
 
   - .dir(S.)
@@ -5588,7 +5588,7 @@
       comment: Genli
       notes: Give Salmon Meuniere
 
-  - Jump down NW
+  - Jump down .dir(NW)
   - _Npc::Rito<Fyson>:
       coord: [-3595.875,-1815]
       comment: Invite to Tarrey Town
@@ -5608,7 +5608,7 @@
       coord: [-3616.25,-1829.375]
       comment: Juney
 
-  - Jump down W
+  - Jump down .dir(W)
   - _Npc::Rito<Pink girl>:
       coord: [-3632,-1833]
       comment: Molli
@@ -5625,7 +5625,7 @@
       coord: [-3646,-1792.75]
       comment: Notts
 
-  - Glide SW
+  - Glide .dir(SW)
   - _Shrine::AkhVaquot
 
   - Run left
@@ -5970,7 +5970,7 @@
   - _Korok::E45:
       comment: " "
 
-  - .gale(GALE 3) + N midair
+  - .gale(GALE 3) + .dir(N) midair
   - _Shrine::TahMuhl
 
   - .dir(E.) + midair
@@ -6840,7 +6840,7 @@
       comment: A Gift from the Monks
       icon-map: null
 
-  - .gale(GALE 2) NW
+  - .gale(GALE 2) .dir(NW)
   - _Korok::K09
 
   - Turn in orbs for .!!(27 hearts):
