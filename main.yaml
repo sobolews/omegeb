@@ -473,13 +473,13 @@
       comment: null
 
   - .dir(<W)
-  - _Tower::Faron
-
-  - .dir(NE)
   - _Korok::F25:
       notes: Pick a durian, keep it
 
-  - .dir(S.)
+  - .dir(SW)
+  - _Tower::Faron
+
+  - .dir(.S)
   - _Korok::F39:
       notes: Keep the durian
 

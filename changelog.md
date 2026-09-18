@@ -7,6 +7,7 @@ This route is intended for latest patch, and since the fastest version of that i
 
 **Differences from the previous 1.6 route**:
 
+### On release (Sept 13 2026)
 
 - Plateau: BLSS no longer available, so revert to SCMtB plat. (working on timing some other options though...)
 
@@ -25,6 +26,8 @@ This route is intended for latest patch, and since the fastest version of that i
 - Ask for 9 stamina and 7 hearts at the Kakariko Goddess Statue, and request a stamina at the Horned Statue (saves a couple seconds of text)
 
 - House upgrade is now done earlier (or you can wait till hateno2 if you're fast enough to worry about time of day being too early for the Hebra Salavager Chest)
+
+- Swapped F25 / Faron Tower (we did tower first to avoid waiting for durian to load in on s1)
 
 - Cooking the WMC meal is now done in Hateno instead of Flight Range.
 
