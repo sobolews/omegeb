@@ -4429,7 +4429,11 @@
   - _Location::BigTwinBridge
   - _Location::LittleTwinBridge
 
-  - .dir(NE)
+  - .dir(<E)
+  - _Korok::D51:
+      comment: " "
+
+  - .dir(W)
   - Tame a horse:
       icon: tots
       coord: [1784.94, 117.91, 2036.54]
@@ -6356,11 +6360,7 @@
   - _Korok::D55:
       comment: High ledge on cliff wall
 
-  - .dir(N>)
-  - _Korok::D51:
-      comment: " "
-
-  - .dir(E)
+  - .dir(<<E)
   - _Korok::D52:
       comment: Pinwheel
 

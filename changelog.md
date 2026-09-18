@@ -94,3 +94,7 @@ This route is intended for latest patch, and since the fastest version of that i
 - Added dynamic map% calcuation to the route (all map%'s are recalculated by the celer engine any time the route changes, so no more having to complete a run to learn the correct map% checkpoints - thanks Savage!)
 
 - and many small clarifications or rewordings
+
+### Sept 17 2026
+
+- Moved D51 from Myahm Agana to Ha Dahamar (fury timing for south dueling peaks talus)
