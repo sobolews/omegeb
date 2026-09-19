@@ -222,7 +222,7 @@
 
   - _Cook<Cook stamina food>:
       coord: [-330.55, 192.35, -834.53]
-      notes: Use all your endura shrooms. You may cook an extra meal to help with the Stalnox fight, but make sure you have exactly one when you start IST.
+      notes: Use all your endura shrooms. You may cook an extra stamina meal (using both shrooms separately), but make sure you use it and have exactly one when you start IST.
   - _Cook<Cook speedfood>:
       icon-map: null
       coord: [-330.55, 192.35, -834.53]
