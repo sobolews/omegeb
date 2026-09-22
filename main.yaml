@@ -179,7 +179,7 @@
       icon-doc: tots
       movements:
         - to: [-1338.5,226.5]
-        - to: [-371.5,-769]
+        - to: [-319.74, 183.89, -781.52]
           icon: location
       markers:
         - at: [-1338.5,226.5]
