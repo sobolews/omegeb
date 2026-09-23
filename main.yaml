@@ -1506,7 +1506,7 @@
       comment: Equip
 
   - _Npc::ZoraMale<Fronk>:
-      coord: [3342,-501.5]
+      coord: [3344.32, 246.76, -471.80]
       comment: Wife Washed Away
       notes: 7:00am to 8:00pm, Fronk is at the pillar. Otherwise he is .link([at the pools]https://youtu.be/3EltLt0dpks?t=2686).
 
