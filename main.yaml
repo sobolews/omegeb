@@ -64,10 +64,9 @@
   - _Material<12 Peppers>:
       icon-map: null
       comment: Scrap + Food
-      notes: 6 by camp, 6 up by gate. You can eat up to 9 of them
+      notes: 6 by camp, 6 up by gate. Try to keep at least 3.
 
   - _Chest<5 Normal Arrows>:
-      notes: Through gate past river
       comment: Boko camp
       coord: [-1011.19, 287.02, 2155.60]
 
@@ -115,18 +114,21 @@
 - Material Gathering / IST:
   - BTB .dir(W>) to Satori Mountain:
       coord: [-2203.83, 267.93, 792.66]
+  - _Material<Check 3 Peppers>:
+      comment: Scrap
+      notes: Substitute with 3 zapshrooms if missing.
   - _Material<Hylian Shrooms>:
       comment: Scrap
-      notes: Keep at least 3
+      notes: Keep at least 3.
   - _Material<Sunshrooms>:
       comment: Scrap
-      notes: Keep at least 3. Optional truffle near one.
+      notes: Keep at least 3.
   - _Material<2 Endura Shroom>:
       notes: Save one to cook, can eat the other
       comment: null
   - _Material<2 Razorshrooms>:
       comment: Scrap
-      notes: Do not eat
+      notes: Do not eat. You may gather any other mushrooms here to eat.
 
   - .dir(W)
   - _Material<Courser Bee Honey, 1>:
@@ -316,6 +318,9 @@
   - _Npc::SheikaFemale<Arrow Shopkeeper>:
       coord: [1830.49, 222.41, 1044.89]
       comment: Talk twice
+
+  - Eat or remove any extra materials/food:
+      icon-doc: material
 
   - IST:
       coord: [1811.23, 221.34, 1050.06]
