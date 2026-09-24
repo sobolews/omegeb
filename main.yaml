@@ -78,6 +78,7 @@
 
   - _Shrine::OwaDaim:
       comment: Stasis shrine
+      notes: This is the SCMtB plateau route. There are other viable routes to complete plateau, like BtMCS. Any plateau route is fine provided you set up the autosave with the correct inventory, and have at least 3 arrows at Paraglider for BTBs.
 
   - _Npc::SheikaMale<Old Man>:
       coord: [-925.03, 272.84, 2306.23]
