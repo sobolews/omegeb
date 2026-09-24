@@ -101,3 +101,7 @@ This route is intended for latest patch, and since the fastest version of that i
 ### Sept 17 2026
 
 - Moved D51 from Myahm Agana to Ha Dahamar (fury timing for south dueling peaks talus)
+
+### Sept 24 2026
+
+- Reordered Talus, P04, P06, P05, P02, P01 in Kaam Yatak split. (this was the original order of these in Granatus. We had moved the talus later because of fury timing, but now that we've moved part of Satori into Mijah Rokee, we can revert to this better order)

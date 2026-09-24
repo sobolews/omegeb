@@ -3054,7 +3054,16 @@
   - _Korok::P10:
       comment: " "
 
-  - .dir(.N)
+  - .dir(NW)
+  - _Boss::Talus::Stone:
+      coord: [-1087.75, 179.14, 1663.18]
+      comment: .fury(FURY 1)
+      notes: If the blood moon happens between killing it and the purple "poof", the kill won't count.
+
+  - .dir(E) run
+  - _Korok::P04
+
+  - .dir(.S)
   - _Korok::P06
 
   - .dir(<E)
@@ -3066,16 +3075,7 @@
   - .dir(NW) run
   - _Korok::P01
 
-  - .dir(<W)
-  - _Boss::Talus::Stone:
-      coord: [-1087.75, 179.14, 1663.18]
-      comment: .fury(FURY 1)
-      notes: If the blood moon happens between killing it and the purple "poof", the kill won't count.
-
-  - .dir(E) run
-  - _Korok::P04
-
-  - .dir(NW)
+  - .dir(W>>)
   - _Korok::C81:
       comment: Small ruins next to coliseum
 
