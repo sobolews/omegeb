@@ -226,6 +226,7 @@
   - _Cook<Cook stamina food>:
       coord: [-330.55, 192.35, -834.53]
       notes: Use all your endura shrooms. You may cook an extra stamina meal (using both shrooms separately), but make sure you use it and have exactly one when you start IST.
+      comment: Endura shroom
   - _Cook<Cook speedfood>:
       icon-map: null
       coord: [-330.55, 192.35, -834.53]
@@ -233,12 +234,13 @@
   - _Cook<Cook hearty food>:
       icon-map: null
       coord: [-330.55, 192.35, -834.53]
-      notes: Use 4 durians in one dish. Make sure you have at least 3 durians left.
+      notes: Make sure you have at least 3 durians left, or you'll have to get apples in Kakariko to substitute for durians during IST.
+      comment: 4-5 durians
   - Eat speedfood and hearty food
+  - Run down hallway, left at the end, drop to hidden room
 
   - _Chest<Dinraal's Fang>:
       coord: [-326.46, 151.16, -1002.40]
-      notes: Run past the malice, down the hallway, turn left, drop down to the hidden room.
   - _Korok::X08:
       comment: Activate updraft to get here
   - _KorokLoc<X13,East Passage>:
