@@ -272,6 +272,7 @@
   - WB chain .dir(E>) to NPC Izra
   - _Material<4 Hyrule Bass>:
       comment: Bomb the water
+      notes: If you miss a fish, continue as usual. You'll be 3 fish short of the 15 you need, but you can get them at Sarjon Bridge.
       icon-map: null
   - _Chest<Knight's Broadsword>:
       coord: [826.64, 112.80, 123.61]
@@ -4586,7 +4587,8 @@
   - _Korok::F24::Away<white>:
       comment: Hidden in tree
 
-  - _Location::SarjonBridge
+  - _Location::SarjonBridge:
+      notes: If you've less than 15 Hyrule Bass, you can get a few here.
   - _Korok::F23
 
   - .dir(NE)
