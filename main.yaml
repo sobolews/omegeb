@@ -806,11 +806,6 @@
   - _Korok::T19
 
 - Vah Naboris:
-  - _Warp::SOR:
-      text: Warp Shrine of Resurrection
-
-  - _Korok::P09:
-      comment: In Link's bed
 
   - _Warp::Shrine::MoggLatan
 
@@ -3043,6 +3038,11 @@
       comment: On small island
 
 - Gerudo:
+  - _Warp::SOR:
+      text: Warp Shrine of Resurrection
+
+  - _Korok::P09:
+      comment: In Link's bed
 
   - _Warp::Shrine::OwaDaim:
       color: "#33ff4e"
