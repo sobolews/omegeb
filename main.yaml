@@ -5373,16 +5373,15 @@
         - counter-location: .add(1) # Sacred Ground Ruins
 
   - .dir(S>>)
-  - _Korok::C42:
-      comment: Hanging in tree
-
   - _Korok::C43:
       comment: Pinwheel
+  - _Korok::C42::Away<white>:
+      comment: Hanging in tree
 
   - .dir(W)
   - _Korok::C40:
       comment: " "
-  - _Korok::C41
+  - _Korok::C41::Away<white>
 
   - .dir(<W)
   - _Korok::C39
