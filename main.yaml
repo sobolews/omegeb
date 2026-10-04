@@ -6842,6 +6842,7 @@
 
   - .dir(S) down
   - _Korok::K14
+  - .gale(GALE 2) + .dir(NE)
 
   - _Shrine::RonaKachta
 
@@ -6849,7 +6850,7 @@
       comment: A Gift from the Monks
       icon-map: null
 
-  - .gale(GALE 2) .dir(NW)
+  - .gale(GALE 3) .dir(NW)
   - _Korok::K09
 
   - Turn in orbs for .!!(27 hearts):
