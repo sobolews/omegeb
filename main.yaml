@@ -6641,7 +6641,7 @@
   - .dir(N) run
   - _Korok::Z28
 
-  - .dir(N)
+  - .dir(NE)
   - _Korok::Z10:
       comment: On smaller island by updraft
 
