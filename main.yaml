@@ -2731,10 +2731,7 @@
   - _Korok::C01:
       comment: Near malice pillar
 
-  - .dir(W)
-  - _Korok::R11
-
-  - .dir(<S)
+  - .dir(S>)
   - _Korok::C07
 
   - .dir(S)
@@ -2752,7 +2749,10 @@
   - _Korok::R16:
       comment: Against cliff
 
-  - .dir(<N)
+  - .dir(N.)
+  - _Korok::R11
+
+  - .dir(W)
   - _KorokLoc<R10,Royal Ancient Lab Ruins>:
       comment: In ruins
 
