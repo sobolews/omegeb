@@ -527,11 +527,10 @@
   - _Korok::D21
 
   - .dir(W)
-  - _Npc<Hestu>:
+  - Hestu:
       icon: hestu
       coord: [2069.45, 188.17, 1422.25]
       notes: Get bow + weapon
-      counter: .user-defined-split()
 
   - .dir(.W)
   - _KorokLoc<D20,Kakariko Bridge>:
@@ -546,6 +545,9 @@
       comment: " "
 
   - _Warp::Shrine::KayaWan
+  - _Npc<Hestu 1>:
+      counter: .user-defined-split()
+
 
   - _Location::WetlandStable
   - _Npc<Hestu>:
@@ -579,6 +581,9 @@
 
 - Vah Medoh:
   - _Warp::Shrine::MoggLatan
+  - _Npc<Hestu 2>:
+      counter: .user-defined-split()
+
 
   - .dir(NW) + midair chain
   - _Tower::Tabantha
