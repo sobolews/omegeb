@@ -105,3 +105,7 @@ This route is intended for latest patch, and since the fastest version of that i
 ### Sept 24 2026
 
 - Reordered Talus, P04, P06, P05, P02, P01 in Kaam Yatak split. (this was the original order of these in Granatus. We had moved the talus later because of fury timing, but now that we've moved part of Satori into Mijah Rokee, we can revert to this better order)
+
+### Oct 19 2026
+
+- Moved R11 to the next split (Monya Toma). This is an old change, I don't know how I missed it in the route until now.
