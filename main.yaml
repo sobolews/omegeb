@@ -933,6 +933,8 @@
   - _Npc::Gerudo<Pokki>:
       coord: [-2968.22, 137.69, 3775.00]
       comment: Start Perfect Drink quest
+      vars:
+        - counter-location: .add(1) # Misae Suma
 
   - .dir(E) + midair:
       notes: Wait until Riju's question, then choose "Keep up the fight!" Use minimap to find Naboris.
@@ -1207,6 +1209,8 @@
       notes: Perfect Drink quest
 
   - _Shrine::MisaeSuma
+      vars:
+        - counter-location: .sub(1) # already discovered
 
   - .dir(W)
   - _Korok::W62
