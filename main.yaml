@@ -1208,7 +1208,7 @@
       coord: [-2968.22, 137.69, 3775.00]
       notes: Perfect Drink quest
 
-  - _Shrine::MisaeSuma
+  - _Shrine::MisaeSuma:
       vars:
         - counter-location: .sub(1) # already discovered
 
