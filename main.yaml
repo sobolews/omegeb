@@ -2188,32 +2188,10 @@
   - _Snap::Quest<Stalhorse>:
       coord: [4002.50, 123.59, -2157.50]
 
-  - .dir(S.) + midairs
-  - _Korok::A37
-
-  - .dir(S>)
-  - Kill .enemy(Stalker 1):
-      icon: calamity
-      coord: [3624.82, 195.25, -1602.62]
-      comment: Hobbies of the Rich
-
-  - Kill .enemy(Stalker 2):
-      icon: calamity
-      coord: [3671.23, 195.66, -1511.54]
-      comment: Hobbies of the Rich
-
   - .dir(E)
   - _Npc<Hudson>:
       coord: [3981.65, 233.41, -1599.11]
       comment: Talk twice
-
-  - .dir(NE)
-  - _Korok::A34:
-      comment: " "
-
-  - .dir(S)
-  - _Korok::A38:
-      comment: On bridge
 
   - _Warp::Shrine::ShaeMosah:
       color: "blue"
@@ -2924,22 +2902,6 @@
   - .dir(<W)
   - _Korok::R42:
       comment: " "
-
-  - .dir(SE)
-  - _Boss::Hinox::Black:
-      coord: [-1177.05, 139.48, 118.51]
-
-  - .dir(SE)
-  - _Korok::C38:
-      comment: Starts at tree stump
-
-  - .dir(<W)
-  - _Korok::C37:
-      comment: On beach
-
-  - .dir(<<N)
-  - _Korok::R49:
-      comment: On beach
 
   - .dir(N) up
   - _Korok::R48
@@ -5072,11 +5034,29 @@
       comment: 30 wood
       notes: Talk twice
 
+
+  - .dir(S>)
+  - Kill .enemy(Stalker 1):
+      icon: calamity
+      coord: [3624.82, 195.25, -1602.62]
+      comment: Hobbies of the Rich
+
+  - Kill .enemy(Stalker 2):
+      icon: calamity
+      coord: [3671.23, 195.66, -1511.54]
+      comment: Hobbies of the Rich
+
+  - .dir(S.) + midairs
+  - _Korok::A37
+
+
 - Letter Quest / Central:
 
   - _Warp::Tower::DuelingPeaks:
       text: Warp .loc(Dueling Peaks Tower)
       color: red
+      presets:
+        - _map%<notes>
 
   - .dir(<E)
   - _Boss::Talus::Stone:
@@ -5396,6 +5376,22 @@
   - _Location::AncientTreeStump
   - _Korok::C47:
       comment: " "
+
+  - .dir(SE)
+  - _Boss::Hinox::Black:
+      coord: [-1177.05, 139.48, 118.51]
+
+  - .dir(SE)
+  - _Korok::C38:
+      comment: Starts at tree stump
+
+  - .dir(<<N)
+  - _Korok::R49:
+      comment: On beach
+
+  - .dir(<W)
+  - _Korok::C37:
+      comment: On beach
 
   - .dir(W)
   - _Korok::R58
@@ -6069,6 +6065,15 @@
   - .dir(E) far to Tarrey Town
   - _Npc<Hudson>:
       coord: [3970.74, 233.60, -1623.47]
+
+  - .dir(NE)
+  - _Korok::A34:
+      comment: " "
+
+  - .dir(S)
+  - _Korok::A38:
+      comment: On bridge
+
 
 - Hebra West:
 
