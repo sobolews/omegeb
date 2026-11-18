@@ -2903,6 +2903,10 @@
   - _Korok::R42:
       comment: " "
 
+  - .dir(<<N)
+  - _Korok::R49:
+      comment: On beach
+
   - .dir(N) up
   - _Korok::R48
 
@@ -3093,11 +3097,21 @@
   - .dir(NW)
   - _Shrine::KaamYatak
 
-  - .dir(.W)
-  - _Korok::C57
+  - .dir(N>>)
+  - _Korok::C61
 
-  - .dir(SW) surf
-  - _Location::GleeokBridge
+  - .dir(W>) run
+  - _Korok::C60
+
+  - .dir(S.)
+  - _Location::AquameBridge
+  - _Korok::C68:
+      comment: Shoot nut under bridge
+  - _Korok::C67:
+      comment: On ledge against cliff
+
+  - .dir(<W)
+  - _Korok::C66
 
   - .dir(<W)
   - _Korok::C58
@@ -3164,28 +3178,28 @@
   - .dir(<<W)
   - _Shrine::RotaOoh
 
-  - .gale(GALE 2) + .dir(<W)
-  - _Korok::C85
+  - .dir(<E)
+  - _Korok::C86
 
   - .dir(SW)
   - _Korok::R80
 
-  - .dir(<E)
-  - _Korok::C86
+  - .gale(GALE 2) + .dir(<W)
+  - _Korok::C85
+
+  - .dir(W>)
+  - _Korok::G29
 
   - .dir(E>)
   - _Korok::C87
-
-  - .dir(S)
-  - _Korok::C89:
-      comment: " "
 
   - .dir(W>>)
   - _Shrine::DahKaso:
       comment: Minor Test of Strength
 
-  - .dir(W>)
-  - _Korok::G29
+  - .dir(S)
+  - _Korok::C89:
+      comment: " "
 
   - .dir(<S)
   - _Boss::Hinox::Blue:
@@ -4153,24 +4167,24 @@
   - _Korok::C73:
       comment: " "
 
-  - .dir(N>>)
-  - _Korok::C61
 
-  - .dir(W>) run
-  - _Korok::C60
+  - .dir(SW) surf
+  - _Location::GleeokBridge
 
-  - .dir(S.)
-  - _Location::AquameBridge
-  - _Korok::C68:
-      comment: Shoot nut under bridge
-  - _Korok::C67:
-      comment: On ledge against cliff
-
-  - .dir(<W)
-  - _Korok::C66
+  - .dir(.W)
+  - _Korok::C57
 
   - .dir(N)
   - _Korok::C52
+
+  - .dir(<W)
+  - _Korok::C37:
+      comment: On beach
+
+  - .dir(<<W)
+  - _Location::AncientTreeStump
+  - _Korok::C47:
+      comment: " "
 
   - .dir(<E) + midair
   - _Korok::C53
@@ -5024,7 +5038,7 @@
 
   - _Warp::Shrine::DahHesho:
       comment: Tarrey Town
-      color: gray
+      color: pink
       presets:
         - _map%<notes>
 
@@ -5372,11 +5386,6 @@
   - .dir(<W)
   - _Korok::C39
 
-  - .dir(<<W)
-  - _Location::AncientTreeStump
-  - _Korok::C47:
-      comment: " "
-
   - .dir(SE)
   - _Boss::Hinox::Black:
       coord: [-1177.05, 139.48, 118.51]
@@ -5384,14 +5393,6 @@
   - .dir(SE)
   - _Korok::C38:
       comment: Starts at tree stump
-
-  - .dir(<<N)
-  - _Korok::R49:
-      comment: On beach
-
-  - .dir(<W)
-  - _Korok::C37:
-      comment: On beach
 
   - .dir(W)
   - _Korok::R58
